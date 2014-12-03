@@ -2,7 +2,7 @@
 #include "Peasant.h"
 #include "Soldier.h"
 #include "Archer.h"
-#include "Death_Knight.h"
+#include "Commander.h"
 #include "Utility.h"
 #include <string>
 using std::string;
@@ -17,8 +17,8 @@ std::shared_ptr<Agent> create_agent(const string& name, const string& type, Poin
 		return std::shared_ptr<Agent>(new Soldier(name, location));
 	else if (type == "Archer")
 		return std::shared_ptr<Agent>(new Archer(name, location));
-	else if (type == "Death_Knight")
-		return std::shared_ptr<Agent>(new Death_Knight(name, location));
+	else if (type == "Commander")
+		return std::shared_ptr<Agent>(new Commander(name, location));
 	else
 		throw Error("Trying to create agent of unknown type!");
 }

@@ -6,9 +6,9 @@
 #include <string>
 #include <memory>
 
-class Death_Knight : public Warrior {
+class Commander : public Warrior {
 public:
-	Death_Knight(const std::string& name_, Point location_);
+	Commander(const std::string& name_, Point location_);
 
 	// update implements Death_Knight behavior
 	void update() override;

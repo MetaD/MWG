@@ -24,7 +24,7 @@ public:
 	// output the "Clang" sound of the sword
 	void make_sound() const noexcept override;
 
-	friend class Death_Knight;	// TODO unnecessary?
+	friend class Commander;	// TODO unnecessary?
 };
 
 #endif
