@@ -1,5 +1,0 @@
-Overall View is similar view to map view. However, all the agents and structures must be shown in the overall view.
-The overall view has a default size of 25. The distance from its left to its right must be larger than 10.0, otherwise, it's meaningless to present in this map.
-In order to make results identical, we let the origin of the overall view to be the Point that has the minimum x value and the minimum y for every sim_object in the model. The scale of the overall map should be set with caution: scale = dist/(size-1), where size-1 is used to avoid rounding error, and dist is the maximum of the horizontal distance from the leftmost sim_object to the rightmost sim_object, and the vertical distance from the up-est sim_object to the lowerest sim_object.
-User could use "open overall" command to open the overall view in controller, and the behavior of this view in controller is identical to other views, s.t. only one overall view can be open, and all the views should be draw in order,
-When draw the overall view, "Overall View for the Map:" would be printed at the first line.
