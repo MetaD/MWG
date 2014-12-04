@@ -137,7 +137,7 @@ void Controller::view_open() {
 	else {	// local view
 		shared_ptr<Sim_object> object;	// the object to be viewed
 		if (Model::get_model().is_agent_present(view_name))	// agent
-			object = Model::get_model().get_agent_ptr(view_name);
+			object = Model::get_model().get_component_ptr(view_name);
 		else if (Model::get_model().is_structure_present(view_name))	// structure
 			object = Model::get_model().get_structure_ptr(view_name);
 		else
@@ -240,7 +240,7 @@ static pair<string, string> read_object_name_type() {
 
 void Controller::agent_move(string& name) {
 	Point destination = read_point();
-	Model::get_model().get_agent_ptr(name)->move_to(destination);
+	Model::get_model().get_component_ptr(name)->move_to(destination);
 }
 
 // A helper function that read two doubles and return a Point
@@ -255,7 +255,7 @@ static Point read_point() {
 void Controller::agent_work(string& name) {
 	shared_ptr<Structure> source = read_Structure();
 	shared_ptr<Structure> destination = read_Structure();
-	Model::get_model().get_agent_ptr(name)->start_working(source, destination);
+	Model::get_model().get_component_ptr(name)->start_working(source, destination);
 }
 
 // A helper function that read a structure name and check its existence
@@ -268,10 +268,12 @@ static shared_ptr<Structure> read_Structure() {
 void Controller::agent_attack(string& name) {
 	string target_name;
 	cin >> target_name;
-	shared_ptr<Agent> target = Model::get_model().get_agent_ptr(target_name);
-	Model::get_model().get_agent_ptr(name)->start_attacking(target);
+	shared_ptr<Agent> target =
+    std::dynamic_pointer_cast<Agent>(Model::get_model().get_component_ptr(target_name));
+    
+	Model::get_model().get_component_ptr(name)->start_attacking(target);
 }
 
 void Controller::agent_stop(string& name) {
-	Model::get_model().get_agent_ptr(name)->stop();
+	Model::get_model().get_component_ptr(name)->stop();
 }

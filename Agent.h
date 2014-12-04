@@ -1,7 +1,7 @@
 #ifndef AGENT_H
 #define AGENT_H
 
-#include "Sim_object.h"
+#include "Component.h"
 #include "Moving_object.h"
 #include <memory>
 class Structure;
@@ -13,7 +13,8 @@ is decreased when they take a hit. If the Agent's health > 0, it is alive.
 If its heath <= 0, it becomes dead and disappears.
 */
 
-class Agent : public Sim_object, public std::enable_shared_from_this<Agent> {
+class Agent : public Component, public std::enable_shared_from_this<Agent>
+{
 public:
 	// return true if this agent is Alive
 	bool is_alive() const { return alive; }

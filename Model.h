@@ -22,6 +22,8 @@ class Agent;
 class Structure;
 class Point;
 
+class Component;
+
 class Model {
 public:
 	// return the current time
@@ -45,7 +47,7 @@ public:
 	// remove an agent from all containers
 	void remove_agent(std::shared_ptr<Agent>);
 	// will throw Error("Agent not found!") if no agent of that name
-	std::shared_ptr<Agent> get_agent_ptr(const std::string& name) const;
+	std::shared_ptr<Component> get_component_ptr(const std::string& name) const;
 
 	// tell all objects to describe themselves to the console
 	void describe() const;
@@ -79,7 +81,7 @@ public:
 private:
 	int time;
 	std::map<std::string, std::shared_ptr<Sim_object>> sim_objects;
-	std::map<std::string, std::shared_ptr<Agent>> agents;
+	std::map<std::string, std::shared_ptr<Component>> agents;
 	std::map<std::string, std::shared_ptr<Structure>> structures;
 	std::vector<std::shared_ptr<View>> views;
 

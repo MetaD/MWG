@@ -1,5 +1,5 @@
 #include "Commander.h"
-#include "Soldier.h"	// for Death Knight's steward
+#include "Soldier.h"	// for Commander's steward
 #include "Model.h"
 #include "Geometry.h"
 #include <iostream>
@@ -15,8 +15,8 @@ const int steward_leaving_distance_c = 5;
 // when the distance between the steward and its master exceeds this number, it will leave
 
 Commander::Commander(const std::string& name_, Point location_) :
-		Warrior(name_, location_, Commander_initial_strenth_c,
-				Commander_initial_attack_range_c) {}
+Warrior(name_, location_, Commander_initial_strenth_c,
+Commander_initial_attack_range_c) {}
 
 void Commander::update() {
 	Warrior::update();
@@ -66,7 +66,7 @@ void Commander::take_hit(int attack_strength, std::shared_ptr<Agent> attacker_pt
 }
 
 void Commander::describe() const {
-	cout << "Death Knight ";
+	cout << "Commander ";
 	Warrior::describe();
 }
 

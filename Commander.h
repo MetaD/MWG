@@ -1,5 +1,5 @@
-#ifndef DEATH_KNIGHT_H
-#define DEATH_KNIGHT_H
+#ifndef COMMANDER_H
+#define COMMANDER_H
 
 #include "Warrior.h"
 #include <string>
@@ -11,7 +11,7 @@ class Commander : public Warrior {
 public:
 	Commander(const std::string& name_, Point location_);
 
-	// update implements Death_Knight behavior
+	// update implements Commander behavior
 	void update() override;
 
 	// Overrides Warrior's take_hit to summon a servant when attacked.

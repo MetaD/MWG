@@ -21,11 +21,6 @@ const int min_size_c = 7;
 const int label_field_width_c = 4;	// field width for integer axis labels
 const int label_interval_c = 3;	// number of spaces between two labels
 
-const int default_size_c = 25;
-const double default_scale_c = 2.0;
-const Point default_origin_c = Point(-10.0, -10.0);
-
-
 
 void Grid_View::update_location(const std::string& name, Point location) {
     memory[name] = location;
@@ -44,7 +39,7 @@ void Grid_View::draw() {
 	// calculate subscripts, store outside objects, and setup the map
 	for (auto& object : memory) {
 		int ix, iy;
-		if (!get_subscripts(ix, iy, object.second)) {	// object is outside the map
+		if (!get_subscripts(ix, iy, object.second)){ // object is outside the map
 			outsiders.push_back(object.first);
 			continue;
 		}
@@ -70,7 +65,8 @@ void Grid_View::draw() {
 		else
 			cout << "     ";
 		// the location points
-		for_each(map[row].begin(), map[row].end(), [](string& point){ cout << point; });
+		for_each(map[row].begin(), map[row].end(), [](string& point)
+                                    { cout << point; });
 		cout << endl;
 	}
     // print x-axis
@@ -85,7 +81,8 @@ void Grid_View::draw() {
 
 
 void Grid_View::print_info() {
-	cout << "Display size: " << size << ", scale: " << scale << ", origin: " << origin << endl;
+	cout << "Display size: " << size << ", scale: " << scale
+        << ", origin: " << origin << endl;
 }
 
 

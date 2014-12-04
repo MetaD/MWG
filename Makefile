@@ -105,11 +105,11 @@ Utility.o: Utility.cpp Utility.h
 	$(CC) $(CFLAGS) Utility.cpp
 
 
-diff: default
+olddiff: default
 	./p6exe < heavy3.txt > heavy3.out
 	diff heavy3_out.txt heavy3.out
-	diff heavy2_out.txt heavy2.out
 	./p6exe < heavy.txt > heavy.out
+	diff heavy_out.txt heavy.out
 	./p6exe < states_in.txt > states.out
 	diff states_out.txt states.out
 	./p6exe < name_validity_in.txt > name.out
@@ -127,7 +127,7 @@ diff: default
 	./p6exe < new_features_in.txt > new_features.out
 	diff new_features_out.txt new_features.out
 	./p6exe < heavy2.txt > heavy2.out
-	diff heavy_out.txt heavy.out
+	diff heavy2_out.txt heavy2.out
 
 
 submit:

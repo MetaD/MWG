@@ -1,9 +1,14 @@
 #include "Model.h"
 #include "Agent_factory.h"
 #include "Structure_factory.h"
+
 #include "Geometry.h"
 #include "Structure.h"
+
 #include "Agent.h"
+#include "Component.h"
+#include "Composite.h"
+
 #include "View.h"
 #include "Utility.h"
 #include <algorithm>
@@ -20,9 +25,9 @@ using std::pair;
 
 
 // A helper function to find the nearest element in the given range
-template <typename Map_iterator_t>
-static Map_iterator_t find_nearest(Map_iterator_t begin, Map_iterator_t end,
-							const std::string& name, Point location);
+template<typename T, typename C>
+shared_ptr<T> nearest_to(const string& name, const Point& location,
+                         const map<string, shared_ptr<C>> & container);
 
 Model::Model() : time(0) {
 	// initial structures and agents
@@ -87,9 +92,14 @@ void Model::remove_agent(shared_ptr<Agent> agent) {
 	string name = agent->get_name();
 	sim_objects.erase(name);
 	agents.erase(name);
+    //?? TODO remove from all groups
+    
+    for(auto &p:agents){
+        p.second->remove_component(name);
+    }
 }
 
-shared_ptr<Agent> Model::get_agent_ptr(const string& name) const {
+shared_ptr<Component> Model::get_component_ptr(const string& name) const {
 	auto agt_it = agents.find(name);
 	if (agt_it == agents.end())
 		throw Error("Agent not found!");
@@ -139,42 +149,40 @@ void Model::notify_gone(const std::string& name) {
 		v->update_remove(name);
 }
 
-shared_ptr<Agent> Model::nearest_agent(const std::string& name, Point location) {
-	auto nearest_it = find_nearest(agents.begin(), agents.end(), name, location);
-	if (nearest_it == agents.end())
-		return nullptr;		// return nullptr if no more agent exist
 
-	return nearest_it->second;
+std::shared_ptr<Agent> Model::nearest_agent(const std::string& name, Point location) {
+    return nearest_to<Agent, Component>(name, location, agents);
 }
 
-shared_ptr<Structure> Model::nearest_structure(const std::string& name, Point location) {
-	auto nearest_it = find_nearest(structures.begin(), structures.end(), name, location);
-	if (nearest_it == structures.end())
-		return nullptr;		// return nullptr if no more structure exist
 
-	return nearest_it->second;
+std::shared_ptr<Structure> Model::nearest_structure(const std::string& name, Point location) {
+    return nearest_to<Structure, Structure>(name, location, structures);
 }
 
-template <typename Map_iterator_t>
-Map_iterator_t find_nearest(Map_iterator_t begin, Map_iterator_t end,
-							const std::string& name, Point location) {
-	if (begin == end || (next(begin) == end && begin->first == name))	// no more object
-		return end;
 
-	Map_iterator_t nearest;
-	double min_distance = numeric_limits<double>::max();	// largest distance possible
-	for (; begin != end; ++begin) {
-		if (name == begin->first)
-			continue;
-		double current_distance = cartesian_distance(begin->second->get_location(), location);
-		if (current_distance < min_distance) {
-			nearest = begin;
-			if (current_distance < numeric_limits<double>::epsilon())	// they are at the same location
-				return nearest;
-			min_distance = current_distance;
-		}
-	}
-	return nearest;
+// Helper function to find the nearest "T" to "obj" in the map
+template<typename T, typename C>
+shared_ptr<T> nearest_to(const string& name, const Point& location,
+                         const map<string, shared_ptr<C>> & container) {
+    
+    double min_dist = std::numeric_limits<double>::max();
+    shared_ptr<T> rst;
+    
+    for(auto & i: container){
+        shared_ptr<T> i_ptr = std::dynamic_pointer_cast<T>(i.second);
+        
+        //they are different type or they are the same object
+        if(i.first == name || !i_ptr) continue;
+        
+        double dist = cartesian_distance(location, i.second->get_location());
+        
+        if(dist < min_dist){
+            min_dist = dist;
+            rst = i_ptr;
+        } // don't worry dist == min_dist case. min_dist's name cames first
+    }
+    
+    return rst;
 }
 
 Model& Model::get_model() {

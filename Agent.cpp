@@ -9,7 +9,7 @@ using std::shared_ptr;
 static const int initial_health_c = 5;
 static const double initial_speed_c = 5.0;
 
-Agent::Agent(const string& name_, Point location_) : Sim_object(name_),
+Agent::Agent(const string& name_, Point location_) : Component(name_),
 		alive(true), health(initial_health_c), movement(location_, initial_speed_c) {}
 
 Agent::Agent(const std::string& name_, Point location_, int health_) :
