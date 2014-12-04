@@ -1,17 +1,20 @@
 #include "Controller.h"
-#include "Geometry.h"
-#include "Structure_factory.h"
-#include "Agent_factory.h"
-#include "View.h"
-#include "Views.h"
 #include "Model.h"
+#include "Utility.h"
 #include "Agent.h"
 #include "Structure.h"
-#include "Utility.h"
+#include "Structure_factory.h"
+#include "Agent_factory.h"
+
+#include "Map_View.h"
+#include "Local_View.h"
+#include "Health_View.h"
+#include "Amount_View.h"
+#include "Overall_View.h"
+
 #include <map>
 #include <iostream>
 #include <string>
-#include <utility>
 #include <cctype>
 #include <algorithm>
 using std::cin; using std::cout; using std::endl;
@@ -121,36 +124,29 @@ void Controller::view_open() {
 	if (find_view(view_name) != views.end())
 		throw Error("View of that name already open!");
 
-	if (view_name == "map") {
-		map_view = make_shared<Map_View>();
-		add_view("map", map_view);
-	}
-	else if (view_name == "health") {
-		shared_ptr<Health_View> health_view(new Health_View);
-		add_view("health", health_view);
-	}
-	else if (view_name == "amounts") {
-		shared_ptr<Amount_View> amount_view(new Amount_View);
-		add_view("amounts", amount_view);
-	}
+	shared_ptr<View> new_view;	// the view to be added
+
+	if (view_name == "map")
+		new_view = map_view = make_shared<Map_View>();
+	else if(view_name == "overall")
+		new_view = make_shared<Overall_View>();
+	else if (view_name == "health")
+		new_view = make_shared<Health_View>();
+	else if (view_name == "amounts")
+		new_view = make_shared<Amount_View>();
 	else {	// local view
-		if (Model::get_model().is_agent_present(view_name)) {	// agent
-			shared_ptr<Agent> agent = Model::get_model().get_agent_ptr(view_name);
-			shared_ptr<Local_View> agent_view(new Local_View(agent->get_name(), agent->get_location()));
-			add_view(agent->get_name(), agent_view);
-		}
-		else if (Model::get_model().is_structure_present(view_name)) {	// structure
-			shared_ptr<Structure> structure = Model::get_model().get_structure_ptr(view_name);
-			shared_ptr<Local_View> struc_view(new Local_View(structure->get_name(), structure->get_location()));
-			add_view(structure->get_name(), struc_view);
-		}
+		shared_ptr<Sim_object> object;	// the object to be viewed
+		if (Model::get_model().is_agent_present(view_name))	// agent
+			object = Model::get_model().get_agent_ptr(view_name);
+		else if (Model::get_model().is_structure_present(view_name))	// structure
+			object = Model::get_model().get_structure_ptr(view_name);
 		else
 			throw Error("No object of that name!");
-	}
-}
 
-void Controller::add_view(const string& name, shared_ptr<View> new_view) {
-	views.push_back({name, new_view});
+		new_view = make_shared<Local_View>(object->get_name(), object->get_location());
+	}
+	// add the new view
+	views.push_back({view_name, new_view});
 	Model::get_model().attach(new_view);
 }
 
@@ -233,7 +229,7 @@ static pair<string, string> read_object_name_type() {
 	// read name and type, check name
 	string name, type;
 	cin >> name >> type;
-	if (name.length() < 2 || Model::get_model().is_name_invalid(name))
+	if (name.length() < 2 || Model::get_model().is_name_in_use(name))
 		throw Error("Invalid name for new object!");
 	for (char c : name) {
 		if (!isalnum(c))	// not a number or letter

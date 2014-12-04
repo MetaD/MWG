@@ -27,11 +27,9 @@ public:
 	// return the current time
 	int get_time() { return time; }
 
-	// is name invalid?
-    // return true if the name either:
-	// 1) matches the name of an existing agent or structure
-	// 2) ends with "_servant"
-	bool is_name_invalid(const std::string& name) const;
+	// is name already in use for either agent or structure?
+    // return true if the name matches the name of an existing agent or structure
+	bool is_name_in_use(const std::string& name) const;
 
 	// is there a structure with this name?
 	bool is_structure_present(const std::string& name) const;

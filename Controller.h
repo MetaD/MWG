@@ -42,8 +42,6 @@ private:
 	view_list_t views;	// all views stored with pair<name, pointer>
 	std::shared_ptr<Map_View> map_view;		// the only map view
 
-	// add a view to both controller and model
-	void add_view(const std::string& name, std::shared_ptr<View>);
 	// find a view by name
 	view_list_t::iterator find_view(const std::string& name);
 };

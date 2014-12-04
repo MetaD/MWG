@@ -1,10 +1,11 @@
 #ifndef DEATH_KNIGHT_H
 #define DEATH_KNIGHT_H
 
-#include "Warriors.h"
-#include "Soldier.h"	// for Death Knight's servant
+#include "Warrior.h"
 #include <string>
 #include <memory>
+
+class Soldier;
 
 class Commander : public Warrior {
 public:
@@ -23,7 +24,7 @@ public:
 	void make_sound() const noexcept override;
 
 private:
-	std::shared_ptr<Soldier> servant;
+	std::shared_ptr<Soldier> steward;
 };
 
 #endif

@@ -1,7 +1,7 @@
 #ifndef ARCHER_H
 #define ARCHER_H
 
-#include "Warriors.h"
+#include "Warrior.h"
 #include <string>
 #include <memory>
 

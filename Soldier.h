@@ -1,7 +1,7 @@
 #ifndef SOLDIER_H
 #define SOLDIER_H
 
-#include "Warriors.h"
+#include "Warrior.h"
 #include <string>
 #include <memory>
 

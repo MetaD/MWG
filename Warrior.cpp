@@ -1,4 +1,5 @@
-#include "Warriors.h"
+#include "Warrior.h"
+
 #include "Geometry.h"	// cartesian_distance
 #include "Utility.h"
 #include <iostream>

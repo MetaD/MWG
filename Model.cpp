@@ -18,6 +18,7 @@ using std::string;
 using std::shared_ptr;
 using std::pair;
 
+
 // A helper function to find the nearest element in the given range
 template <typename Map_iterator_t>
 static Map_iterator_t find_nearest(Map_iterator_t begin, Map_iterator_t end,
@@ -49,9 +50,7 @@ Model::Model() : time(0) {
     }
 }
 
-bool Model::is_name_invalid(const string& name) const {
-	if (name.length() > 8 && name.substr(name.length() - 8, name.length()) == "_servant")	//TODO magic number?
-		return true;
+bool Model::is_name_in_use(const string& name) const {
 	if (sim_objects.count(name) > 0)
 		return true;
 	return false;

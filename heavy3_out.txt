@@ -1,0 +1,6347 @@
+
+Time 0: Enter command: 
+Time 0: Enter command: 
+Time 0: Enter command: 
+Time 0: Enter command: 
+Time 0: Enter command: 
+Time 0: Enter command: 
+Time 0: Enter command: 
+Time 0: Enter command: 
+Time 0: Enter command: A1: I'm attacking!
+A2: I'm attacking!
+A3: I'm attacking!
+A4: I'm attacking!
+A5: I'm attacking!
+Iriel: I'm attacking!
+Farm Rivendale now has 52.00
+Farm Sunnybrook now has 52.00
+
+Time 1: Enter command: A1: Twang!
+Pippin: Ouch!
+A2: Twang!
+Merry: Ouch!
+A3: Twang!
+Zug: Ouch!
+Zug: I'm attacking!
+A4: Twang!
+Bug: Ouch!
+Bug: I'm attacking!
+A5: Twang!
+Iriel: Ouch!
+Iriel: I'm going to run away to Paduca
+Iriel: I'm on the way
+Bug: Clang!
+A4: Ouch!
+A4: I'm going to run away to Shire
+A4: I'm on the way
+Iriel: step...
+Iriel: Twang!
+A5: Ouch!
+A5: I'm going to run away to Paduca
+A5: I'm on the way
+Farm Rivendale now has 54.00
+Farm Sunnybrook now has 54.00
+Zug: Clang!
+A3: Ouch!
+A3: I'm going to run away to Paduca
+A3: I'm on the way
+
+Time 2: Enter command: A1: Twang!
+Pippin: Ouch!
+A2: Twang!
+Merry: Ouch!
+A3: step...
+A3: Twang!
+Zug: Ouch!
+A4: I'm there!
+A4: Twang!
+Bug: Ouch!
+A5: step...
+A5: Twang!
+Iriel: Ouch!
+Iriel: I'm going to run away to Paduca
+Iriel: I'm on the way
+Bug: Target is now out of range
+Iriel: step...
+Iriel: Twang!
+A5: Ouch!
+A5: I'm going to run away to Paduca
+A5: I'm on the way
+Farm Rivendale now has 56.00
+Farm Sunnybrook now has 56.00
+Zug: Target is now out of range
+
+Time 3: Enter command: A1: Twang!
+Pippin: Ouch!
+A2: Twang!
+Merry: Ouch!
+A3: I'm there!
+A3: Target is now out of range
+A3: I'm attacking!
+A4: Twang!
+Bug: Ouch!
+Bug: I'm attacking!
+A5: step...
+A5: Twang!
+Iriel: Ouch!
+Iriel: I'm going to run away to Paduca
+Iriel: I'm on the way
+Bug: Target is now out of range
+Iriel: I'm there!
+Iriel: Twang!
+A5: Ouch!
+A5: I'm going to run away to Paduca
+A5: I'm on the way
+Farm Rivendale now has 58.00
+Farm Sunnybrook now has 58.00
+
+Time 4: Enter command: A1: Twang!
+Pippin: Ouch!
+A2: Twang!
+Merry: Ouch!
+A3: Twang!
+Iriel: Ouch!
+Iriel: I'm going to run away to Paduca
+Iriel: I'm already there
+A4: Twang!
+Bug: Ouch!
+Bug: I'm attacking!
+A5: I'm there!
+A5: Twang!
+Iriel: Arrggh!
+A5: I triumph!
+A5: I'm attacking!
+Bug: Target is now out of range
+Farm Rivendale now has 60.00
+Farm Sunnybrook now has 60.00
+
+Time 5: Enter command: A1: Twang!
+Pippin: Arrggh!
+A1: I triumph!
+A2: Twang!
+Merry: Arrggh!
+A2: I triumph!
+A3: Target is dead
+A3: I'm attacking!
+A4: Twang!
+Bug: Arrggh!
+A4: I triumph!
+A5: Twang!
+A3: Ouch!
+A3: I'm going to run away to Paduca
+A3: I'm already there
+Farm Rivendale now has 62.00
+Farm Sunnybrook now has 62.00
+
+Time 6: Enter command: A3: Twang!
+A5: Ouch!
+A5: I'm going to run away to Paduca
+A5: I'm already there
+A5: Twang!
+A3: Ouch!
+A3: I'm going to run away to Paduca
+A3: I'm already there
+Farm Rivendale now has 64.00
+Farm Sunnybrook now has 64.00
+
+Time 7: Enter command: A3: Twang!
+A5: Arrggh!
+A3: I triumph!
+Farm Rivendale now has 66.00
+Farm Sunnybrook now has 66.00
+
+Time 8: Enter command: Farm Rivendale now has 68.00
+Farm Sunnybrook now has 68.00
+
+Time 9: Enter command: Farm Rivendale now has 70.00
+Farm Sunnybrook now has 70.00
+
+Time 10: Enter command: Farm Rivendale now has 72.00
+Farm Sunnybrook now has 72.00
+
+Time 11: Enter command: Farm Rivendale now has 74.00
+Farm Sunnybrook now has 74.00
+
+Time 12: Enter command: Farm Rivendale now has 76.00
+Farm Sunnybrook now has 76.00
+
+Time 13: Enter command: Display size: 25, scale: 2.00, origin: (-10.00, -10.00)
+  38 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  32 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . Su. . . . . . . . . Zu. . . . * . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . A2. . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . . . . . * . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . A1. . Ri. . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -4     2     8    14    20    26    32    38
+Current Health:
+--------------
+A1: 5.00
+A2: 5.00
+A3: 1.00
+A4: 3.00
+Zug: 3.00
+--------------
+Current Amounts:
+--------------
+Paduca: 0.00
+Rivendale: 76.00
+Shire: 0.00
+Sunnybrook: 76.00
+--------------
+
+Time 13: Enter command: Archer A1 at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer A2 at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Archer A4 at (20.00, 20.00)
+   Health is 3
+   Stopped
+   Not attacking
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 76.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 76.00
+Soldier Zug at (20.00, 30.00)
+   Health is 3
+   Stopped
+   Not attacking
+
+Time 13: Enter command: A1: I'm on the way
+
+Time 13: Enter command: A2: I'm on the way
+
+Time 13: Enter command: A4: I'm on the way
+
+Time 13: Enter command: Unrecognized command!
+
+Time 13: Enter command: A1: step...
+A2: step...
+A4: step...
+A4: I'm attacking!
+Farm Rivendale now has 78.00
+Farm Sunnybrook now has 78.00
+
+Time 14: Enter command: A1: step...
+A2: step...
+A4: I'm there!
+A4: Twang!
+Zug: Ouch!
+Zug: I'm attacking!
+Farm Rivendale now has 80.00
+Farm Sunnybrook now has 80.00
+Zug: Clang!
+A4: Ouch!
+A4: I'm going to run away to Paduca
+A4: I'm on the way
+
+Time 15: Enter command: A1: step...
+A2: step...
+A2: I'm attacking!
+A4: step...
+A4: Twang!
+Zug: Ouch!
+Farm Rivendale now has 82.00
+Farm Sunnybrook now has 82.00
+Zug: Target is now out of range
+
+Time 16: Enter command: A1: step...
+A1: I'm attacking!
+A2: step...
+A2: Twang!
+A4: Arrggh!
+A2: I triumph!
+A2: I'm attacking!
+Farm Rivendale now has 84.00
+Farm Sunnybrook now has 84.00
+
+Time 17: Enter command: A1: I'm there!
+A1: Twang!
+A2: Ouch!
+A2: I'm going to run away to Shire
+A2: I'm on the way
+A2: step...
+A2: Twang!
+Zug: Arrggh!
+A2: I triumph!
+A2: I'm attacking!
+Farm Rivendale now has 86.00
+Farm Sunnybrook now has 86.00
+
+Time 18: Enter command: A1: Twang!
+A2: Ouch!
+A2: I'm going to run away to Shire
+A2: I'm on the way
+A2: I'm there!
+A2: Target is now out of range
+Farm Rivendale now has 88.00
+Farm Sunnybrook now has 88.00
+
+Time 19: Enter command: A1: Target is now out of range
+Farm Rivendale now has 90.00
+Farm Sunnybrook now has 90.00
+
+Time 20: Enter command: Farm Rivendale now has 92.00
+Farm Sunnybrook now has 92.00
+
+Time 21: Enter command: A1: I'm on the way
+
+Time 21: Enter command: A1: step...
+A1: I'm attacking!
+A2: I'm attacking!
+Farm Rivendale now has 94.00
+Farm Sunnybrook now has 94.00
+
+Time 22: Enter command: A1: I'm there!
+A1: Twang!
+A2: Ouch!
+A2: I'm going to run away to Shire
+A2: I'm already there
+A2: Twang!
+A1: Ouch!
+A1: I'm going to run away to Shire
+A1: I'm already there
+Farm Rivendale now has 96.00
+Farm Sunnybrook now has 96.00
+
+Time 23: Enter command: A1: Twang!
+A2: Ouch!
+A2: I'm going to run away to Shire
+A2: I'm already there
+A2: Twang!
+A1: Ouch!
+A1: I'm going to run away to Shire
+A1: I'm already there
+Farm Rivendale now has 98.00
+Farm Sunnybrook now has 98.00
+
+Time 24: Enter command: A1: Twang!
+A2: Arrggh!
+A1: I triumph!
+Farm Rivendale now has 100.00
+Farm Sunnybrook now has 100.00
+
+Time 25: Enter command: Farm Rivendale now has 102.00
+Farm Sunnybrook now has 102.00
+
+Time 26: Enter command: Farm Rivendale now has 104.00
+Farm Sunnybrook now has 104.00
+
+Time 27: Enter command: Farm Rivendale now has 106.00
+Farm Sunnybrook now has 106.00
+
+Time 28: Enter command: Farm Rivendale now has 108.00
+Farm Sunnybrook now has 108.00
+
+Time 29: Enter command: Farm Rivendale now has 110.00
+Farm Sunnybrook now has 110.00
+
+Time 30: Enter command: Farm Rivendale now has 112.00
+Farm Sunnybrook now has 112.00
+
+Time 31: Enter command: Display size: 25, scale: 2.00, origin: (-10.00, -10.00)
+  38 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  32 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . Su. . . . . . . . . . . . . . * . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . . . . . * . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . Ri. . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -4     2     8    14    20    26    32    38
+Current Health:
+--------------
+A1: 3.00
+A3: 1.00
+--------------
+Current Amounts:
+--------------
+Paduca: 0.00
+Rivendale: 112.00
+Shire: 0.00
+Sunnybrook: 112.00
+--------------
+
+Time 31: Enter command: Archer A1 at (20.00, 20.00)
+   Health is 3
+   Stopped
+   Not attacking
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 112.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 112.00
+
+Time 31: Enter command: Unrecognized command!
+
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: Sheng: I'm attacking!
+
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: Unrecognized command!
+
+Time 31: Enter command: Jiang: I'm on the way
+
+Time 31: Enter command: duMeng: Sorry, I can't work!
+
+Time 31: Enter command: guan: Sorry, I can't work!
+
+Time 31: Enter command: LL: I'm on the way
+
+Time 31: Enter command: Wu: I'm on the way
+
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: 
+Time 31: Enter command: A1: I'm attacking!
+Farm AA now has 52.00
+Farm JA now has 52.00
+JSS: I'm attacking!
+Jiang: step...
+LL: step...
+Farm Rivendale now has 114.00
+Sheng: Clang!
+A1: Ouch!
+A1: I'm going to run away to Shire
+A1: I'm already there
+Farm Sunnybrook now has 114.00
+Farm TN now has 52.00
+Wu: step...
+Xiaoyi: I'm attacking!
+
+Time 32: Enter command: A1: Twang!
+Sheng: Ouch!
+Farm AA now has 54.00
+Farm JA now has 54.00
+JSS: Twang!
+LL: Ouch!
+Jiang: step...
+LL: step...
+Farm Rivendale now has 116.00
+Sheng: Clang!
+A1: Arrggh!
+Sheng: I triumph!
+Farm Sunnybrook now has 116.00
+Farm TN now has 54.00
+Wu: I'm there!
+Xiaoyi: Twang!
+JSS: Ouch!
+JSS: I'm going to run away to TN
+JSS: I'm already there
+
+Time 33: Enter command: Farm AA now has 56.00
+Farm JA now has 56.00
+JSS: Target is now out of range
+JSS: I'm attacking!
+Jiang: I'm there!
+LL: step...
+Farm Rivendale now has 118.00
+Farm Sunnybrook now has 118.00
+Farm TN now has 56.00
+Wu: Collected 35.00
+Wu: I'm on the way
+Xiaoyi: Twang!
+JSS: Ouch!
+JSS: I'm going to run away to TN
+JSS: I'm already there
+
+Time 34: Enter command: Farm AA now has 58.00
+Farm JA now has 58.00
+JSS: Twang!
+Wu: Ouch!
+Jiang: Collected 35.00
+Jiang: I'm on the way
+LL: I'm there!
+Farm Rivendale now has 120.00
+Farm Sunnybrook now has 120.00
+Farm TN now has 23.00
+Wu: I'm there!
+Xiaoyi: Twang!
+JSS: Ouch!
+JSS: I'm going to run away to TN
+JSS: I'm already there
+
+Time 35: Enter command: Peasant 99 at (10.00, 0.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Farm AA at (10.00, 10.00)
+   Food available: 23.00
+Soldier Baby at (0.00, 0.00)
+   Health is 5
+   Stopped
+   Not attacking
+Farm JA at (-12.00, -20.00)
+   Food available: 58.00
+Archer JSS at (2.00, 3.00)
+   Health is 2
+   Stopped
+   Attacking Wu
+Peasant Jiang at (10.00, 10.00)
+   Health is 5
+   Moving at speed 5.00 to (-10.00, -10.00)
+   Carrying 35.00
+   Outbound to destination SZ
+Peasant LL at (-10.00, -10.00)
+   Health is 4
+   Stopped
+   Carrying 0.00
+   Collecting at source SZ
+Town_Hall NY at (0.00, 0.00)
+   Contains 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 120.00
+Town_Hall SZ at (-10.00, -10.00)
+   Contains 0.00
+Soldier Sheng at (20.00, 20.00)
+   Health is 4
+   Stopped
+   Not attacking
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 120.00
+Farm TN at (2.00, 3.00)
+   Food available: 23.00
+Peasant Wu at (0.00, 0.00)
+   Health is 4
+   Stopped
+   Carrying 35.00
+   Depositing at destination NY
+Archer Xiaoyi at (3.00, 2.00)
+   Health is 5
+   Stopped
+   Attacking JSS
+Soldier default at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Not attacking
+Soldier duMeng at (1.00, 1.00)
+   Health is 5
+   Stopped
+   Not attacking
+Soldier guan at (1.00, 2.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 35: Enter command: Farm AA now has 25.00
+Farm JA now has 60.00
+JSS: Twang!
+Wu: Ouch!
+Jiang: step...
+LL: Waiting 
+Farm Rivendale now has 122.00
+Farm Sunnybrook now has 122.00
+Farm TN now has 25.00
+Wu: Deposited 35.00
+Wu: I'm on the way
+Xiaoyi: Twang!
+JSS: Ouch!
+JSS: I'm going to run away to TN
+JSS: I'm already there
+
+Time 36: Enter command: Farm AA now has 27.00
+Farm JA now has 62.00
+JSS: Twang!
+Wu: Ouch!
+Jiang: step...
+LL: Waiting 
+Farm Rivendale now has 124.00
+Farm Sunnybrook now has 124.00
+Farm TN now has 27.00
+Wu: I'm there!
+Xiaoyi: Twang!
+JSS: Arrggh!
+Xiaoyi: I triumph!
+Xiaoyi: I'm attacking!
+
+Time 37: Enter command: Farm AA now has 29.00
+Farm JA now has 64.00
+Jiang: step...
+LL: Waiting 
+Farm Rivendale now has 126.00
+Farm Sunnybrook now has 126.00
+Farm TN now has 29.00
+Wu: Collected 29.00
+Wu: I'm on the way
+Xiaoyi: Twang!
+Jiang: Ouch!
+
+Time 38: Enter command: Farm AA now has 31.00
+Farm JA now has 66.00
+Jiang: step...
+LL: Waiting 
+Farm Rivendale now has 128.00
+Farm Sunnybrook now has 128.00
+Farm TN now has 2.00
+Wu: I'm there!
+Xiaoyi: Target is now out of range
+Xiaoyi: I'm attacking!
+
+Time 39: Enter command: Peasant 99 at (10.00, 0.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Farm AA at (10.00, 10.00)
+   Food available: 31.00
+Soldier Baby at (0.00, 0.00)
+   Health is 5
+   Stopped
+   Not attacking
+Farm JA at (-12.00, -20.00)
+   Food available: 66.00
+Peasant Jiang at (-4.14, -4.14)
+   Health is 4
+   Moving at speed 5.00 to (-10.00, -10.00)
+   Carrying 35.00
+   Outbound to destination SZ
+Peasant LL at (-10.00, -10.00)
+   Health is 4
+   Stopped
+   Carrying 0.00
+   Collecting at source SZ
+Town_Hall NY at (0.00, 0.00)
+   Contains 35.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 128.00
+Town_Hall SZ at (-10.00, -10.00)
+   Contains 0.00
+Soldier Sheng at (20.00, 20.00)
+   Health is 4
+   Stopped
+   Not attacking
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 128.00
+Farm TN at (2.00, 3.00)
+   Food available: 2.00
+Peasant Wu at (0.00, 0.00)
+   Health is 2
+   Stopped
+   Carrying 29.00
+   Depositing at destination NY
+Archer Xiaoyi at (3.00, 2.00)
+   Health is 5
+   Stopped
+   Attacking guan
+Soldier default at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Not attacking
+Soldier duMeng at (1.00, 1.00)
+   Health is 5
+   Stopped
+   Not attacking
+Soldier guan at (1.00, 2.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 39: Enter command: Display size: 30, scale: 1.00, origin: (-10.00, -10.00)
+A3, JA, Paduca, Sheng, Shire, Sunnybrook, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . * . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . TN. . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . gu. Xi. . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . du. . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . * . . . . . . . . . 99. . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . Ji. . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 * . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -7    -4    -1     2     5     8    11    14    17
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 5.00
+Jiang: 4.00
+LL: 4.00
+Sheng: 4.00
+Wu: 2.00
+Xiaoyi: 5.00
+default: 5.00
+duMeng: 5.00
+guan: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 31.00
+JA: 66.00
+Jiang: 35.00
+LL: 0.00
+NY: 35.00
+Paduca: 0.00
+Rivendale: 128.00
+SZ: 0.00
+Shire: 0.00
+Sunnybrook: 128.00
+TN: 2.00
+Wu: 29.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * Xi. . . 
+   0 . . . * du. . . 99
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . Ji. . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . * Xi. . 
+     . . . . * . . . . 
+  -3 . . . . . . . . . 
+     . . Ji. . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . * Xi. . 
+     . . . . * . . . . 
+  -3 . . . . . . . . . 
+     . . Ji. . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 * Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . Ji. 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 39: Enter command: guan: I'm on the way
+
+Time 39: Enter command: Baby: Target is out of range!
+
+Time 39: Enter command: Baby: I'm on the way
+
+Time 39: Enter command: Farm AA now has 33.00
+Baby: step...
+Farm JA now has 68.00
+Jiang: step...
+LL: Waiting 
+Farm Rivendale now has 130.00
+Farm Sunnybrook now has 130.00
+Farm TN now has 4.00
+Wu: Deposited 29.00
+Wu: I'm on the way
+Xiaoyi: Twang!
+guan: Ouch!
+guan: I'm attacking!
+guan: step...
+guan: Target is now out of range
+
+Time 40: Enter command: Farm AA now has 35.00
+Baby: I'm there!
+Farm JA now has 70.00
+Jiang: I'm there!
+LL: Waiting 
+Farm Rivendale now has 132.00
+Farm Sunnybrook now has 132.00
+Farm TN now has 6.00
+Wu: I'm there!
+Xiaoyi: Twang!
+guan: Ouch!
+guan: I'm attacking!
+guan: I'm there!
+guan: Target is now out of range
+
+Time 41: Enter command: Farm AA now has 37.00
+Farm JA now has 72.00
+Jiang: Deposited 35.00
+Jiang: I'm on the way
+LL: Collected 31.50
+LL: I'm on the way
+Farm Rivendale now has 134.00
+Farm Sunnybrook now has 134.00
+Farm TN now has 8.00
+Wu: Collected 8.00
+Wu: I'm on the way
+Xiaoyi: Target is now out of range
+Xiaoyi: I'm attacking!
+
+Time 42: Enter command: Farm AA now has 39.00
+Farm JA now has 74.00
+Jiang: step...
+LL: step...
+Farm Rivendale now has 136.00
+Farm Sunnybrook now has 136.00
+Farm TN now has 2.00
+Wu: I'm there!
+Xiaoyi: Twang!
+Wu: Ouch!
+
+Time 43: Enter command: Display size: 30, scale: 1.00, origin: (-10.00, -10.00)
+A3, JA, Paduca, Sheng, Shire, Sunnybrook, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . * . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . TN. . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . Xi. . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . du. . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . * . . . . . . . . Ba* . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -7 . . . * . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 SZ. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -7    -4    -1     2     5     8    11    14    17
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 5.00
+Jiang: 4.00
+LL: 4.00
+Sheng: 4.00
+Wu: 1.00
+Xiaoyi: 5.00
+default: 5.00
+duMeng: 5.00
+guan: 3.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 39.00
+JA: 74.00
+Jiang: 0.00
+LL: 31.50
+NY: 64.00
+Paduca: 0.00
+Rivendale: 136.00
+SZ: 3.50
+Shire: 0.00
+Sunnybrook: 136.00
+TN: 2.00
+Wu: 8.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . * du. . . * 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     duXi. . . . . . . 
+     * . . . Ba* . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . duXi. . 
+     . . . . * . . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . * . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 duXi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . * . . 
+     . . . . . . . . . 
+     . . . . SZ. . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 43: Enter command: Baby: I'm attacking!
+
+Time 43: Enter command: 99: I'm on the way
+
+Time 43: Enter command: 99: step...
+Farm AA now has 41.00
+Baby: Target is now out of range
+Farm JA now has 76.00
+Jiang: step...
+LL: step...
+Farm Rivendale now has 138.00
+Farm Sunnybrook now has 138.00
+Farm TN now has 4.00
+Wu: Deposited 8.00
+Wu: I'm on the way
+Xiaoyi: Twang!
+Wu: Arrggh!
+Xiaoyi: I triumph!
+Xiaoyi: I'm attacking!
+
+Time 44: Enter command: 99: step...
+Farm AA now has 43.00
+Farm JA now has 78.00
+Jiang: step...
+LL: I'm there!
+Farm Rivendale now has 140.00
+Farm Sunnybrook now has 140.00
+Farm TN now has 6.00
+Xiaoyi: Twang!
+duMeng: Ouch!
+duMeng: I'm attacking!
+duMeng: Target is now out of range
+
+Time 45: Enter command: 99: step...
+Farm AA now has 45.00
+Farm JA now has 80.00
+Jiang: step...
+LL: Deposited 31.50
+LL: I'm on the way
+Farm Rivendale now has 142.00
+Farm Sunnybrook now has 142.00
+Farm TN now has 8.00
+Xiaoyi: Twang!
+duMeng: Ouch!
+duMeng: I'm attacking!
+duMeng: Target is now out of range
+
+Time 46: Enter command: Display size: 30, scale: 1.00, origin: (-10.00, -10.00)
+99, A3, JA, Paduca, Sheng, Shire, Sunnybrook, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . * . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . Ji. . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . TN. . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . Xi. . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . du. . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . * . . . . . . . . Bagu. . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 SZ. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -7    -4    -1     2     5     8    11    14    17
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 5.00
+Jiang: 4.00
+LL: 4.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+duMeng: 3.00
+guan: 3.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 45.00
+JA: 80.00
+Jiang: 0.00
+LL: 0.00
+NY: 103.50
+Paduca: 0.00
+Rivendale: 142.00
+SZ: 3.50
+Shire: 0.00
+Sunnybrook: 142.00
+TN: 8.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . Ji. . . 
+     . . . . TNXi. . . 
+   0 . . . * du. . . * 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TNJi. . . . . . 
+     duXi. . . . . . . 
+     * . . . Bagu. . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TNJi. . 
+     . . . . . duXi. . 
+     . . . . * . . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TNJi. . . . . . . 
+   1 duXi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . SZ. . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 46: Enter command: Unrecognized command!
+
+Time 46: Enter command: Baby: I'm attacking!
+
+Time 46: Enter command: 99: step...
+Farm AA now has 47.00
+Baby: Clang!
+guan: Ouch!
+guan: I'm attacking!
+Farm JA now has 82.00
+Jiang: step...
+LL: step...
+Farm Rivendale now has 144.00
+Farm Sunnybrook now has 144.00
+Farm TN now has 10.00
+Xiaoyi: Twang!
+duMeng: Ouch!
+duMeng: I'm attacking!
+duMeng: Target is now out of range
+guan: Clang!
+Baby: Ouch!
+
+Time 47: Enter command: Display size: 30, scale: 1.00, origin: (-10.00, -10.00)
+99, A3, JA, Paduca, Sheng, Shire, Sunnybrook, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . * . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . Ji. . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . TN. . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . Xi. . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . du. . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . NY. . . . . . . . Bagu. . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . LL. . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 SZ. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -7    -4    -1     2     5     8    11    14    17
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Jiang: 4.00
+LL: 4.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+duMeng: 2.00
+guan: 1.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 47.00
+JA: 82.00
+Jiang: 0.00
+LL: 0.00
+NY: 103.50
+Paduca: 0.00
+Rivendale: 144.00
+SZ: 3.50
+Shire: 0.00
+Sunnybrook: 144.00
+TN: 10.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . Ji. 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NYdu. . . * 
+     . . . . . . . . . 
+     . LL. . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . Ji. . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     duXi. . . . . . . 
+     NY. . . Bagu. . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . Ji
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . duXi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . LL. . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . Ji. . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 duXi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . LL. 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . SZ. . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 47: Enter command: 99: step...
+Farm AA now has 49.00
+Baby: Clang!
+guan: Arrggh!
+Baby: I triumph!
+Farm JA now has 84.00
+Jiang: I'm there!
+LL: step...
+Farm Rivendale now has 146.00
+Farm Sunnybrook now has 146.00
+Farm TN now has 12.00
+Xiaoyi: Twang!
+duMeng: Ouch!
+duMeng: I'm attacking!
+duMeng: Target is now out of range
+
+Time 48: Enter command: Display size: 30, scale: 1.00, origin: (-10.00, -10.00)
+99, A3, JA, Paduca, Sheng, Shire, Sunnybrook, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . * . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . TN. . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . Xi. . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . du. . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . NY. . . . . . . . Ba. . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . LL. . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 SZ. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -7    -4    -1     2     5     8    11    14    17
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Jiang: 4.00
+LL: 4.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+duMeng: 1.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 49.00
+JA: 84.00
+Jiang: 0.00
+LL: 0.00
+NY: 103.50
+Paduca: 0.00
+Rivendale: 146.00
+SZ: 3.50
+Shire: 0.00
+Sunnybrook: 146.00
+TN: 12.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NYdu. . . Ba
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     duXi. . . . . . . 
+     NY. . . Ba. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . duXi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 LL. . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 duXi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . LL. . . 
+     . . . . SZ. . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 48: Enter command: 99: step...
+Farm AA now has 51.00
+Farm JA now has 86.00
+Jiang: Collected 35.00
+Jiang: I'm on the way
+LL: I'm there!
+Farm Rivendale now has 148.00
+Farm Sunnybrook now has 148.00
+Farm TN now has 14.00
+Xiaoyi: Twang!
+duMeng: Arrggh!
+Xiaoyi: I triumph!
+
+Time 49: Enter command: Display size: 30, scale: 1.00, origin: (-10.00, -10.00)
+99, A3, JA, Paduca, Sheng, Shire, Sunnybrook, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . * . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . TN. . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . Xi. . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . NY. . . . . . . . Ba. . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 * . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -7    -4    -1     2     5     8    11    14    17
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Jiang: 4.00
+LL: 4.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 16.00
+JA: 86.00
+Jiang: 35.00
+LL: 0.00
+NY: 103.50
+Paduca: 0.00
+Rivendale: 148.00
+SZ: 3.50
+Shire: 0.00
+Sunnybrook: 148.00
+TN: 14.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . Ba
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     . Xi. . . . . . . 
+     NY. . . Ba. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 49: Enter command: 99: step...
+Farm AA now has 18.00
+Farm JA now has 88.00
+Jiang: step...
+LL: Collected 3.15
+LL: I'm on the way
+Farm Rivendale now has 150.00
+Farm Sunnybrook now has 150.00
+Farm TN now has 16.00
+Xiaoyi: I'm attacking!
+
+Time 50: Enter command: 99: step...
+Farm AA now has 20.00
+Farm JA now has 90.00
+Jiang: step...
+LL: step...
+Farm Rivendale now has 152.00
+Farm Sunnybrook now has 152.00
+Farm TN now has 18.00
+Xiaoyi: Twang!
+Jiang: Ouch!
+
+Time 51: Enter command: 99: step...
+Farm AA now has 22.00
+Farm JA now has 92.00
+Jiang: step...
+LL: step...
+Farm Rivendale now has 154.00
+Farm Sunnybrook now has 154.00
+Farm TN now has 20.00
+Xiaoyi: Twang!
+Jiang: Ouch!
+
+Time 52: Enter command: 
+Time 52: Enter command: Display size: 30, scale: 1.00, origin: (-10.00, -10.00)
+99, A3, JA, Paduca, Sheng, Shire, Sunnybrook, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . * . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . TN. . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . Xi. . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . NY. . . . . . . . Bagu. . . . . . . . . 
+  -1 . . . . . . . . . Ji. . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . LL. . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 SZ. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -7    -4    -1     2     5     8    11    14    17
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Jiang: 2.00
+LL: 4.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+guan: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 22.00
+JA: 92.00
+Jiang: 35.00
+LL: 3.15
+NY: 103.50
+Paduca: 0.00
+Rivendale: 154.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 154.00
+TN: 20.00
+guan: 0.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . * 
+     . . . Ji. . . . . 
+     . . LL. . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     . Xi. . . . . . . 
+     NY. . . Bagu. . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . * . . . . 
+  -3 . . . LL. . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . LL
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . SZ. . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 52: Enter command: Peasant 99 at (55.00, 0.00)
+   Health is 5
+   Moving at speed 5.00 to (100.00, 0.00)
+   Carrying 0.00
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Farm AA at (10.00, 10.00)
+   Food available: 22.00
+Soldier Baby at (9.00, 0.00)
+   Health is 3
+   Stopped
+   Not attacking
+Farm JA at (-12.00, -20.00)
+   Food available: 92.00
+Peasant Jiang at (-0.61, -0.61)
+   Health is 2
+   Moving at speed 5.00 to (-10.00, -10.00)
+   Carrying 35.00
+   Outbound to destination SZ
+Peasant LL at (-2.93, -2.93)
+   Health is 4
+   Moving at speed 5.00 to (0.00, 0.00)
+   Carrying 3.15
+   Outbound to destination NY
+Town_Hall NY at (0.00, 0.00)
+   Contains 103.50
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 154.00
+Town_Hall SZ at (-10.00, -10.00)
+   Contains 0.35
+Soldier Sheng at (20.00, 20.00)
+   Health is 4
+   Stopped
+   Not attacking
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 154.00
+Farm TN at (2.00, 3.00)
+   Food available: 20.00
+Archer Xiaoyi at (3.00, 2.00)
+   Health is 5
+   Stopped
+   Attacking Jiang
+Soldier default at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Not attacking
+Peasant guan at (10.00, 0.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+
+Time 52: Enter command: Unrecognized command!
+
+Time 52: Enter command: Baby: I'm attacking!
+
+Time 52: Enter command: 99: step...
+Farm AA now has 24.00
+Baby: Clang!
+guan: Ouch!
+Farm JA now has 94.00
+Jiang: step...
+LL: I'm there!
+Farm Rivendale now has 156.00
+Farm Sunnybrook now has 156.00
+Farm TN now has 22.00
+Xiaoyi: Target is now out of range
+Xiaoyi: I'm attacking!
+
+Time 53: Enter command: Display size: 30, scale: 1.00, origin: (-10.00, -10.00)
+99, A3, JA, Paduca, Sheng, Shire, Sunnybrook, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . * . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . TN. . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . Xi. . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . * . . . . . . . . Bagu. . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . Ji. . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 SZ. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -7    -4    -1     2     5     8    11    14    17
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Jiang: 2.00
+LL: 4.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+guan: 3.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 24.00
+JA: 94.00
+Jiang: 35.00
+LL: 3.15
+NY: 103.50
+Paduca: 0.00
+Rivendale: 156.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 156.00
+TN: 22.00
+guan: 0.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . * . . . . * 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . Ji. . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     . Xi. . . . . . . 
+     * . . . Bagu. . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . * . . . . 
+  -3 . . . . . . . . . 
+     . . Ji. . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . Ji. 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . SZ. . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 53: Enter command: 99: step...
+Farm AA now has 26.00
+Baby: Clang!
+guan: Ouch!
+Farm JA now has 96.00
+Jiang: step...
+LL: Deposited 3.15
+LL: I'm on the way
+Farm Rivendale now has 158.00
+Farm Sunnybrook now has 158.00
+Farm TN now has 24.00
+Xiaoyi: Twang!
+LL: Ouch!
+
+Time 54: Enter command: Display size: 30, scale: 1.00, origin: (-10.00, -10.00)
+99, A3, JA, Paduca, Sheng, Shire, Sunnybrook, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . * . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . TN. . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . Xi. . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . * . . . . . . . . Bagu. . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . Ji. . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 SZ. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -7    -4    -1     2     5     8    11    14    17
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Jiang: 2.00
+LL: 3.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+guan: 1.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 26.00
+JA: 96.00
+Jiang: 35.00
+LL: 0.00
+NY: 106.65
+Paduca: 0.00
+Rivendale: 158.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 158.00
+TN: 24.00
+guan: 0.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . * . . . . * 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     . Xi. . . . . . . 
+     * . . . Bagu. . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . * . . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 Ji. . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . Ji. . . 
+     . . . . SZ. . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 54: Enter command: 99: step...
+Farm AA now has 28.00
+Baby: Clang!
+guan: Arrggh!
+Baby: I triumph!
+Farm JA now has 98.00
+Jiang: I'm there!
+LL: step...
+Farm Rivendale now has 160.00
+Farm Sunnybrook now has 160.00
+Farm TN now has 26.00
+Xiaoyi: Target is now out of range
+
+Time 55: Enter command: Display size: 30, scale: 1.00, origin: (-10.00, -10.00)
+99, A3, JA, Paduca, Sheng, Shire, Sunnybrook, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . * . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . TN. . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . Xi. . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . NY. . . . . . . . Ba. . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . LL. . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 * . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -7    -4    -1     2     5     8    11    14    17
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Jiang: 2.00
+LL: 3.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 28.00
+JA: 98.00
+Jiang: 35.00
+LL: 0.00
+NY: 106.65
+Paduca: 0.00
+Rivendale: 160.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 160.00
+TN: 26.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . Ba
+     . . . . . . . . . 
+     . LL. . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     . Xi. . . . . . . 
+     NY. . . Ba. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . LL. . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . LL. 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 55: Enter command: Unrecognized command!
+
+Time 55: Enter command: 
+Time 55: Enter command: Display size: 30, scale: 3.00, origin: (-10.00, -10.00)
+JA, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  71 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  62 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  53 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  44 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  35 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . Su. . . . . . . . . * . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . * . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . * . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . * . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . NY. . Ba. . . . . . . . . . . . . . . . . . . 99. . . 
+     . . LL. . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 * . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -1     8    17    26    35    44    53    62    71
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Jiang: 2.00
+LL: 3.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 28.00
+JA: 98.00
+Jiang: 35.00
+LL: 0.00
+NY: 106.65
+Paduca: 0.00
+Rivendale: 160.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 160.00
+TN: 26.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . Ba
+     . . . . . . . . . 
+     . LL. . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     . Xi. . . . . . . 
+     NY. . . Ba. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . LL. . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . LL. 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 55: Enter command: Agent not found!
+
+Time 55: Enter command: 99: step...
+Farm AA now has 30.00
+Farm JA now has 100.00
+Jiang: Deposited 35.00
+Jiang: I'm on the way
+LL: step...
+Farm Rivendale now has 162.00
+Farm Sunnybrook now has 162.00
+Farm TN now has 28.00
+
+Time 56: Enter command: 99: step...
+Farm AA now has 32.00
+Farm JA now has 102.00
+Jiang: step...
+LL: I'm there!
+Farm Rivendale now has 164.00
+Farm Sunnybrook now has 164.00
+Farm TN now has 30.00
+
+Time 57: Enter command: 
+Time 57: Enter command: 
+Time 57: Enter command: 99: step...
+Farm AA now has 34.00
+Farm JA now has 104.00
+Jiang: step...
+LL: Collected 31.82
+LL: I'm on the way
+Farm Rivendale now has 166.00
+Farm Sunnybrook now has 166.00
+Farm TN now has 32.00
+
+Time 58: Enter command: 99: step...
+Farm AA now has 36.00
+Farm JA now has 106.00
+Jiang: step...
+LL: step...
+Farm Rivendale now has 168.00
+Farm Sunnybrook now has 168.00
+Farm TN now has 34.00
+Xiaoyi: I'm attacking!
+
+Time 59: Enter command: 99: step...
+Farm AA now has 38.00
+Farm JA now has 108.00
+Jiang: step...
+LL: step...
+Farm Rivendale now has 170.00
+Farm Sunnybrook now has 170.00
+Farm TN now has 36.00
+Xiaoyi: Twang!
+Jiang: Ouch!
+
+Time 60: Enter command: 
+Time 60: Enter command: 
+Time 60: Enter command: 
+Time 60: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, Jiang, LL, NY, Paduca, SZ, Sunnybrook, TN, Xiaoyi, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     Ba. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Jiang: 1.00
+LL: 3.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 38.00
+JA: 108.00
+Jiang: 0.00
+LL: 31.82
+NY: 106.65
+Paduca: 0.00
+Rivendale: 170.00
+SZ: 3.54
+Shire: 0.00
+Sunnybrook: 170.00
+TN: 36.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . Ji. . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . Ba
+     . . . . . . . . . 
+     . . LL. . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TNJi. . . . . . 
+     . Xi. . . . . . . 
+     NY. . . Ba. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TNJi. . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . LL. . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TNJi. . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . LL
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . SZ. . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 60: Enter command: Unrecognized command!
+
+Time 60: Enter command: 99: I'm there!
+Farm AA now has 40.00
+Farm JA now has 110.00
+Jiang: step...
+LL: I'm there!
+Farm Rivendale now has 172.00
+Farm Sunnybrook now has 172.00
+Farm TN now has 38.00
+Xiaoyi: Target is now out of range
+Xiaoyi: I'm attacking!
+
+Time 61: Enter command: Farm AA now has 42.00
+Farm JA now has 112.00
+Jiang: I'm there!
+LL: Deposited 31.82
+LL: I'm on the way
+Farm Rivendale now has 174.00
+Farm Sunnybrook now has 174.00
+Farm TN now has 40.00
+Xiaoyi: Twang!
+LL: Ouch!
+
+Time 62: Enter command: Farm AA now has 44.00
+Farm JA now has 114.00
+Jiang: Collected 35.00
+Jiang: I'm on the way
+LL: step...
+Farm Rivendale now has 176.00
+Farm Sunnybrook now has 176.00
+Farm TN now has 42.00
+Xiaoyi: Target is now out of range
+
+Time 63: Enter command: Farm AA now has 11.00
+Farm JA now has 116.00
+Jiang: step...
+LL: step...
+Farm Rivendale now has 178.00
+Farm Sunnybrook now has 178.00
+Farm TN now has 44.00
+Xiaoyi: I'm attacking!
+
+Time 64: Enter command: Farm AA now has 13.00
+Farm JA now has 118.00
+Jiang: step...
+LL: I'm there!
+Farm Rivendale now has 180.00
+Farm Sunnybrook now has 180.00
+Farm TN now has 46.00
+Xiaoyi: Twang!
+Jiang: Arrggh!
+Xiaoyi: I triumph!
+
+Time 65: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, LL, NY, Paduca, SZ, Sunnybrook, TN, Xiaoyi, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     Ba. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+LL: 2.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 13.00
+JA: 118.00
+LL: 0.00
+NY: 138.47
+Paduca: 0.00
+Rivendale: 180.00
+SZ: 3.54
+Shire: 0.00
+Sunnybrook: 180.00
+TN: 46.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . Ba
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     . Xi. . . . . . . 
+     NY. . . Ba. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 65: Enter command: Unrecognized command!
+
+Time 65: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, LL, NY, Paduca, SZ, Sunnybrook, TN, Xiaoyi, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     Ba. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+LL: 2.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 13.00
+JA: 118.00
+LL: 0.00
+NY: 138.47
+Paduca: 0.00
+Rivendale: 180.00
+SZ: 3.54
+Shire: 0.00
+Sunnybrook: 180.00
+TN: 46.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . Ba
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     . Xi. . . . . . . 
+     NY. . . Ba. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 65: Enter command: Farm AA now has 15.00
+Farm JA now has 120.00
+LL: Collected 3.18
+LL: I'm on the way
+Farm Rivendale now has 182.00
+Farm Sunnybrook now has 182.00
+Farm TN now has 48.00
+
+Time 66: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, LL, NY, Paduca, SZ, Sunnybrook, TN, Xiaoyi, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     Ba. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+LL: 2.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 15.00
+JA: 120.00
+LL: 3.18
+NY: 138.47
+Paduca: 0.00
+Rivendale: 182.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 182.00
+TN: 48.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . Ba
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     . Xi. . . . . . . 
+     NY. . . Ba. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 66: Enter command: Peasant 99 at (100.00, 0.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Farm AA at (10.00, 10.00)
+   Food available: 15.00
+Soldier Baby at (9.00, 0.00)
+   Health is 3
+   Stopped
+   Not attacking
+Farm JA at (-12.00, -20.00)
+   Food available: 120.00
+Peasant LL at (-10.00, -10.00)
+   Health is 2
+   Moving at speed 5.00 to (0.00, 0.00)
+   Carrying 3.18
+   Outbound to destination NY
+Town_Hall NY at (0.00, 0.00)
+   Contains 138.47
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 182.00
+Town_Hall SZ at (-10.00, -10.00)
+   Contains 0.35
+Soldier Sheng at (20.00, 20.00)
+   Health is 4
+   Stopped
+   Not attacking
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 182.00
+Farm TN at (2.00, 3.00)
+   Food available: 48.00
+Archer Xiaoyi at (3.00, 2.00)
+   Health is 5
+   Stopped
+   Not attacking
+Soldier default at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 66: Enter command: Farm AA now has 17.00
+Farm JA now has 122.00
+LL: step...
+Farm Rivendale now has 184.00
+Farm Sunnybrook now has 184.00
+Farm TN now has 50.00
+
+Time 67: Enter command: Unrecognized command!
+
+Time 67: Enter command: Farm AA now has 19.00
+Farm JA now has 124.00
+LL: step...
+Farm Rivendale now has 186.00
+Farm Sunnybrook now has 186.00
+Farm TN now has 52.00
+
+Time 68: Enter command: Farm AA now has 21.00
+Farm JA now has 126.00
+LL: I'm there!
+Farm Rivendale now has 188.00
+Farm Sunnybrook now has 188.00
+Farm TN now has 54.00
+Xiaoyi: I'm attacking!
+
+Time 69: Enter command: Farm AA now has 23.00
+Farm JA now has 128.00
+LL: Deposited 3.18
+LL: I'm on the way
+Farm Rivendale now has 190.00
+Farm Sunnybrook now has 190.00
+Farm TN now has 56.00
+Xiaoyi: Twang!
+LL: Ouch!
+
+Time 70: Enter command: Invalid name for new object!
+
+Time 70: Enter command: Unrecognized command!
+
+Time 70: Enter command: Unrecognized command!
+
+Time 70: Enter command: Farm AA now has 25.00
+Farm JA now has 130.00
+LL: step...
+Farm Rivendale now has 192.00
+Farm Sunnybrook now has 192.00
+Farm TN now has 58.00
+Xiaoyi: Target is now out of range
+
+Time 71: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, LL, NY, Paduca, SZ, Sunnybrook, TN, Xiaoyi, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     Ba. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+LL: 1.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 25.00
+JA: 130.00
+LL: 0.00
+NY: 141.65
+Paduca: 0.00
+Rivendale: 192.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 192.00
+TN: 58.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . Ba
+     . . . . . . . . . 
+     . LL. . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     . Xi. . . . . . . 
+     NY. . . Ba. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . LL. . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . LL. 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . SZ. . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 71: Enter command: Farm AA now has 27.00
+Farm JA now has 132.00
+LL: step...
+Farm Rivendale now has 194.00
+Farm Sunnybrook now has 194.00
+Farm TN now has 60.00
+
+Time 72: Enter command: Farm AA now has 29.00
+Farm JA now has 134.00
+LL: I'm there!
+Farm Rivendale now has 196.00
+Farm Sunnybrook now has 196.00
+Farm TN now has 62.00
+
+Time 73: Enter command: Peasant 99 at (100.00, 0.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Farm AA at (10.00, 10.00)
+   Food available: 29.00
+Soldier Baby at (9.00, 0.00)
+   Health is 3
+   Stopped
+   Not attacking
+Farm JA at (-12.00, -20.00)
+   Food available: 134.00
+Peasant LL at (-10.00, -10.00)
+   Health is 1
+   Stopped
+   Carrying 0.00
+   Collecting at source SZ
+Town_Hall NY at (0.00, 0.00)
+   Contains 141.65
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 196.00
+Town_Hall SZ at (-10.00, -10.00)
+   Contains 0.35
+Soldier Sheng at (20.00, 20.00)
+   Health is 4
+   Stopped
+   Not attacking
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 196.00
+Farm TN at (2.00, 3.00)
+   Food available: 62.00
+Archer Xiaoyi at (3.00, 2.00)
+   Health is 5
+   Stopped
+   Not attacking
+Soldier default at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 73: Enter command: 
+Time 73: Enter command: Unrecognized command!
+
+Time 73: Enter command: Farm AA now has 31.00
+Farm JA now has 136.00
+LL: Waiting 
+Farm Rivendale now has 198.00
+Farm Sunnybrook now has 198.00
+Farm TN now has 64.00
+
+Time 74: Enter command: Farm AA now has 33.00
+Farm JA now has 138.00
+LL: Waiting 
+Farm Rivendale now has 200.00
+Farm Sunnybrook now has 200.00
+Farm TN now has 66.00
+
+Time 75: Enter command: Farm AA now has 35.00
+Farm JA now has 140.00
+LL: Waiting 
+Farm Rivendale now has 202.00
+Farm Sunnybrook now has 202.00
+Farm TN now has 68.00
+
+Time 76: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, LL, NY, Paduca, SZ, Sunnybrook, TN, Xiaoyi, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     Ba. . He. . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Hexin: 5.00
+LL: 1.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 35.00
+JA: 140.00
+LL: 0.00
+NY: 141.65
+Paduca: 0.00
+Rivendale: 202.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 202.00
+TN: 68.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . Ba
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . TN. . . . . . . 
+     . Xi. . . . . . . 
+     NY. . . Ba. He. . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+     0     6    12
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 76: Enter command: Peasant 99 at (100.00, 0.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Farm AA at (10.00, 10.00)
+   Food available: 35.00
+Soldier Baby at (9.00, 0.00)
+   Health is 3
+   Stopped
+   Not attacking
+Soldier Hexin at (12.00, 0.00)
+   Health is 5
+   Stopped
+   Not attacking
+Farm JA at (-12.00, -20.00)
+   Food available: 140.00
+Peasant LL at (-10.00, -10.00)
+   Health is 1
+   Stopped
+   Carrying 0.00
+   Collecting at source SZ
+Town_Hall NY at (0.00, 0.00)
+   Contains 141.65
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 202.00
+Town_Hall SZ at (-10.00, -10.00)
+   Contains 0.35
+Soldier Sheng at (20.00, 20.00)
+   Health is 4
+   Stopped
+   Not attacking
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 202.00
+Farm TN at (2.00, 3.00)
+   Food available: 68.00
+Archer Xiaoyi at (3.00, 2.00)
+   Health is 5
+   Stopped
+   Not attacking
+Soldier default at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 76: Enter command: Invalid name for new object!
+
+Time 76: Enter command: Hexin: Target is out of range!
+
+Time 76: Enter command: Farm AA now has 37.00
+Farm JA now has 142.00
+LL: Waiting 
+Farm Rivendale now has 204.00
+Farm Sunnybrook now has 204.00
+Farm TN now has 70.00
+
+Time 77: Enter command: Peasant 99 at (100.00, 0.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Farm AA at (10.00, 10.00)
+   Food available: 37.00
+Soldier Baby at (9.00, 0.00)
+   Health is 3
+   Stopped
+   Not attacking
+Soldier Hexin at (12.00, 0.00)
+   Health is 5
+   Stopped
+   Not attacking
+Farm JA at (-12.00, -20.00)
+   Food available: 142.00
+Peasant LL at (-10.00, -10.00)
+   Health is 1
+   Stopped
+   Carrying 0.00
+   Collecting at source SZ
+Town_Hall NY at (0.00, 0.00)
+   Contains 141.65
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 204.00
+Town_Hall SZ at (-10.00, -10.00)
+   Contains 0.35
+Soldier Sheng at (20.00, 20.00)
+   Health is 4
+   Stopped
+   Not attacking
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 204.00
+Farm TN at (2.00, 3.00)
+   Food available: 70.00
+Archer Xiaoyi at (3.00, 2.00)
+   Health is 5
+   Stopped
+   Not attacking
+Soldier default at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 77: Enter command: Baby: I'm on the way
+
+Time 77: Enter command: Unrecognized command!
+
+Time 77: Enter command: Farm AA now has 39.00
+Baby: I'm there!
+Farm JA now has 144.00
+LL: Waiting 
+Farm Rivendale now has 206.00
+Farm Sunnybrook now has 206.00
+Farm TN now has 72.00
+
+Time 78: Enter command: Peasant 99 at (100.00, 0.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Farm AA at (10.00, 10.00)
+   Food available: 39.00
+Soldier Baby at (12.00, 1.00)
+   Health is 3
+   Stopped
+   Not attacking
+Soldier Hexin at (12.00, 0.00)
+   Health is 5
+   Stopped
+   Not attacking
+Farm JA at (-12.00, -20.00)
+   Food available: 144.00
+Peasant LL at (-10.00, -10.00)
+   Health is 1
+   Stopped
+   Carrying 0.00
+   Collecting at source SZ
+Town_Hall NY at (0.00, 0.00)
+   Contains 141.65
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 206.00
+Town_Hall SZ at (-10.00, -10.00)
+   Contains 0.35
+Soldier Sheng at (20.00, 20.00)
+   Health is 4
+   Stopped
+   Not attacking
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 206.00
+Farm TN at (2.00, 3.00)
+   Food available: 72.00
+Archer Xiaoyi at (3.00, 2.00)
+   Health is 5
+   Stopped
+   Not attacking
+Soldier default at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 78: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, LL, NY, Paduca, SZ, Sunnybrook, TN, Xiaoyi, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . Ba. . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . He. . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Hexin: 5.00
+LL: 1.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 39.00
+JA: 144.00
+LL: 0.00
+NY: 141.65
+Paduca: 0.00
+Rivendale: 206.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 206.00
+TN: 72.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   4 . . . . . . . . . 
+     Xi. . . . . . . . 
+     . . . . * . . . . 
+  -2 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -8 . . . . . . . . . 
+     3     9    15
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . Ba. . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 78: Enter command: Unrecognized command!
+
+Time 78: Enter command: Baby: I'm on the way
+
+Time 78: Enter command: Hexin: I'm on the way
+
+Time 78: Enter command: Unrecognized command!
+
+Time 78: Enter command: Farm AA now has 41.00
+Baby: step...
+Hexin: step...
+Farm JA now has 146.00
+LL: Waiting 
+Farm Rivendale now has 208.00
+Farm Sunnybrook now has 208.00
+Farm TN now has 74.00
+
+Time 79: Enter command: Peasant 99 at (100.00, 0.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Farm AA at (10.00, 10.00)
+   Food available: 41.00
+Soldier Baby at (12.76, 5.94)
+   Health is 3
+   Moving at speed 5.00 to (14.00, 14.00)
+   Not attacking
+Soldier Hexin at (12.98, 4.90)
+   Health is 5
+   Moving at speed 5.00 to (15.00, 15.00)
+   Not attacking
+Farm JA at (-12.00, -20.00)
+   Food available: 146.00
+Peasant LL at (-10.00, -10.00)
+   Health is 1
+   Stopped
+   Carrying 0.00
+   Collecting at source SZ
+Town_Hall NY at (0.00, 0.00)
+   Contains 141.65
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 208.00
+Town_Hall SZ at (-10.00, -10.00)
+   Contains 0.35
+Soldier Sheng at (20.00, 20.00)
+   Health is 4
+   Stopped
+   Not attacking
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 208.00
+Farm TN at (2.00, 3.00)
+   Food available: 74.00
+Archer Xiaoyi at (3.00, 2.00)
+   Health is 5
+   Stopped
+   Not attacking
+Soldier default at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 79: Enter command: Unrecognized command!
+
+Time 79: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, LL, NY, Paduca, SZ, Sunnybrook, TN, Xiaoyi, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . Ba. . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . He. . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Hexin: 5.00
+LL: 1.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 41.00
+JA: 146.00
+LL: 0.00
+NY: 141.65
+Paduca: 0.00
+Rivendale: 208.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 208.00
+TN: 74.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+   9 . . . * . . . . . 
+     . . . . . . . . . 
+     . . . . Ba. . . . 
+   3 . . . . He. . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -3 . . . . . . . . . 
+     4    10    16
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . Ba. . . 
+     TN. . . . He. . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 79: Enter command: Farm AA now has 43.00
+Baby: step...
+Hexin: step...
+Farm JA now has 148.00
+LL: Waiting 
+Farm Rivendale now has 210.00
+Farm Sunnybrook now has 210.00
+Farm TN now has 76.00
+
+Time 80: Enter command: Peasant 99 at (100.00, 0.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Farm AA at (10.00, 10.00)
+   Food available: 43.00
+Soldier Baby at (13.52, 10.88)
+   Health is 3
+   Moving at speed 5.00 to (14.00, 14.00)
+   Not attacking
+Soldier Hexin at (13.96, 9.81)
+   Health is 5
+   Moving at speed 5.00 to (15.00, 15.00)
+   Not attacking
+Farm JA at (-12.00, -20.00)
+   Food available: 148.00
+Peasant LL at (-10.00, -10.00)
+   Health is 1
+   Stopped
+   Carrying 0.00
+   Collecting at source SZ
+Town_Hall NY at (0.00, 0.00)
+   Contains 141.65
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 210.00
+Town_Hall SZ at (-10.00, -10.00)
+   Contains 0.35
+Soldier Sheng at (20.00, 20.00)
+   Health is 4
+   Stopped
+   Not attacking
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 210.00
+Farm TN at (2.00, 3.00)
+   Food available: 76.00
+Archer Xiaoyi at (3.00, 2.00)
+   Health is 5
+   Stopped
+   Not attacking
+Soldier default at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 80: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, LL, NY, Paduca, SZ, Sunnybrook, TN, Xiaoyi, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . Ba. . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . He. . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Hexin: 5.00
+LL: 1.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 43.00
+JA: 148.00
+LL: 0.00
+NY: 141.65
+Paduca: 0.00
+Rivendale: 210.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 210.00
+TN: 76.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+  14 . . . . . . . . . 
+     . . . . . . . . . 
+     . . * . Ba. . . . 
+   8 . . . . He. . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+   2 . . . . . . . . . 
+     5    11    17
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . * . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 80: Enter command: Unrecognized command!
+
+Time 80: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, LL, NY, Paduca, SZ, Sunnybrook, TN, Xiaoyi, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . Ba. . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . He. . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Hexin: 5.00
+LL: 1.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 43.00
+JA: 148.00
+LL: 0.00
+NY: 141.65
+Paduca: 0.00
+Rivendale: 210.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 210.00
+TN: 76.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+  14 . . . . . . . . . 
+     . . . . . . . . . 
+     . . * . Ba. . . . 
+   8 . . . . He. . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+   2 . . . . . . . . . 
+     5    11    17
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . * . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 80: Enter command: Farm AA now has 45.00
+Baby: I'm there!
+Hexin: step...
+Farm JA now has 150.00
+LL: Waiting 
+Farm Rivendale now has 212.00
+Farm Sunnybrook now has 212.00
+Farm TN now has 78.00
+
+Time 81: Enter command: Farm AA now has 47.00
+Hexin: I'm there!
+Farm JA now has 152.00
+LL: Waiting 
+Farm Rivendale now has 214.00
+Farm Sunnybrook now has 214.00
+Farm TN now has 80.00
+
+Time 82: Enter command: Farm AA now has 49.00
+Farm JA now has 154.00
+LL: Waiting 
+Farm Rivendale now has 216.00
+Farm Sunnybrook now has 216.00
+Farm TN now has 82.00
+
+Time 83: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, LL, NY, Paduca, SZ, Sunnybrook, TN, Xiaoyi, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . He. . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . Ba. . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Hexin: 5.00
+LL: 1.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 49.00
+JA: 154.00
+LL: 0.00
+NY: 141.65
+Paduca: 0.00
+Rivendale: 216.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 216.00
+TN: 82.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . NY. . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . * . 
+  17 . . . . . . . . . 
+     . . . . . He. . . 
+     . . . . Ba. . . . 
+  11 . . . . . . . . . 
+     . . * . . . . . . 
+     . . . . . . . . . 
+   5 . . . . . . . . . 
+     5    11    17
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . He. 
+  13 . . . . . . Ba. . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 83: Enter command: Invalid name for new object!
+
+Time 83: Enter command: 
+Time 83: Enter command: Farm AA now has 51.00
+Farm JA now has 156.00
+LL: Waiting 
+Farm Rivendale now has 218.00
+Farm Sunnybrook now has 218.00
+Farm TN now has 84.00
+Xiaoyi: I'm attacking!
+
+Time 84: Enter command: Farm AA now has 53.00
+Farm JA now has 158.00
+LL: Waiting 
+Farm Rivendale now has 220.00
+Farm Sunnybrook now has 220.00
+Farm TN now has 86.00
+Xiaoyi: Twang!
+Rivers: Ouch!
+
+Time 85: Enter command: Farm AA now has 55.00
+Farm JA now has 160.00
+LL: Waiting 
+Farm Rivendale now has 222.00
+Farm Sunnybrook now has 222.00
+Farm TN now has 88.00
+Xiaoyi: Twang!
+Rivers: Ouch!
+
+Time 86: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, LL, NY, Paduca, Rivers, SZ, Sunnybrook, TN, Xiaoyi, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . He. . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . Ba. . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Hexin: 5.00
+LL: 1.00
+Rivers: 3.00
+Sheng: 4.00
+Xiaoyi: 5.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 55.00
+JA: 160.00
+LL: 0.00
+NY: 141.65
+Paduca: 0.00
+Rivendale: 222.00
+Rivers: 0.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 222.00
+TN: 88.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . * . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . * . 
+  17 . . . . . . . . . 
+     . . . . . He. . . 
+     . . . . Ba. . . . 
+  11 . . . . . . . . . 
+     . . * . . . . . . 
+     . . . . . . . . . 
+   5 . . . . . . . . . 
+     5    11    17
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . * . . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . He. 
+  13 . . . . . . Ba. . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 86: Enter command: Peasant 99 at (100.00, 0.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Farm AA at (10.00, 10.00)
+   Food available: 55.00
+Soldier Baby at (14.00, 14.00)
+   Health is 3
+   Stopped
+   Not attacking
+Soldier Hexin at (15.00, 15.00)
+   Health is 5
+   Stopped
+   Not attacking
+Farm JA at (-12.00, -20.00)
+   Food available: 160.00
+Peasant LL at (-10.00, -10.00)
+   Health is 1
+   Stopped
+   Carrying 0.00
+   Collecting at source SZ
+Town_Hall NY at (0.00, 0.00)
+   Contains 141.65
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 222.00
+Peasant Rivers at (0.00, 0.00)
+   Health is 3
+   Stopped
+   Carrying 0.00
+Town_Hall SZ at (-10.00, -10.00)
+   Contains 0.35
+Soldier Sheng at (20.00, 20.00)
+   Health is 4
+   Stopped
+   Not attacking
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 222.00
+Farm TN at (2.00, 3.00)
+   Food available: 88.00
+Archer Xiaoyi at (3.00, 2.00)
+   Health is 5
+   Stopped
+   Attacking Rivers
+Soldier default at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 86: Enter command: 
+Time 86: Enter command: Unrecognized command!
+
+Time 86: Enter command: ZRiver: Target is out of range!
+
+Time 86: Enter command: Farm AA now has 57.00
+Farm JA now has 162.00
+LL: Waiting 
+Farm Rivendale now has 224.00
+Farm Sunnybrook now has 224.00
+Farm TN now has 90.00
+Xiaoyi: Twang!
+Rivers: Ouch!
+
+Time 87: Enter command: Farm AA now has 59.00
+Farm JA now has 164.00
+LL: Waiting 
+Farm Rivendale now has 226.00
+Farm Sunnybrook now has 226.00
+Farm TN now has 92.00
+Xiaoyi: Twang!
+Rivers: Ouch!
+
+Time 88: Enter command: Farm AA now has 61.00
+Farm JA now has 166.00
+LL: Waiting 
+Farm Rivendale now has 228.00
+Farm Sunnybrook now has 228.00
+Farm TN now has 94.00
+Xiaoyi: Twang!
+Rivers: Arrggh!
+Xiaoyi: I triumph!
+Xiaoyi: I'm attacking!
+
+Time 89: Enter command: Farm AA now has 63.00
+Farm JA now has 168.00
+LL: Waiting 
+Farm Rivendale now has 230.00
+Farm Sunnybrook now has 230.00
+Farm TN now has 96.00
+Xiaoyi: Twang!
+ZRiver: Ouch!
+ZRiver: I'm attacking!
+ZRiver: Target is now out of range
+
+Time 90: Enter command: Farm AA now has 65.00
+Farm JA now has 170.00
+LL: Waiting 
+Farm Rivendale now has 232.00
+Farm Sunnybrook now has 232.00
+Farm TN now has 98.00
+Xiaoyi: Twang!
+ZRiver: Ouch!
+ZRiver: I'm attacking!
+ZRiver: Target is now out of range
+
+Time 91: Enter command: Peasant 99 at (100.00, 0.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Farm AA at (10.00, 10.00)
+   Food available: 65.00
+Soldier Baby at (14.00, 14.00)
+   Health is 3
+   Stopped
+   Not attacking
+Soldier Hexin at (15.00, 15.00)
+   Health is 5
+   Stopped
+   Not attacking
+Farm JA at (-12.00, -20.00)
+   Food available: 170.00
+Peasant LL at (-10.00, -10.00)
+   Health is 1
+   Stopped
+   Carrying 0.00
+   Collecting at source SZ
+Town_Hall NY at (0.00, 0.00)
+   Contains 141.65
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 232.00
+Town_Hall SZ at (-10.00, -10.00)
+   Contains 0.35
+Soldier Sheng at (20.00, 20.00)
+   Health is 4
+   Stopped
+   Not attacking
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 232.00
+Farm TN at (2.00, 3.00)
+   Food available: 98.00
+Archer Xiaoyi at (3.00, 2.00)
+   Health is 5
+   Stopped
+   Attacking ZRiver
+Soldier ZRiver at (0.00, 0.00)
+   Health is 3
+   Stopped
+   Not attacking
+Soldier default at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 91: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, LL, NY, Paduca, SZ, Sunnybrook, TN, Xiaoyi, ZRiver, default outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . He. . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . Ba. . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+Baby: 3.00
+Hexin: 5.00
+LL: 1.00
+Sheng: 4.00
+Xiaoyi: 5.00
+ZRiver: 3.00
+default: 5.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 65.00
+JA: 170.00
+LL: 0.00
+NY: 141.65
+Paduca: 0.00
+Rivendale: 232.00
+SZ: 0.35
+Shire: 0.00
+Sunnybrook: 232.00
+TN: 98.00
+--------------
+Local view for: JSS
+     . . . . . . . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . TNXi. . . 
+   0 . . . * . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . * . 
+  17 . . . . . . . . . 
+     . . . . . He. . . 
+     . . . . Ba. . . . 
+  11 . . . . . . . . . 
+     . . * . . . . . . 
+     . . . . . . . . . 
+   5 . . . . . . . . . 
+     5    11    17
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . TN. . . 
+     . . . . . . Xi. . 
+     . . . . * . . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . . . . He. 
+  13 . . . . . . Ba. . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . . . . . . 
+     TN. . . . . . . . 
+   1 . Xi. . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 91: Enter command: Unrecognized command!
+
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: 
+Time 91: Enter command: p1: I'm on the way
+
+Time 91: Enter command: p2: I'm on the way
+
+Time 91: Enter command: p3: I'm on the way
+
+Time 91: Enter command: p4: I'm on the way
+
+Time 91: Enter command: p4: I'm stopped
+p4: I'm on the way
+
+Time 91: Enter command: p5: I'm on the way
+
+Time 91: Enter command: p6: I'm on the way
+
+Time 91: Enter command: p7: I'm on the way
+
+Time 91: Enter command: p8: I'm on the way
+
+Time 91: Enter command: p9: I'm on the way
+
+Time 91: Enter command: p10: I'm on the way
+
+Time 91: Enter command: p11: I'm on the way
+
+Time 91: Enter command: Farm AA now has 67.00
+Farm JA now has 172.00
+LL: Waiting 
+Farm Rivendale now has 234.00
+Farm Sunnybrook now has 234.00
+Farm TN now has 100.00
+Xiaoyi: Twang!
+ZRiver: Ouch!
+ZRiver: I'm attacking!
+ZRiver: Target is now out of range
+a1: I'm attacking!
+a10: I'm attacking!
+a11: I'm attacking!
+a12: I'm attacking!
+a13: I'm attacking!
+a14: I'm attacking!
+a15: I'm attacking!
+a16: I'm attacking!
+a17: I'm attacking!
+a18: I'm attacking!
+a19: I'm attacking!
+a2: I'm attacking!
+a3: I'm attacking!
+a4: I'm attacking!
+a5: I'm attacking!
+a6: I'm attacking!
+a7: I'm attacking!
+a8: I'm attacking!
+a9: I'm attacking!
+p1: step...
+p10: step...
+p11: step...
+p2: step...
+p3: step...
+p4: step...
+p5: step...
+p6: step...
+p7: step...
+p8: step...
+p9: step...
+
+Time 92: Enter command: Farm AA now has 69.00
+Farm JA now has 174.00
+LL: Waiting 
+Farm Rivendale now has 236.00
+Farm Sunnybrook now has 236.00
+Farm TN now has 102.00
+Xiaoyi: Twang!
+ZRiver: Ouch!
+ZRiver: I'm attacking!
+ZRiver: Target is now out of range
+a1: Twang!
+ZRiver: Arrggh!
+a1: I triumph!
+a1: I'm attacking!
+a10: Twang!
+a13: Ouch!
+a13: I'm going to run away to AA
+a13: I'm on the way
+a11: Twang!
+a10: Ouch!
+a10: I'm going to run away to Shire
+a10: I'm on the way
+a12: Twang!
+p8: Ouch!
+a13: step...
+a13: Twang!
+a8: Ouch!
+a8: I'm going to run away to AA
+a8: I'm on the way
+a14: Twang!
+Hexin: Ouch!
+Hexin: I'm attacking!
+a15: Twang!
+Sheng: Ouch!
+Sheng: I'm attacking!
+a16: Twang!
+a3: Ouch!
+a3: I'm going to run away to TN
+a3: I'm on the way
+a17: Twang!
+a2: Ouch!
+a2: I'm going to run away to TN
+a2: I'm on the way
+a18: Twang!
+Sheng: Ouch!
+a19: Twang!
+a5: Ouch!
+a5: I'm going to run away to AA
+a5: I'm already there
+a2: I'm there!
+a2: Twang!
+Xiaoyi: Ouch!
+Xiaoyi: I'm going to run away to TN
+Xiaoyi: I'm on the way
+a3: I'm there!
+a3: Target is now out of range
+a3: I'm attacking!
+a4: Twang!
+a19: Ouch!
+a19: I'm going to run away to AA
+a19: I'm already there
+a5: Twang!
+a19: Ouch!
+a19: I'm going to run away to AA
+a19: I'm already there
+a6: Twang!
+p11: Ouch!
+a7: Twang!
+Baby: Ouch!
+Baby: I'm attacking!
+a8: step...
+a8: Twang!
+a13: Ouch!
+a13: I'm going to run away to AA
+a13: I'm on the way
+a9: Target is dead
+a9: I'm attacking!
+p1: step...
+p10: step...
+p11: I'm there!
+p2: step...
+p3: step...
+p4: step...
+p5: step...
+p6: step...
+p7: step...
+p8: step...
+p9: step...
+
+Time 93: Enter command: Farm AA now has 71.00
+Baby: Target is now out of range
+Hexin: Clang!
+a14: Ouch!
+a14: I'm going to run away to AA
+a14: I'm on the way
+Farm JA now has 176.00
+LL: Waiting 
+Farm Rivendale now has 238.00
+Sheng: Clang!
+a15: Ouch!
+a15: I'm going to run away to Shire
+a15: I'm already there
+Farm Sunnybrook now has 238.00
+Farm TN now has 104.00
+Xiaoyi: I'm there!
+Xiaoyi: Target is dead
+Xiaoyi: I'm attacking!
+a1: Twang!
+a9: Ouch!
+a9: I'm going to run away to NY
+a9: I'm on the way
+a10: step...
+a10: Twang!
+a13: Ouch!
+a13: I'm going to run away to AA
+a13: I'm on the way
+a11: Twang!
+a10: Ouch!
+a10: I'm going to run away to Shire
+a10: I'm on the way
+a12: Target is now out of range
+a12: I'm attacking!
+a13: step...
+a13: Twang!
+a8: Ouch!
+a8: I'm going to run away to AA
+a8: I'm on the way
+a14: step...
+a14: Twang!
+Hexin: Ouch!
+a15: Twang!
+Sheng: Ouch!
+a16: Target is now out of range
+a16: I'm attacking!
+a17: Twang!
+a2: Ouch!
+a2: I'm going to run away to TN
+a2: I'm already there
+a18: Twang!
+Sheng: Arrggh!
+a18: I triumph!
+a18: I'm attacking!
+a19: Twang!
+a5: Ouch!
+a5: I'm going to run away to AA
+a5: I'm already there
+a2: Twang!
+Xiaoyi: Ouch!
+Xiaoyi: I'm going to run away to TN
+Xiaoyi: I'm already there
+a3: Twang!
+a2: Ouch!
+a2: I'm going to run away to TN
+a2: I'm already there
+a4: Twang!
+a19: Ouch!
+a19: I'm going to run away to AA
+a19: I'm already there
+a5: Twang!
+a19: Ouch!
+a19: I'm going to run away to AA
+a19: I'm already there
+a6: Twang!
+p11: Ouch!
+a7: Twang!
+Baby: Ouch!
+Baby: I'm attacking!
+a8: step...
+a8: Twang!
+a13: Ouch!
+a13: I'm going to run away to AA
+a13: I'm on the way
+a9: I'm there!
+a9: Twang!
+a1: Ouch!
+a1: I'm going to run away to NY
+a1: I'm already there
+p1: I'm there!
+p10: step...
+p11: Collected 35.00
+p11: I'm on the way
+p2: step...
+p3: step...
+p4: step...
+p5: step...
+p6: step...
+p7: step...
+p8: step...
+p9: step...
+
+Time 94: Enter command: Farm AA now has 38.00
+Baby: Target is now out of range
+Hexin: Target is now out of range
+Farm JA now has 178.00
+LL: Waiting 
+Farm Rivendale now has 240.00
+Farm Sunnybrook now has 240.00
+Farm TN now has 106.00
+Xiaoyi: Twang!
+a2: Ouch!
+a2: I'm going to run away to TN
+a2: I'm already there
+a1: Twang!
+a9: Ouch!
+a9: I'm going to run away to NY
+a9: I'm already there
+a10: step...
+a10: Target is now out of range
+a10: I'm attacking!
+a11: Target is now out of range
+a11: I'm attacking!
+a12: Twang!
+a10: Ouch!
+a10: I'm going to run away to Shire
+a10: I'm on the way
+a13: step...
+a13: Twang!
+a8: Ouch!
+a8: I'm going to run away to AA
+a8: I'm on the way
+a14: I'm there!
+a14: Target is now out of range
+a14: I'm attacking!
+a15: Target is dead
+a15: I'm attacking!
+a16: Twang!
+p6: Ouch!
+a17: Twang!
+a2: Arrggh!
+a17: I triumph!
+a17: I'm attacking!
+a18: Twang!
+a15: Ouch!
+a15: I'm going to run away to Shire
+a15: I'm already there
+a19: Twang!
+a5: Ouch!
+a5: I'm going to run away to AA
+a5: I'm already there
+a3: Target is dead
+a3: I'm attacking!
+a4: Twang!
+a19: Arrggh!
+a4: I triumph!
+a4: I'm attacking!
+a5: Target is dead
+a5: I'm attacking!
+a6: Twang!
+p11: Ouch!
+a7: Twang!
+Baby: Arrggh!
+a7: I triumph!
+a7: I'm attacking!
+a8: step...
+a8: Twang!
+a13: Arrggh!
+a8: I triumph!
+a8: I'm attacking!
+a9: Twang!
+a1: Ouch!
+a1: I'm going to run away to NY
+a1: I'm already there
+p1: Collected 35.00
+p1: I'm on the way
+p10: step...
+p11: step...
+p2: step...
+p3: step...
+p4: step...
+p5: step...
+p6: step...
+p7: step...
+p8: step...
+p9: step...
+
+Time 95: Enter command: Farm AA now has 5.00
+Farm JA now has 180.00
+LL: Waiting 
+Farm Rivendale now has 242.00
+Farm Sunnybrook now has 242.00
+Farm TN now has 108.00
+Xiaoyi: Target is dead
+Xiaoyi: I'm attacking!
+a1: Twang!
+a9: Ouch!
+a9: I'm going to run away to NY
+a9: I'm already there
+a10: step...
+a10: Twang!
+a12: Ouch!
+a12: I'm going to run away to Shire
+a12: I'm on the way
+a11: Target is dead
+a12: step...
+a12: Twang!
+a10: Ouch!
+a10: I'm going to run away to Shire
+a10: I'm on the way
+a14: Target is dead
+a14: I'm attacking!
+a15: Twang!
+a18: Ouch!
+a18: I'm going to run away to Shire
+a18: I'm already there
+a16: Twang!
+p6: Ouch!
+a17: Twang!
+Xiaoyi: Ouch!
+Xiaoyi: I'm going to run away to TN
+Xiaoyi: I'm already there
+a18: Twang!
+a15: Ouch!
+a15: I'm going to run away to Shire
+a15: I'm already there
+a3: Twang!
+Xiaoyi: Ouch!
+Xiaoyi: I'm going to run away to TN
+Xiaoyi: I'm already there
+a4: Target is now out of range
+a4: I'm attacking!
+a5: Twang!
+a14: Ouch!
+a14: I'm going to run away to AA
+a14: I'm already there
+a6: Target is now out of range
+a6: I'm attacking!
+a7: Twang!
+Hexin: Ouch!
+Hexin: I'm attacking!
+a8: step...
+a8: Twang!
+a6: Ouch!
+a6: I'm going to run away to AA
+a6: I'm on the way
+a9: Twang!
+a1: Ouch!
+a1: I'm going to run away to NY
+a1: I'm already there
+p1: step...
+p10: step...
+p11: step...
+p2: step...
+p3: step...
+p4: step...
+p5: step...
+p6: step...
+p7: step...
+p8: step...
+p9: step...
+
+Time 96: Enter command: Farm AA now has 7.00
+Hexin: Target is now out of range
+Farm JA now has 182.00
+LL: Waiting 
+Farm Rivendale now has 244.00
+Farm Sunnybrook now has 244.00
+Farm TN now has 110.00
+Xiaoyi: Twang!
+a3: Ouch!
+a3: I'm going to run away to TN
+a3: I'm already there
+a1: Twang!
+a9: Ouch!
+a9: I'm going to run away to NY
+a9: I'm already there
+a10: step...
+a10: Twang!
+a12: Ouch!
+a12: I'm going to run away to Shire
+a12: I'm on the way
+a12: step...
+a12: Twang!
+a10: Arrggh!
+a12: I triumph!
+a12: I'm attacking!
+a14: Twang!
+a5: Ouch!
+a5: I'm going to run away to AA
+a5: I'm already there
+a15: Twang!
+a18: Ouch!
+a18: I'm going to run away to Shire
+a18: I'm already there
+a16: Target is now out of range
+a16: I'm attacking!
+a17: Twang!
+Xiaoyi: Arrggh!
+a17: I triumph!
+a17: I'm attacking!
+a18: Twang!
+a15: Arrggh!
+a18: I triumph!
+a18: I'm attacking!
+a3: Target is dead
+a3: I'm attacking!
+a4: Target is now out of range
+a4: I'm attacking!
+a5: Twang!
+a14: Ouch!
+a14: I'm going to run away to AA
+a14: I'm already there
+a6: step...
+a6: Twang!
+a8: Ouch!
+a8: I'm going to run away to AA
+a8: I'm on the way
+a7: Twang!
+Hexin: Ouch!
+Hexin: I'm attacking!
+a8: I'm there!
+a8: Twang!
+a6: Ouch!
+a6: I'm going to run away to AA
+a6: I'm on the way
+a9: Twang!
+a1: Ouch!
+a1: I'm going to run away to NY
+a1: I'm already there
+p1: step...
+p10: step...
+p11: step...
+p2: step...
+p3: step...
+p4: step...
+p5: step...
+p6: I'm there!
+p7: step...
+p8: step...
+p9: step...
+
+Time 97: Enter command: Farm AA now has 9.00
+Hexin: Target is now out of range
+Farm JA now has 184.00
+LL: Waiting 
+Farm Rivendale now has 246.00
+Farm Sunnybrook now has 246.00
+Farm TN now has 112.00
+a1: Twang!
+a9: Arrggh!
+a1: I triumph!
+a1: I'm attacking!
+a12: I'm there!
+a12: Target is dead
+a12: I'm attacking!
+a14: Twang!
+a5: Arrggh!
+a14: I triumph!
+a14: I'm attacking!
+a16: Target is now out of range
+a17: Twang!
+a3: Ouch!
+a3: I'm going to run away to TN
+a3: I'm already there
+a18: Twang!
+a12: Ouch!
+a12: I'm going to run away to Shire
+a12: I'm already there
+a3: Twang!
+a17: Ouch!
+a17: I'm going to run away to TN
+a17: I'm on the way
+a4: Target is now out of range
+a4: I'm attacking!
+a6: I'm there!
+a6: Twang!
+a8: Arrggh!
+a6: I triumph!
+a6: I'm attacking!
+a7: Twang!
+Hexin: Arrggh!
+a7: I triumph!
+a7: I'm attacking!
+p1: step...
+p10: step...
+p11: step...
+p2: step...
+p3: step...
+p4: I'm there!
+p5: step...
+p6: Collected 35.00
+p6: I'm on the way
+p7: step...
+p8: step...
+p9: step...
+
+Time 98: Enter command: Farm AA now has 11.00
+Farm JA now has 186.00
+LL: Waiting 
+Farm Rivendale now has 248.00
+Farm Sunnybrook now has 248.00
+Farm TN now has 114.00
+a1: Twang!
+p6: Ouch!
+a12: Twang!
+a18: Ouch!
+a18: I'm going to run away to Shire
+a18: I'm already there
+a14: Target is dead
+a14: I'm attacking!
+a17: I'm there!
+a17: Twang!
+a3: Ouch!
+a3: I'm going to run away to TN
+a3: I'm already there
+a18: Twang!
+a12: Ouch!
+a12: I'm going to run away to Shire
+a12: I'm already there
+a3: Twang!
+a17: Ouch!
+a17: I'm going to run away to TN
+a17: I'm already there
+a4: Twang!
+a14: Arrggh!
+a4: I triumph!
+a4: I'm attacking!
+a6: Target is dead
+a6: I'm attacking!
+a7: Twang!
+p9: Ouch!
+p1: step...
+p10: step...
+p11: step...
+p2: step...
+p3: step...
+p4: Collected 35.00
+p4: I'm on the way
+p5: step...
+p6: step...
+p7: step...
+p8: step...
+p9: I'm there!
+
+Time 99: Enter command: Farm AA now has 13.00
+Farm JA now has 188.00
+LL: Waiting 
+Farm Rivendale now has 250.00
+Farm Sunnybrook now has 250.00
+Farm TN now has 116.00
+a1: Twang!
+p6: Ouch!
+a12: Twang!
+a18: Ouch!
+a18: I'm going to run away to Shire
+a18: I'm already there
+a17: Twang!
+a3: Arrggh!
+a17: I triumph!
+a17: I'm attacking!
+a18: Twang!
+a12: Arrggh!
+a18: I triumph!
+a4: Twang!
+a6: Ouch!
+a6: I'm going to run away to AA
+a6: I'm already there
+a6: Twang!
+p9: Ouch!
+a7: Twang!
+p9: Ouch!
+p1: step...
+p10: step...
+p11: step...
+p2: I'm there!
+p3: step...
+p4: I'm there!
+p5: step...
+p6: step...
+p7: I'm there!
+p8: step...
+p9: Collected 13.00
+p9: I'm on the way
+
+Time 100: Enter command: Farm AA now has 2.00
+Farm JA now has 190.00
+LL: Waiting 
+Farm Rivendale now has 252.00
+Farm Sunnybrook now has 252.00
+Farm TN now has 118.00
+a1: Target is now out of range
+a1: I'm attacking!
+a17: Twang!
+a1: Arrggh!
+a17: I triumph!
+a17: I'm attacking!
+a4: Twang!
+a6: Ouch!
+a6: I'm going to run away to AA
+a6: I'm already there
+a6: Twang!
+p9: Ouch!
+a7: Twang!
+p9: Arrggh!
+a7: I triumph!
+a7: I'm attacking!
+p1: I'm there!
+p10: step...
+p11: step...
+p2: Waiting 
+p3: step...
+p4: Deposited 35.00
+p4: I'm on the way
+p5: step...
+p6: I'm there!
+p7: Waiting 
+p8: I'm there!
+
+Time 101: Enter command: Farm AA now has 4.00
+Farm JA now has 192.00
+LL: Waiting 
+Farm Rivendale now has 254.00
+Farm Sunnybrook now has 254.00
+Farm TN now has 120.00
+a17: Twang!
+p4: Ouch!
+a18: I'm attacking!
+a4: Twang!
+a6: Arrggh!
+a4: I triumph!
+a7: Target is dead
+p1: Deposited 35.00
+p1: I'm on the way
+p10: step...
+p11: I'm there!
+p2: Collected 31.82
+p2: I'm on the way
+p3: I'm there!
+p4: I'm there!
+p5: step...
+p6: Deposited 35.00
+p6: I'm on the way
+p7: Collected 34.68
+p7: I'm on the way
+p8: Collected 35.00
+p8: I'm on the way
+
+Time 102: Enter command: Farm AA now has 6.00
+Farm JA now has 159.00
+LL: Collected 3.47
+LL: I'm on the way
+Farm Rivendale now has 256.00
+Farm Sunnybrook now has 256.00
+Farm TN now has 122.00
+a17: Twang!
+p4: Ouch!
+a18: Target is now out of range
+a7: I'm attacking!
+p1: step...
+p10: step...
+p11: Deposited 35.00
+p11: I'm on the way
+p2: step...
+p3: Collected 35.00
+p3: I'm on the way
+p4: Collected 35.00
+p4: I'm on the way
+p5: step...
+p6: step...
+p7: step...
+p8: step...
+
+Time 103: Enter command: Farm AA now has 8.00
+Farm JA now has 126.00
+LL: step...
+Farm Rivendale now has 258.00
+Farm Sunnybrook now has 258.00
+Farm TN now has 124.00
+a17: Twang!
+p4: Ouch!
+a7: Twang!
+p5: Ouch!
+p1: step...
+p10: step...
+p11: step...
+p2: step...
+p3: step...
+p4: I'm there!
+p5: step...
+p6: step...
+p7: step...
+p8: step...
+
+Time 104: Enter command: Farm AA now has 10.00
+Farm JA now has 128.00
+LL: step...
+Farm Rivendale now has 260.00
+Farm Sunnybrook now has 260.00
+Farm TN now has 126.00
+a16: I'm attacking!
+a17: Twang!
+p4: Ouch!
+a4: I'm attacking!
+a7: Twang!
+p5: Ouch!
+p1: step...
+p10: step...
+p11: step...
+p2: I'm there!
+p3: step...
+p4: Deposited 35.00
+p4: I'm on the way
+p5: step...
+p6: I'm there!
+p7: step...
+p8: step...
+
+Time 105: Enter command: Farm AA now has 12.00
+Farm JA now has 130.00
+LL: I'm there!
+Farm Rivendale now has 262.00
+Farm Sunnybrook now has 262.00
+Farm TN now has 128.00
+a16: Twang!
+p5: Ouch!
+a17: Twang!
+p4: Arrggh!
+a17: I triumph!
+a17: I'm attacking!
+a4: Twang!
+p5: Ouch!
+a7: Target is now out of range
+p1: step...
+p10: step...
+p11: step...
+p2: Deposited 31.82
+p2: I'm on the way
+p3: step...
+p5: I'm there!
+p6: Collected 35.00
+p6: I'm on the way
+p7: step...
+p8: step...
+
+Time 106: Enter command: Farm AA now has 14.00
+Farm JA now has 132.00
+LL: Deposited 3.47
+LL: I'm on the way
+Farm Rivendale now has 264.00
+Farm Sunnybrook now has 264.00
+Farm TN now has 130.00
+a16: Target is now out of range
+a17: Twang!
+p1: Ouch!
+a4: Target is now out of range
+p1: step...
+p10: step...
+p11: step...
+p2: step...
+p3: step...
+p5: Collected 35.00
+p5: I'm on the way
+p6: step...
+p7: step...
+p8: step...
+
+Time 107: Enter command: Farm AA now has 16.00
+Farm JA now has 134.00
+LL: step...
+Farm Rivendale now has 266.00
+Farm Sunnybrook now has 266.00
+Farm TN now has 97.00
+a17: Target is now out of range
+a17: I'm attacking!
+a4: I'm attacking!
+p1: I'm there!
+p10: step...
+p11: step...
+p2: step...
+p3: step...
+p5: step...
+p6: step...
+p7: I'm there!
+p8: step...
+
+Time 108: Enter command: Farm AA now has 18.00
+Farm JA now has 136.00
+LL: step...
+Farm Rivendale now has 268.00
+Farm Sunnybrook now has 268.00
+Farm TN now has 99.00
+a16: I'm attacking!
+a17: Twang!
+p5: Arrggh!
+a17: I triumph!
+a17: I'm attacking!
+a4: Twang!
+p1: Ouch!
+a7: I'm attacking!
+p1: Collected 18.00
+p1: I'm on the way
+p10: step...
+p11: step...
+p2: I'm there!
+p3: I'm there!
+p6: I'm there!
+p7: Deposited 34.68
+p7: I'm on the way
+p8: step...
+
+Time 109: Enter command: Farm AA now has 2.00
+Farm JA now has 138.00
+LL: I'm there!
+Farm Rivendale now has 270.00
+Farm Sunnybrook now has 270.00
+Farm TN now has 101.00
+a16: Twang!
+p10: Ouch!
+a17: Twang!
+p3: Ouch!
+a4: Twang!
+p1: Ouch!
+a7: Twang!
+p1: Ouch!
+p1: step...
+p10: step...
+p11: step...
+p2: Waiting 
+p3: Deposited 35.00
+p3: I'm on the way
+p6: Deposited 35.00
+p6: I'm on the way
+p7: step...
+p8: I'm there!
+
+Time 110: Enter command: Farm AA now has 4.00
+Farm JA now has 140.00
+LL: Collected 31.85
+LL: I'm on the way
+Farm Rivendale now has 272.00
+Farm Sunnybrook now has 272.00
+Farm TN now has 103.00
+a16: Target is now out of range
+a16: I'm attacking!
+a17: Twang!
+p3: Ouch!
+a4: Twang!
+p1: Arrggh!
+a4: I triumph!
+a4: I'm attacking!
+a7: Target is dead
+a7: I'm attacking!
+p10: I'm there!
+p11: I'm there!
+p2: Collected 3.18
+p2: I'm on the way
+p3: step...
+p6: step...
+p7: step...
+p8: Deposited 35.00
+p8: I'm on the way
+
+Time 111: Enter command: Farm AA now has 6.00
+Farm JA now has 142.00
+LL: step...
+Farm Rivendale now has 274.00
+Farm Sunnybrook now has 274.00
+Farm TN now has 105.00
+a16: Target is dead
+a17: Twang!
+p3: Ouch!
+a4: Twang!
+p11: Ouch!
+a7: Twang!
+p8: Ouch!
+p10: Collected 35.00
+p10: I'm on the way
+p11: Collected 6.00
+p11: I'm on the way
+p2: step...
+p3: step...
+p6: step...
+p7: step...
+p8: step...
+
+Time 112: Enter command: Farm AA now has 2.00
+Farm JA now has 144.00
+LL: step...
+Farm Rivendale now has 276.00
+Farm Sunnybrook now has 276.00
+Farm TN now has 72.00
+a17: Target is now out of range
+a17: I'm attacking!
+a4: Twang!
+p11: Arrggh!
+a4: I triumph!
+a4: I'm attacking!
+a7: Target is now out of range
+p10: step...
+p2: step...
+p3: step...
+p6: I'm there!
+p7: step...
+p8: step...
+
+Time 113: Enter command: Farm AA now has 4.00
+Farm JA now has 146.00
+LL: I'm there!
+Farm Rivendale now has 278.00
+Farm Sunnybrook now has 278.00
+Farm TN now has 74.00
+a17: Twang!
+p10: Ouch!
+a4: Target is now out of range
+p10: step...
+p2: I'm there!
+p3: step...
+p6: Collected 33.24
+p6: I'm on the way
+p7: step...
+p8: step...
+
+Time 114: Enter command: Farm AA now has 6.00
+Farm JA now has 148.00
+LL: Deposited 31.85
+LL: I'm on the way
+Farm Rivendale now has 280.00
+Farm Sunnybrook now has 280.00
+Farm TN now has 76.00
+a17: Target is now out of range
+a17: I'm attacking!
+p10: step...
+p2: Deposited 3.18
+p2: I'm on the way
+p3: step...
+p6: step...
+p7: I'm there!
+p8: step...
+
+Time 115: Enter command: Farm AA now has 8.00
+Farm JA now has 150.00
+LL: step...
+Farm Rivendale now has 282.00
+Farm Sunnybrook now has 282.00
+Farm TN now has 78.00
+a17: Target is now out of range
+a17: I'm attacking!
+p10: step...
+p2: step...
+p3: I'm there!
+p6: step...
+p7: Waiting 
+p8: step...
+
+Time 116: Enter command: Farm AA now has 10.00
+Farm JA now has 152.00
+LL: step...
+Farm Rivendale now has 284.00
+Farm Sunnybrook now has 284.00
+Farm TN now has 80.00
+a17: Target is now out of range
+p10: step...
+p2: step...
+p3: Collected 35.00
+p3: I'm on the way
+p6: I'm there!
+p7: Waiting 
+p8: step...
+
+Time 117: Enter command: Farm AA now has 12.00
+Farm JA now has 119.00
+LL: I'm there!
+Farm Rivendale now has 286.00
+Farm Sunnybrook now has 286.00
+Farm TN now has 82.00
+p10: I'm there!
+p2: I'm there!
+p3: step...
+p6: Deposited 33.24
+p6: I'm on the way
+p7: Collected 30.23
+p7: I'm on the way
+p8: step...
+
+Time 118: Enter command: Farm AA now has 14.00
+Farm JA now has 121.00
+LL: Collected 3.02
+LL: I'm on the way
+Farm Rivendale now has 288.00
+Farm Sunnybrook now has 288.00
+Farm TN now has 84.00
+p10: Deposited 35.00
+p10: I'm on the way
+p2: Waiting 
+p3: step...
+p6: step...
+p7: step...
+p8: I'm there!
+
+Time 119: Enter command: Farm AA now has 16.00
+Farm JA now has 123.00
+LL: step...
+Farm Rivendale now has 290.00
+Farm Sunnybrook now has 290.00
+Farm TN now has 86.00
+p10: step...
+p2: Waiting 
+p3: step...
+p6: step...
+p7: step...
+p8: Collected 35.00
+p8: I'm on the way
+
+Time 120: Enter command: Farm AA now has 18.00
+Farm JA now has 90.00
+LL: step...
+Farm Rivendale now has 292.00
+Farm Sunnybrook now has 292.00
+Farm TN now has 88.00
+p10: step...
+p2: Waiting 
+p3: step...
+p6: I'm there!
+p7: step...
+p8: step...
+
+Time 121: Enter command: Farm AA now has 20.00
+Farm JA now has 92.00
+LL: I'm there!
+Farm Rivendale now has 294.00
+Farm Sunnybrook now has 294.00
+Farm TN now has 90.00
+a17: I'm attacking!
+p10: step...
+p2: Waiting 
+p3: step...
+p6: Collected 34.85
+p6: I'm on the way
+p7: step...
+p8: step...
+
+Time 122: Enter command: Farm AA now has 22.00
+Farm JA now has 94.00
+LL: Deposited 3.02
+LL: I'm on the way
+Farm Rivendale now has 296.00
+Farm Sunnybrook now has 296.00
+Farm TN now has 92.00
+a17: Twang!
+p7: Ouch!
+p10: step...
+p2: Waiting 
+p3: I'm there!
+p6: step...
+p7: step...
+p8: step...
+
+Time 123: Enter command: Farm AA now has 24.00
+Farm JA now has 96.00
+LL: step...
+Farm Rivendale now has 298.00
+Farm Sunnybrook now has 298.00
+Farm TN now has 94.00
+a17: Target is now out of range
+a17: I'm attacking!
+a4: I'm attacking!
+p10: step...
+p2: Waiting 
+p3: Deposited 35.00
+p3: I'm on the way
+p6: step...
+p7: I'm there!
+p8: step...
+
+Time 124: Enter command: Farm AA now has 26.00
+Farm JA now has 98.00
+LL: step...
+Farm Rivendale now has 300.00
+Farm Sunnybrook now has 300.00
+Farm TN now has 96.00
+a17: Twang!
+p3: Ouch!
+a4: Twang!
+p7: Ouch!
+a7: I'm attacking!
+p10: I'm there!
+p2: Waiting 
+p3: step...
+p6: I'm there!
+p7: Deposited 30.23
+p7: I'm on the way
+p8: step...
+
+Time 125: Enter command: Farm AA now has 28.00
+Farm JA now has 100.00
+LL: I'm there!
+Farm Rivendale now has 302.00
+Farm Sunnybrook now has 302.00
+Farm TN now has 98.00
+a17: Twang!
+p3: Arrggh!
+a17: I triumph!
+a17: I'm attacking!
+a4: Twang!
+p7: Ouch!
+a7: Twang!
+p7: Ouch!
+p10: Collected 35.00
+p10: I'm on the way
+p2: Waiting 
+p6: Deposited 34.85
+p6: I'm on the way
+p7: step...
+p8: step...
+
+Time 126: Enter command: Farm AA now has 30.00
+Farm JA now has 102.00
+LL: Collected 31.67
+LL: I'm on the way
+Farm Rivendale now has 304.00
+Farm Sunnybrook now has 304.00
+Farm TN now has 65.00
+a16: I'm attacking!
+a17: Twang!
+p10: Ouch!
+a4: Twang!
+p7: Arrggh!
+a4: I triumph!
+a4: I'm attacking!
+a7: Target is dead
+p10: step...
+p2: Collected 3.17
+p2: I'm on the way
+p6: step...
+p8: step...
+
+Time 127: Enter command: Farm AA now has 32.00
+Farm JA now has 104.00
+LL: step...
+Farm Rivendale now has 306.00
+Farm Sunnybrook now has 306.00
+Farm TN now has 67.00
+a16: Target is dead
+a17: Twang!
+p10: Ouch!
+a4: Twang!
+p8: Ouch!
+p10: step...
+p2: step...
+p6: step...
+p8: I'm there!
+
+Time 128: Enter command: Farm AA now has 34.00
+Farm JA now has 106.00
+LL: step...
+Farm Rivendale now has 308.00
+Farm Sunnybrook now has 308.00
+Farm TN now has 69.00
+a17: Target is now out of range
+a4: Twang!
+p8: Ouch!
+a7: I'm attacking!
+p10: step...
+p2: step...
+p6: I'm there!
+p8: Deposited 35.00
+p8: I'm on the way
+
+Time 129: Enter command: Farm AA now has 36.00
+Farm JA now has 108.00
+LL: I'm there!
+Farm Rivendale now has 310.00
+Farm Sunnybrook now has 310.00
+Farm TN now has 71.00
+a17: I'm attacking!
+a4: Twang!
+p8: Arrggh!
+a4: I triumph!
+a7: Target is dead
+p10: step...
+p2: I'm there!
+p6: Collected 6.21
+p6: I'm on the way
+
+Time 130: Enter command: Farm AA now has 38.00
+Farm JA now has 110.00
+LL: Deposited 31.67
+LL: I'm on the way
+Farm Rivendale now has 312.00
+Farm Sunnybrook now has 312.00
+Farm TN now has 73.00
+a17: Twang!
+LL: Arrggh!
+a17: I triumph!
+a17: I'm attacking!
+p10: step...
+p2: Deposited 3.17
+p2: I'm on the way
+p6: step...
+
+Time 131: Enter command: Farm AA now has 40.00
+Farm JA now has 112.00
+Farm Rivendale now has 314.00
+Farm Sunnybrook now has 314.00
+Farm TN now has 75.00
+a17: Twang!
+p2: Ouch!
+p10: I'm there!
+p2: step...
+p6: step...
+
+Time 132: Enter command: Farm AA now has 42.00
+Farm JA now has 114.00
+Farm Rivendale now has 316.00
+Farm Sunnybrook now has 316.00
+Farm TN now has 77.00
+a17: Target is now out of range
+p10: Deposited 35.00
+p10: I'm on the way
+p2: step...
+p6: I'm there!
+
+Time 133: Enter command: Farm AA now has 44.00
+Farm JA now has 116.00
+Farm Rivendale now has 318.00
+Farm Sunnybrook now has 318.00
+Farm TN now has 79.00
+p10: step...
+p2: I'm there!
+p6: Deposited 6.21
+p6: I'm on the way
+
+Time 134: Enter command: Farm AA now has 46.00
+Farm JA now has 118.00
+Farm Rivendale now has 320.00
+Farm Sunnybrook now has 320.00
+Farm TN now has 81.00
+p10: step...
+p2: Collected 5.90
+p2: I'm on the way
+p6: step...
+
+Time 135: Enter command: Farm AA now has 48.00
+Farm JA now has 120.00
+Farm Rivendale now has 322.00
+Farm Sunnybrook now has 322.00
+Farm TN now has 83.00
+p10: step...
+p2: step...
+p6: step...
+
+Time 136: Enter command: Farm AA now has 50.00
+Farm JA now has 122.00
+Farm Rivendale now has 324.00
+Farm Sunnybrook now has 324.00
+Farm TN now has 85.00
+p10: step...
+p2: step...
+p6: I'm there!
+
+Time 137: Enter command: Farm AA now has 52.00
+Farm JA now has 124.00
+Farm Rivendale now has 326.00
+Farm Sunnybrook now has 326.00
+Farm TN now has 87.00
+a17: I'm attacking!
+p10: step...
+p2: I'm there!
+p6: Collected 31.97
+p6: I'm on the way
+
+Time 138: Enter command: Farm AA now has 54.00
+Farm JA now has 126.00
+Farm Rivendale now has 328.00
+Farm Sunnybrook now has 328.00
+Farm TN now has 89.00
+a17: Twang!
+p6: Arrggh!
+a17: I triumph!
+a17: I'm attacking!
+p10: I'm there!
+p2: Deposited 5.90
+p2: I'm on the way
+
+Time 139: Enter command: Farm AA now has 56.00
+Farm JA now has 128.00
+Farm Rivendale now has 330.00
+Farm Sunnybrook now has 330.00
+Farm TN now has 91.00
+a17: Twang!
+p10: Arrggh!
+a17: I triumph!
+a17: I'm attacking!
+p2: step...
+
+Time 140: Enter command: Farm AA now has 58.00
+Farm JA now has 130.00
+Farm Rivendale now has 332.00
+Farm Sunnybrook now has 332.00
+Farm TN now has 93.00
+a17: Target is now out of range
+p2: step...
+
+Time 141: Enter command: Farm AA now has 60.00
+Farm JA now has 132.00
+Farm Rivendale now has 334.00
+Farm Sunnybrook now has 334.00
+Farm TN now has 95.00
+p2: I'm there!
+
+Time 142: Enter command: Farm AA now has 62.00
+Farm JA now has 134.00
+Farm Rivendale now has 336.00
+Farm Sunnybrook now has 336.00
+Farm TN now has 97.00
+p2: Waiting 
+
+Time 143: Enter command: Farm AA now has 64.00
+Farm JA now has 136.00
+Farm Rivendale now has 338.00
+Farm Sunnybrook now has 338.00
+Farm TN now has 99.00
+p2: Waiting 
+
+Time 144: Enter command: Farm AA now has 66.00
+Farm JA now has 138.00
+Farm Rivendale now has 340.00
+Farm Sunnybrook now has 340.00
+Farm TN now has 101.00
+p2: Waiting 
+
+Time 145: Enter command: Farm AA now has 68.00
+Farm JA now has 140.00
+Farm Rivendale now has 342.00
+Farm Sunnybrook now has 342.00
+Farm TN now has 103.00
+p2: Waiting 
+
+Time 146: Enter command: Farm AA now has 70.00
+Farm JA now has 142.00
+Farm Rivendale now has 344.00
+Farm Sunnybrook now has 344.00
+Farm TN now has 105.00
+p2: Waiting 
+
+Time 147: Enter command: Farm AA now has 72.00
+Farm JA now has 144.00
+Farm Rivendale now has 346.00
+Farm Sunnybrook now has 346.00
+Farm TN now has 107.00
+p2: Waiting 
+
+Time 148: Enter command: Farm AA now has 74.00
+Farm JA now has 146.00
+Farm Rivendale now has 348.00
+Farm Sunnybrook now has 348.00
+Farm TN now has 109.00
+p2: Waiting 
+
+Time 149: Enter command: Farm AA now has 76.00
+Farm JA now has 148.00
+Farm Rivendale now has 350.00
+Farm Sunnybrook now has 350.00
+Farm TN now has 111.00
+p2: Waiting 
+
+Time 150: Enter command: Farm AA now has 78.00
+Farm JA now has 150.00
+Farm Rivendale now has 352.00
+Farm Sunnybrook now has 352.00
+Farm TN now has 113.00
+p2: Waiting 
+
+Time 151: Enter command: Farm AA now has 80.00
+Farm JA now has 152.00
+Farm Rivendale now has 354.00
+Farm Sunnybrook now has 354.00
+Farm TN now has 115.00
+p2: Waiting 
+
+Time 152: Enter command: Farm AA now has 82.00
+Farm JA now has 154.00
+Farm Rivendale now has 356.00
+Farm Sunnybrook now has 356.00
+Farm TN now has 117.00
+p2: Waiting 
+
+Time 153: Enter command: Farm AA now has 84.00
+Farm JA now has 156.00
+Farm Rivendale now has 358.00
+Farm Sunnybrook now has 358.00
+Farm TN now has 119.00
+p2: Waiting 
+
+Time 154: Enter command: Farm AA now has 86.00
+Farm JA now has 158.00
+Farm Rivendale now has 360.00
+Farm Sunnybrook now has 360.00
+Farm TN now has 121.00
+p2: Waiting 
+
+Time 155: Enter command: Farm AA now has 88.00
+Farm JA now has 160.00
+Farm Rivendale now has 362.00
+Farm Sunnybrook now has 362.00
+Farm TN now has 123.00
+p2: Waiting 
+
+Time 156: Enter command: Farm AA now has 90.00
+Farm JA now has 162.00
+Farm Rivendale now has 364.00
+Farm Sunnybrook now has 364.00
+Farm TN now has 125.00
+p2: Waiting 
+
+Time 157: Enter command: Farm AA now has 92.00
+Farm JA now has 164.00
+Farm Rivendale now has 366.00
+Farm Sunnybrook now has 366.00
+Farm TN now has 127.00
+p2: Waiting 
+
+Time 158: Enter command: Farm AA now has 94.00
+Farm JA now has 166.00
+Farm Rivendale now has 368.00
+Farm Sunnybrook now has 368.00
+Farm TN now has 129.00
+p2: Waiting 
+
+Time 159: Enter command: Farm AA now has 96.00
+Farm JA now has 168.00
+Farm Rivendale now has 370.00
+Farm Sunnybrook now has 370.00
+Farm TN now has 131.00
+p2: Waiting 
+
+Time 160: Enter command: Farm AA now has 98.00
+Farm JA now has 170.00
+Farm Rivendale now has 372.00
+Farm Sunnybrook now has 372.00
+Farm TN now has 133.00
+p2: Waiting 
+
+Time 161: Enter command: Farm AA now has 100.00
+Farm JA now has 172.00
+Farm Rivendale now has 374.00
+Farm Sunnybrook now has 374.00
+Farm TN now has 135.00
+p2: Waiting 
+
+Time 162: Enter command: Farm AA now has 102.00
+Farm JA now has 174.00
+Farm Rivendale now has 376.00
+Farm Sunnybrook now has 376.00
+Farm TN now has 137.00
+p2: Waiting 
+
+Time 163: Enter command: Display size: 30, scale: 1.00, origin: (9.00, -1.00)
+99, A3, JA, NY, Paduca, SZ, Sunnybrook, TN, a16, a17, default, p2 outside the map
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . * . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  17 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . a7. . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . a4. . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+   5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . a1. . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+     9    12    15    18    21    24    27    30    33    36
+Current Health:
+--------------
+99: 5.00
+A3: 1.00
+a11: 5.00
+a16: 5.00
+a17: 3.00
+a18: 1.00
+a4: 5.00
+a7: 5.00
+default: 5.00
+p2: 4.00
+--------------
+Current Amounts:
+--------------
+99: 0.00
+AA: 102.00
+JA: 174.00
+NY: 9.45
+Paduca: 0.00
+Rivendale: 376.00
+SZ: 0.66
+Shire: 0.00
+Sunnybrook: 376.00
+TN: 137.00
+p2: 0.00
+--------------
+Local view for: JSS
+     . . . . a1. . . * 
+     . . . . . . . . . 
+   6 . . . . . . . . a4
+     . . . . . . . . . 
+     . . . . * . . . . 
+   0 . . . NY. . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -6 . . . . . . . . . 
+    -7    -1     5
+Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . * . 
+  17 . . . . . . . . . 
+     . . a7. . . . . . 
+     . . . . . . . . . 
+  11 . . . . . . . . . 
+     . . * . . . . . . 
+     . . . . . . . . . 
+   5 . . a4. . . . . . 
+     5    11    17
+Local view for: Wu
+     . . . . . . . . . 
+     . . . . . . . . . 
+   3 . . . . . * . . . 
+     . . . . . . . . . 
+     . . . . NY. . . . 
+  -3 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -9 . . . . . . . . . 
+    -9    -3     3
+Local view for: AA
+     . . . . . . . . . 
+     . . . . a7. . . . 
+  13 . . . . . . . . . 
+     . . . . . . . . . 
+     a1. . . * . . . . 
+   7 . . . . . . . . . 
+     . . . . a4. . . . 
+     * . . . . . . . . 
+   1 . . . . . . . . . 
+     1     7    13
+Local view for: SZ
+     . . . . . . . . . 
+     . . . . . . . . . 
+  -7 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+ -13 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+ -19 . . . . . . . . . 
+   -19   -13    -7
+
+Time 163: Enter command: Peasant 99 at (100.00, 0.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Archer A3 at (30.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Farm AA at (10.00, 10.00)
+   Food available: 102.00
+Farm JA at (-12.00, -20.00)
+   Food available: 174.00
+Town_Hall NY at (0.00, 0.00)
+   Contains 9.45
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 376.00
+Town_Hall SZ at (-10.00, -10.00)
+   Contains 0.66
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 376.00
+Farm TN at (2.00, 3.00)
+   Food available: 137.00
+Archer a11 at (25.00, 3.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer a16 at (2.00, 10.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer a17 at (2.00, 3.00)
+   Health is 3
+   Stopped
+   Not attacking
+Archer a18 at (20.00, 20.00)
+   Health is 1
+   Stopped
+   Not attacking
+Archer a4 at (10.00, 6.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer a7 at (10.00, 16.00)
+   Health is 5
+   Stopped
+   Not attacking
+Soldier default at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Not attacking
+Peasant p2 at (-10.00, -10.00)
+   Health is 4
+   Stopped
+   Carrying 0.00
+   Collecting at source SZ
+
+Time 163: Enter command: Done
