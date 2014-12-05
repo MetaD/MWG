@@ -1,12 +1,14 @@
 #ifndef COMMANDER_H
 #define COMMANDER_H
 
-#include "Soldier.h"
+#include "Warrior.h"
 #include <string>
 #include <memory>
 
+class Soldier;
 
-class Commander : public Soldier {
+
+class Commander : public Warrior {
 public:
 	Commander(const std::string& name_, Point location_);
 
