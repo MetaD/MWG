@@ -17,25 +17,26 @@ class Agent : public Component, public std::enable_shared_from_this<Agent>
 {
 public:
 	// return true if this agent is Alive
-	bool is_alive() const { return alive; }
+	bool is_alive() const override
+    { return alive; }
 
 	// return this Agent's location
 	Point get_location() const override;
 
 	// return true if this Agent is in motion
-	bool is_moving() const;
+	bool is_moving() const override;
 
 	// tell this Agent to start moving to location destination_
-	virtual void move_to(Point destination_);
+    void move_to(Point destination_) override;
 
 	// tell this Agent to stop its activity
-	virtual void stop();
+    void stop() override;
 
 	// Tell this Agent to accept a hit from an attack of a specified strength
 	// The attacking Agent identifies itself with its this pointer.
 	// A derived class can override this function.
 	// The function lose_health is called to handle the effect of the attack.
-	virtual void take_hit(int attack_strength, std::shared_ptr<Agent> attacker_ptr);
+    void take_hit(int attack_strength, std::shared_ptr<Agent> attacker_ptr) override;
 
 	// update the moving state and Agent state of this object.
 	void update() override;
@@ -48,10 +49,10 @@ public:
 
 	/* Fat Interface for derived classes */
 	// Throws exception that an Agent cannot work.
-	virtual void start_working(std::shared_ptr<Structure>, std::shared_ptr<Structure>);
+    void start_working(std::shared_ptr<Structure>, std::shared_ptr<Structure>) override;
 
 	// Throws exception that an Agent cannot attack.
-	virtual void start_attacking(std::shared_ptr<Agent>);
+    void start_attacking(std::shared_ptr<Agent> target_) override;
 
 protected:
 	// Protected constructor to prevent direct creation.
