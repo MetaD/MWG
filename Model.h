@@ -20,9 +20,8 @@ class View;
 class Sim_object;
 class Agent;
 class Structure;
-class Point;
-
 class Component;
+class Point;
 
 class Model {
 public:
@@ -40,12 +39,12 @@ public:
 	// will throw Error("Structure not found!") if no structure of that name
 	std::shared_ptr<Structure> get_structure_ptr(const std::string& name) const;
 
-	// is there an agent with this name?
+	// is there an agent/composite of agents with this name?
 	bool is_agent_present(const std::string& name) const;
 	// add a new agent; assumes none with the same name
-	void add_agent(std::shared_ptr<Agent>);
+	void add_agent_component(std::shared_ptr<Component>);
 	// remove an agent from all containers
-	void remove_agent(std::shared_ptr<Agent>);
+	void remove_agent_component(std::shared_ptr<Component>);
 	// will throw Error("Agent not found!") if no agent of that name
 	std::shared_ptr<Component> get_component_ptr(const std::string& name) const;
 

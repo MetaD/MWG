@@ -5,6 +5,8 @@
 #include "Structure.h"
 #include "Structure_factory.h"
 #include "Agent_factory.h"
+#include "Component.h"
+#include "Composite.h"
 
 #include "Map_View.h"
 #include "Local_View.h"
@@ -24,6 +26,7 @@ using std::pair;
 using std::shared_ptr;
 using std::make_shared;
 using std::find_if;
+using std::dynamic_pointer_cast;
 
 // A helper function for build and train to read input name and type
 static pair<string, string> read_object_name_type();
@@ -34,6 +37,12 @@ static Point read_point();
 // A helper function that read a structure name and check its existence
 static shared_ptr<Structure> read_Structure();
 
+// A helper function that read an agent name and check its existence
+static shared_ptr<Agent> read_Agent();
+
+// A helper function that returns the group pointer
+// and throws an Error if it is a single agent
+static shared_ptr<Component> get_group(const string& name);
 
 void Controller::run() {
 
@@ -53,13 +62,18 @@ void Controller::run() {
 		{"status", &Controller::status},
 		{"go", &Controller::go},
 		{"build", &Controller::build},
-		{"train", &Controller::train}
+		{"train", &Controller::train},
+		{"group", &Controller::create_group},
+		{"ungroup", &Controller::dismiss_group}
 	};
-	map<string, void (Controller::*)(string& name)> agent_cmd_func {
+	map<string, void (Controller::*)(const string& name)> agent_cmd_func {
 		{"move", &Controller::agent_move},
 		{"work", &Controller::agent_work},
 		{"attack", &Controller::agent_attack},
-		{"stop", &Controller::agent_stop}
+		{"stop", &Controller::agent_stop},
+		// Group commands:
+		{"add", &Controller::group_add},
+		{"remove", &Controller::group_remove}
 	};
 
 	// start action
@@ -221,7 +235,7 @@ void Controller::train() {
 	auto name_type_pair = read_object_name_type();
 	Point location = read_point();
 	shared_ptr<Agent> new_agent = create_agent(name_type_pair.first, name_type_pair.second, location);
-	Model::get_model().add_agent(new_agent);
+	Model::get_model().add_agent_component(new_agent);
 }
 
 // A helper function for build and train to read input name and type, and check name
@@ -238,7 +252,21 @@ static pair<string, string> read_object_name_type() {
 	return make_pair(name, type);
 }
 
-void Controller::agent_move(string& name) {
+void Controller::create_group() {
+	string group_name;
+	cin >> group_name;
+	shared_ptr<Composite> new_compo(new Composite(group_name));
+	Model::get_model().add_agent_component(new_compo);
+}
+
+void Controller::dismiss_group() {
+	string group_name;
+	cin >> group_name;
+	shared_ptr<Component> group = get_group(group_name);
+	Model::get_model().remove_agent_component(group);
+}
+
+void Controller::agent_move(const string& name) {
 	Point destination = read_point();
 	Model::get_model().get_component_ptr(name)->move_to(destination);
 }
@@ -252,7 +280,7 @@ static Point read_point() {
 	return Point(x_in, y_in);
 }
 
-void Controller::agent_work(string& name) {
+void Controller::agent_work(const string& name) {
 	shared_ptr<Structure> source = read_Structure();
 	shared_ptr<Structure> destination = read_Structure();
 	Model::get_model().get_component_ptr(name)->start_working(source, destination);
@@ -265,15 +293,36 @@ static shared_ptr<Structure> read_Structure() {
 	return Model::get_model().get_structure_ptr(stc_name);
 }
 
-void Controller::agent_attack(string& name) {
-	string target_name;
-	cin >> target_name;
-	shared_ptr<Agent> target =
-    std::dynamic_pointer_cast<Agent>(Model::get_model().get_component_ptr(target_name));
-    
-	Model::get_model().get_component_ptr(name)->start_attacking(target);
+void Controller::agent_attack(const string& name) {
+	shared_ptr<Agent> target_ptr = read_Agent();
+	Model::get_model().get_component_ptr(name)->start_attacking(target_ptr);
 }
 
-void Controller::agent_stop(string& name) {
+void Controller::agent_stop(const string& name) {
 	Model::get_model().get_component_ptr(name)->stop();
+}
+
+void Controller::group_add(const string& name) {
+	shared_ptr<Component> to_add = read_Agent();
+	get_group(name)->add_component(to_add);
+}
+
+void Controller::group_remove(const string& name) {
+	get_group(name)->remove_component(name);
+}
+
+static shared_ptr<Agent> read_Agent() {
+	string agent_name;
+	cin >> agent_name;
+	shared_ptr<Component> agent_ptr = Model::get_model().get_component_ptr(agent_name);
+	if (agent_ptr->is_composite())
+		throw Error(agent_name + " is not an agent!");
+	return dynamic_pointer_cast<Agent>(agent_ptr);
+}
+
+static shared_ptr<Component> get_group(const string& name) {
+	shared_ptr<Component> group = Model::get_model().get_component_ptr(name);
+	if (!group->is_composite())
+		throw Error(name + " is not a group!");
+	return group;
 }

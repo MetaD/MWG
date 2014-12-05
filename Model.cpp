@@ -82,13 +82,13 @@ bool Model::is_agent_present(const string& name) const {
 	return agents.find(name) != agents.end();
 }
 
-void Model::add_agent(shared_ptr<Agent> new_agt) {
-	agents.insert({new_agt->get_name(), new_agt});
-	sim_objects.insert({new_agt->get_name(), new_agt});
-	new_agt->broadcast_current_state();
+void Model::add_agent_component(shared_ptr<Component> new_compo) {
+	agents.insert({new_compo->get_name(), new_compo});
+	sim_objects.insert({new_compo->get_name(), new_compo});
+	new_compo->broadcast_current_state();
 }
 
-void Model::remove_agent(shared_ptr<Agent> agent) {
+void Model::remove_agent_component(shared_ptr<Component> agent) {
 	string name = agent->get_name();
 	sim_objects.erase(name);
 	agents.erase(name);
@@ -149,39 +149,36 @@ void Model::notify_gone(const std::string& name) {
 		v->update_remove(name);
 }
 
-
-std::shared_ptr<Agent> Model::nearest_agent(const std::string& name, Point location) {
+shared_ptr<Agent> Model::nearest_agent(const std::string& name, Point location) {
     return nearest_to<Agent, Component>(name, location, agents);
 }
 
-
-std::shared_ptr<Structure> Model::nearest_structure(const std::string& name, Point location) {
+shared_ptr<Structure> Model::nearest_structure(const std::string& name, Point location) {
     return nearest_to<Structure, Structure>(name, location, structures);
 }
-
 
 // Helper function to find the nearest "T" to "obj" in the map
 template<typename T, typename C>
 shared_ptr<T> nearest_to(const string& name, const Point& location,
                          const map<string, shared_ptr<C>> & container) {
-    
+
     double min_dist = std::numeric_limits<double>::max();
     shared_ptr<T> rst;
-    
+
     for(auto & i: container){
         shared_ptr<T> i_ptr = std::dynamic_pointer_cast<T>(i.second);
-        
+
         //they are different type or they are the same object
         if(i.first == name || !i_ptr) continue;
         
         double dist = cartesian_distance(location, i.second->get_location());
-        
+
         if(dist < min_dist){
             min_dist = dist;
             rst = i_ptr;
         } // don't worry dist == min_dist case. min_dist's name cames first
     }
-    
+
     return rst;
 }
 

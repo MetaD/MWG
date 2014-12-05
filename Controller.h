@@ -31,11 +31,15 @@ private:
 	void go();
 	void build();
 	void train();
+	void create_group();
+	void dismiss_group();
 
-	void agent_move(std::string& name);
-	void agent_work(std::string& name);
-	void agent_attack(std::string& name);
-	void agent_stop(std::string& name);
+	void agent_move(const std::string& name);
+	void agent_work(const std::string& name);
+	void agent_attack(const std::string& name);
+	void agent_stop(const std::string& name);
+	void group_add(const std::string& name);	// add a member to a group
+	void group_remove(const std::string& name);	// remove a member from a group
 
 	// Views
 	using view_list_t = std::vector<std::pair<std::string, std::shared_ptr<View>>>;

@@ -25,7 +25,7 @@ void Commander::update() {
 		cartesian_distance(steward->get_location(), get_location()) > steward_dismiss_distance_c) {
 		// steward dismissed silently when out of the range
 		Model::get_model().notify_gone(steward->get_name());
-		Model::get_model().remove_agent(steward);
+		Model::get_model().remove_agent_component(steward);
 		steward.reset();
 	}
 }
@@ -50,7 +50,7 @@ void Commander::take_hit(int attack_strength, std::shared_ptr<Agent> attacker_pt
 		cout << get_name() << ": We will fight as one!" << endl;
 		steward = std::make_shared<Soldier>(get_name() + "_steward", attacker_ptr->get_location(),
 											steward_initial_health_c);
-		Model::get_model().add_agent(steward);
+		Model::get_model().add_agent_component(steward);
 		// command it to attack the attacker
 		steward->start_attacking_noexcept(attacker_ptr);
 		return;

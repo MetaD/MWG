@@ -9,7 +9,6 @@ void Component::add_component(std::shared_ptr<Component> elem)
     throw Error( get_name() + ": I cannot Add a component!");
 }
 
-
 //remove this component from its parent
 void Component::remove_component(const std::string& name)
 {
