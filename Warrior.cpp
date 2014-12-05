@@ -36,7 +36,6 @@ void Warrior::update() {
 	}
 	make_sound();
     to_attack->take_hit(strength, shared_from_this());
-    //??? todo
     
 	if (!to_attack->is_alive()) {
 		cout << get_name() << ": I triumph!" << endl;

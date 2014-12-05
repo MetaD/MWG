@@ -9,9 +9,9 @@ using std::shared_ptr;
 using std::make_shared;
 
 const int Commander_initial_strenth_c = 2;
-const double Commander_initial_attack_range_c = 2.0;
+const double Commander_initial_attack_range_c = 2.5;
 const int steward_initial_health_c = 1;
-const int steward_leaving_distance_c = 5;
+const int steward_dismiss_distance_c = 5;
 // when the distance between the steward and its boss exceeds this number, it will leave
 
 Commander::Commander(const std::string& name_, Point location_) :
@@ -22,7 +22,7 @@ void Commander::update() {
 	Warrior::update();
 
 	if (steward &&
-		cartesian_distance(steward->get_location(), get_location()) > steward_leaving_distance_c) {
+		cartesian_distance(steward->get_location(), get_location()) > steward_dismiss_distance_c) {
 		// steward dismissed silently when out of the range
 		Model::get_model().notify_gone(steward->get_name());
 		Model::get_model().remove_agent(steward);

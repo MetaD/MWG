@@ -33,7 +33,7 @@ public:
 	void describe() const override;
 
 	// output the sound of the weapon
-	virtual void make_sound() const noexcept {}
+	virtual void make_sound() const noexcept = 0;
 
 protected:
 	// protected constructors
