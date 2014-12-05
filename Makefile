@@ -8,7 +8,7 @@ DEBUG = -std=c++11 -O0 -g3 -std=c++11 -pedantic -pedantic-errors -Wall -Wextra -
 
 CC = g++
 LD = g++
-CFLAGS = -c -g -std=c++11 -pedantic-errors -Wall
+CFLAGS = -c -g -std=c++11 -pedantic -pedantic-errors -Wall -Wextra -Wconversion -Wno-unused-parameter
 LFLAGS = -g
 
 OBJS = p6_main.o Model.o View.o Controller.o

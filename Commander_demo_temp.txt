@@ -1,0 +1,473 @@
+Time 0: Enter command: train xxx Commander 20 25
+
+Time 0: Enter command: open xxx
+
+Time 0: Enter command: show
+Local view for: xxx
+     . . . . . . . . . 
+     . . . . Zu. . . . 
+  28 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . xx. . . . 
+  22 . . . . . . . . . 
+     . . Bu. Sh. . . . 
+     . . . . . . . . . 
+  16 . . . . . . . . . 
+    11    17    23
+
+Time 0: Enter command: xxx attack Zug
+xxx: Target is out of range!
+
+Time 0: Enter command: xxx move 20 28
+xxx: I'm on the way
+
+Time 0: Enter command: go
+Farm Rivendale now has 52.00
+Farm Sunnybrook now has 52.00
+xxx: I'm there!
+
+Time 1: Enter command: xxx attack Zug
+xxx: I'm attacking!
+
+Time 1: Enter command: xxx stop
+xxx: Don't bother me
+
+Time 1: Enter command: go
+Farm Rivendale now has 54.00
+Farm Sunnybrook now has 54.00
+xxx: Neighhh!
+Zug: Ouch!
+Zug: I'm attacking!
+
+Time 2: Enter command: go
+Farm Rivendale now has 56.00
+Farm Sunnybrook now has 56.00
+Zug: Clang!
+xxx: Ouch!
+xxx: We will fight as one!
+xxx_steward: I'm attacking!
+xxx: Neighhh!
+Zug: Ouch!
+xxx_steward: Clang!
+Zug: Arrggh!
+xxx_steward: I triumph!
+
+Time 3: Enter command: xxx move 100 100
+xxx: I'm on the way
+
+Time 3: Enter command: go
+Farm Rivendale now has 58.00
+Farm Sunnybrook now has 58.00
+xxx: step...
+xxx: Target is dead
+
+Time 4: Enter command: xxx stop
+xxx: Don't bother me
+
+Time 4: Enter command: go go go
+Farm Rivendale now has 60.00
+Farm Sunnybrook now has 60.00
+xxx: step...
+
+Time 5: Enter command: Farm Rivendale now has 62.00
+Farm Sunnybrook now has 62.00
+xxx: step...
+
+Time 6: Enter command: Farm Rivendale now has 64.00
+Farm Sunnybrook now has 64.00
+xxx: step...
+
+Time 7: Enter command: xxx stop
+xxx: Don't bother me
+
+Time 7: Enter command: show   
+Local view for: xxx
+     . . . . . . . . . 
+     . . . . . . . . . 
+  44 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . xx. . . . 
+  38 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  32 . . . . . . . . . 
+    26    32    38
+
+Time 7: Enter command: status
+Soldier Bug at (15.00, 20.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer Iriel at (20.00, 38.00)
+   Health is 5
+   Stopped
+   Not attacking
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 64.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 64.00
+Commander xxx at (34.87, 41.38)
+   Health is 3
+   Moving at speed 5.00 to (100.00, 100.00)
+   Not attacking
+
+Time 7: Enter command: train yyy Commander
+30 30
+
+Time 7: Enter command: go
+Farm Rivendale now has 66.00
+Farm Sunnybrook now has 66.00
+xxx: step...
+
+Time 8: Enter command: show
+Local view for: xxx
+     . . . . . . . . . 
+     . . . . . . . . . 
+  48 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . xx. . . . 
+  42 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  36 . . . . . . . . . 
+    30    36    42
+
+Time 8: Enter command: open yyy
+
+Time 8: Enter command: show
+Local view for: xxx
+     . . . . . . . . . 
+     . . . . . . . . . 
+  48 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . xx. . . . 
+  42 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  36 . . . . . . . . . 
+    30    36    42
+Local view for: yyy
+     . . . . . . . . . 
+     . . . . . . . . . 
+  33 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+  27 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  21 . . . . . . . . . 
+    21    27    33
+
+Time 8: Enter command: status
+Soldier Bug at (15.00, 20.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer Iriel at (20.00, 38.00)
+   Health is 5
+   Stopped
+   Not attacking
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 66.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 66.00
+Commander xxx at (38.58, 44.72)
+   Health is 3
+   Moving at speed 5.00 to (100.00, 100.00)
+   Not attacking
+Commander yyy at (30.00, 30.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 8: Enter command: yyy move 21 36
+yyy: I'm on the way
+
+Time 8: Enter command: go go go
+Farm Rivendale now has 68.00
+Farm Sunnybrook now has 68.00
+xxx: step...
+yyy: step...
+
+Time 9: Enter command: Farm Rivendale now has 70.00
+Farm Sunnybrook now has 70.00
+xxx: step...
+yyy: step...
+
+Time 10: Enter command: Iriel: I'm attacking!
+Farm Rivendale now has 72.00
+Farm Sunnybrook now has 72.00
+xxx: step...
+yyy: I'm there!
+
+Time 11: Enter command: go    
+Iriel: Twang!
+yyy: Ouch!
+yyy: I'm attacking!
+yyy: We will fight as one!
+yyy_steward: I'm attacking!
+Farm Rivendale now has 74.00
+Farm Sunnybrook now has 74.00
+xxx: step...
+yyy: Target is now out of range
+yyy_steward: Clang!
+Iriel: Ouch!
+Iriel: I'm going to run away to Paduca
+Iriel: I'm on the way
+
+Time 12: Enter command: yyy_steward work Shire Paduca
+yyy_steward: Sorry, I can't work!
+
+Time 12: Enter command: status              
+Soldier Bug at (15.00, 20.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer Iriel at (20.00, 38.00)
+   Health is 3
+   Moving at speed 5.00 to (30.00, 30.00)
+   Attacking yyy
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 74.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 74.00
+Commander xxx at (53.45, 58.10)
+   Health is 3
+   Moving at speed 5.00 to (100.00, 100.00)
+   Not attacking
+Commander yyy at (21.00, 36.00)
+   Health is 4
+   Stopped
+   Not attacking
+Soldier yyy_steward at (20.00, 38.00)
+   Health is 1
+   Stopped
+   Attacking Iriel
+
+Time 12: Enter command: train wawawa Soldier 22 40
+
+Time 12: Enter command: yyy_steward attack wawawa
+yyy_steward: Target is out of range!
+
+Time 12: Enter command: wawawa move 20 40
+wawawa: I'm on the way
+
+Time 12: Enter command: go
+Iriel: step...
+Iriel: Twang!
+yyy: Ouch!
+yyy: I'm attacking!
+yyy_steward: I'm on the way
+Farm Rivendale now has 76.00
+Farm Sunnybrook now has 76.00
+wawawa: I'm there!
+xxx: step...
+yyy: Target is now out of range
+yyy_steward: I'm there!
+yyy_steward: Clang!
+Iriel: Ouch!
+Iriel: I'm going to run away to Paduca
+Iriel: I'm on the way
+
+Time 13: Enter command: yyy_steward attack wawawa
+yyy_steward: Target is out of range!
+
+Time 13: Enter command: show
+Local view for: xxx
+     . . . . . . . . . 
+     . . . . . . . . . 
+  64 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . xx. . . . 
+  58 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  52 . . . . . . . . . 
+    48    54    60
+Local view for: yyy
+     . . . . . . . . . 
+     . . . . . . . . . 
+  39 . . . . wa. . . . 
+     . . . . . . . . . 
+     . . . . yy. . . . 
+  33 . . . . . * . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  27 . . . . . . . . . 
+    12    18    24
+
+Time 13: Enter command: train hasf Soldier 21 38
+
+Time 13: Enter command: yyy_steward attack hasf
+yyy_steward: Target is out of range!
+
+Time 13: Enter command: status
+Soldier Bug at (15.00, 20.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer Iriel at (23.90, 34.88)
+   Health is 1
+   Moving at speed 5.00 to (30.00, 30.00)
+   Attacking yyy
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 76.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 76.00
+Soldier hasf at (21.00, 38.00)
+   Health is 5
+   Stopped
+   Not attacking
+Soldier wawawa at (20.00, 40.00)
+   Health is 5
+   Stopped
+   Not attacking
+Commander xxx at (57.16, 61.45)
+   Health is 3
+   Moving at speed 5.00 to (100.00, 100.00)
+   Not attacking
+Commander yyy at (21.00, 36.00)
+   Health is 3
+   Stopped
+   Not attacking
+Soldier yyy_steward at (23.90, 34.88)
+   Health is 1
+   Stopped
+   Attacking Iriel
+
+Time 13: Enter command: show  
+Local view for: xxx
+     . . . . . . . . . 
+     . . . . . . . . . 
+  64 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . xx. . . . 
+  58 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  52 . . . . . . . . . 
+    48    54    60
+Local view for: yyy
+     . . . . . . . . . 
+     . . . . . . . . . 
+  39 . . . . wa. . . . 
+     . . . . ha. . . . 
+     . . . . yy. . . . 
+  33 . . . . . * . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  27 . . . . . . . . . 
+    12    18    24
+
+Time 13: Enter command: hasf attack yyy
+hasf: I'm attacking!
+
+Time 13: Enter command: go
+Iriel: step...
+Iriel: Target is now out of range
+Iriel: I'm attacking!
+Farm Rivendale now has 78.00
+Farm Sunnybrook now has 78.00
+hasf: Clang!
+yyy: Ouch!
+yyy: I'm attacking!
+yyy_steward: I'm on the way
+xxx: step...
+yyy: Neighhh!
+hasf: Ouch!
+yyy_steward: I'm there!
+yyy_steward: Target is now out of range
+
+Time 14: Enter command: status
+Soldier Bug at (15.00, 20.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer Iriel at (27.81, 31.75)
+   Health is 1
+   Moving at speed 5.00 to (30.00, 30.00)
+   Attacking yyy_steward
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 78.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 78.00
+Soldier hasf at (21.00, 38.00)
+   Health is 3
+   Stopped
+   Attacking yyy
+Soldier wawawa at (20.00, 40.00)
+   Health is 5
+   Stopped
+   Not attacking
+Commander xxx at (60.88, 64.79)
+   Health is 3
+   Moving at speed 5.00 to (100.00, 100.00)
+   Not attacking
+Commander yyy at (21.00, 36.00)
+   Health is 1
+   Stopped
+   Attacking hasf
+Soldier yyy_steward at (21.00, 38.00)
+   Health is 1
+   Stopped
+   Not attacking

@@ -64,7 +64,7 @@ public:
     // notify the views about an object's location
 	void notify_location(const std::string& name, Point location);
     // notify the views about an object's health
-	void notify_health(const std::string& name, double health);
+	void notify_health(const std::string& name, int health);
     // notify the views about an object's amount
 	void notify_amount(const std::string& name, double amount);
 	// notify the views that an object is now gone

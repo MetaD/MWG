@@ -9,11 +9,10 @@ using std::cout; using std::endl;
 using std::min; using std::max;
 using std::numeric_limits;
 
-const double min_distance_c = 5.0;
-
 const int overall_view_size_c = 25;
 const double initial_overall_view_scale_c = 2.0;
 const Point initial_overall_view_origin_c(-10.0, -10.0);
+const double min_side_length_c = 5.0;
 
 Overall_View::Overall_View() :
 		Grid_View(overall_view_size_c,
@@ -37,11 +36,12 @@ void Overall_View::update_location(const std::string &name, Point location) {
     min_y = min(min_y, location.y);
     max_y = max(max_y, location.y);
 
-	double distance = max(max_y - min_y, max_x - min_x);	//TODO add comments
+	double side_length = max(max_y - min_y, max_x - min_x);
+	side_length = max(side_length, min_side_length_c);
+	// side length must be big enough to make sense
 
-    distance = max(distance, min_distance_c);	//TODO add comments
-
-    Grid_View::set_scale(distance / (overall_view_size_c - 1));	//TODO add comments
+    Grid_View::set_scale(side_length / (overall_view_size_c - 1));
+    // Use (size - 1) to avoid rounding problem
 
     Grid_View::set_origin(Point(min_x, min_y));
 }

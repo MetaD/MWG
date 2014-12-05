@@ -66,7 +66,7 @@ void Agent::describe() const {
 
 void Agent::broadcast_current_state() {
 	Model::get_model().notify_location(get_name(), movement.get_current_location());
-	Model::get_model().notify_health(get_name(), double(health));
+	Model::get_model().notify_health(get_name(), health);
 }
 
 void Agent::start_working(shared_ptr<Structure>, shared_ptr<Structure>) {
@@ -79,7 +79,7 @@ void Agent::start_attacking(shared_ptr<Agent>) {
 
 void Agent::lose_health(int attack_strength) {
 	health -= health < attack_strength ? health : attack_strength;	// the less one
-	Model::get_model().notify_health(get_name(), double(health));
+	Model::get_model().notify_health(get_name(), health);
 	if (health == 0) {
 		alive = false;
 		cout << get_name() << ": Arrggh!" << endl;

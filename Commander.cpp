@@ -8,15 +8,12 @@ using std::string;
 using std::shared_ptr;
 using std::make_shared;
 
-const int Commander_initial_strenth_c = 2;
-const double Commander_initial_attack_range_c = 2.0;
 const int steward_initial_health_c = 1;
 const int steward_leaving_distance_c = 5;
-// when the distance between the steward and its master exceeds this number, it will leave
+// when the distance between the steward and its boss exceeds this number, it will leave
 
 Commander::Commander(const std::string& name_, Point location_) :
-Warrior(name_, location_, Commander_initial_strenth_c,
-Commander_initial_attack_range_c) {}
+		Soldier(name_, location_) {}
 
 void Commander::update() {
 	Warrior::update();
@@ -31,10 +28,7 @@ void Commander::update() {
 }
 
 void Commander::take_hit(int attack_strength, std::shared_ptr<Agent> attacker_ptr) {
-	Warrior::take_hit(attack_strength, attacker_ptr);
-
-	if (!attacker_ptr->is_alive())
-		return;
+	Soldier::take_hit(attack_strength, attacker_ptr);
 
 	if (!is_alive()) {
 		// steward will be harmed psychologically
@@ -42,8 +36,8 @@ void Commander::take_hit(int attack_strength, std::shared_ptr<Agent> attacker_pt
 		return;
 	}
 
-	if (!is_attacking())
-		start_attacking_noexcept(attacker_ptr);	// counter-attack
+	if (!attacker_ptr->is_alive())
+		return;
 
 	if (!steward) {
 		// Summon a soldier steward with health = 1 at the attacker's location

@@ -134,7 +134,7 @@ void Model::notify_location(const std::string& name, Point location) {
 		v->update_location(name, location);
 }
 
-void Model::notify_health(const std::string& name, double health) {
+void Model::notify_health(const std::string& name, int health) {
 	for (auto& v : views)
 		v->update_health(name, health);
 }

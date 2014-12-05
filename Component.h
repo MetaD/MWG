@@ -1,18 +1,13 @@
-
-
 #ifndef COMPONENT_H
 #define COMPONENT_H
 
 #include "Sim_object.h"
-
 #include <memory>
-
 
 class Agent;
 class Structure;
 
-class Component: public Sim_object
-{
+class Component: public Sim_object {
     
 public:
     virtual void add_component(std::shared_ptr<Component> elem);

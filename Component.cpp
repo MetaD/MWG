@@ -1,7 +1,4 @@
-
-
 #include "Component.h"
-
 #include <cassert>
 
 void Component::add_component(std::shared_ptr<Component> elem)

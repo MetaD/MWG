@@ -1,7 +1,29 @@
-Overall View
+Overall View - Feature Description
 
-Overall View is similar to map view. However, all the agents and structures must be shown in the overall view.
-The overall view has a default size of 25. The distance from its left to its right must be larger than 10.0, otherwise, it's meaningless to present in this map.
-In order to make results identical, we let the origin of the overall view to be the Point that has the minimum x value and the minimum y for every sim_object in the model. The scale of the overall map should be set with caution: scale = dist/(size-1), where size-1 is used to avoid rounding error, and dist is the maximum of the horizontal distance from the leftmost sim_object to the rightmost sim_object, and the vertical distance from the up-est sim_object to the lowerest sim_object.
-User could use "open overall" command to open the overall view in controller, and the behavior of this view in controller is identical to other views, s.t. only one overall view can be open, and all the views should be draw in order,
-When draw the overall view, "Overall View for the Map:" would be printed at the first line.
+	The Overall_View is a kind of Grid_View similar to Map_View, but it shows all the agents and structures -- no object is outside this map.
+
+	The overall view has a size of 25, and its scale and origin changes from time to time as objects updating their locations. However, The length of the sides (the distance represented by its left-to-right length) will always be greater than 10.0, otherwise it would be pointless. Users cannot change the parameters of the overall view.
+
+	A User can use "open overall" command to open the overall view, and the behavior of this view in controller is identical to other views, i.e. only one overall view can be opened, all the views will draw in order, etc. The command "close overall" will close the overall map.
+
+	When drawing the overall view, "Overall View of the world:" will be printed at the first line, followed by the 2D map.
+
+	In order to make the map look consistant, the origin of the overall view is set to be the Point with the minimum x and the minimum y value of all sim_objects in the world. The scale of the overall map is set with caution, so that no object would possibly fall out of the map.
+
+Overall View - Design
+// ?? TODO
+/* DELETED: scale = side_length/(size - 1), where side_length is the maximum horizontal distance from the leftmost sim_object to the rightmost sim_object, or maximum vertical distance from the uppermost to the lowermost, whichever is greater; and (size - 1) is used instead of size to avoid the rounding problem, so that no object would possibly fall out of the map. */
+
+------------------------------------------------------------
+
+Commander - Feature Description
+
+	The Commander is a kind of Soldier that does everything a Soldier does, and he also have a Soldier steward that can be summoned by himself. The usage of a Commander is same as the Soldier, i.e. you can use "train <name> Commander <location>" to create him, use "<name> attack <target>" to make him attacking somebody, use "<name> stop" to make him stop (which he will not do), etc. The steward has the same attack strength and range as a normal soldier, but his health is only 1 (stewards are probably less experienced in fights than normal soldiers so they are easier to be defeated).
+
+	The steward is not trained together with the Commander, instead, when the Commander was attacked, he will summon a steward to fight with him, at which time the steward will appear at the location of the attacker and start attacking him. The steward will fight and die as a normal Soldier does. When the enemy is destroyed, the steward stays in the world, but when he gets too far from his Commander (distance > 5.0), he will be automatically dismissed and (tempororily) disappear from the world. After a steward died or dismissed, the Commander can always summon another steward when he is attacked. If a steward has already been summoned when the Commander is attacked, he will either directly command the steward to attack the enemy (if enemy is in the range of the steward), or command him to move to the enemy's position (if not in range).
+
+	The Commander can only have one steward at a time, whose name will be "<Commander's name>_steward". As long as the steward stays in the world, the user can also call and command the steward to do stuff as a normal Soldier, although he will be dismissed when getting too far from the Commander.
+
+Commander - Design
+	The Commander is a type of Soldier and does everything that a Soldier does, therefore it inherits from the Soldier. The steward is exactly a Soldier, except that it is constructed with health of 1.
+	// TODO ??
