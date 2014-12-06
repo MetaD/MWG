@@ -301,15 +301,12 @@ void Controller::agent_stop(const string& name) {
 }
 
 void Controller::group_add(const string& name) {
-	shared_ptr<Component> to_add = read_Agent();
-	get_group(name)->add_component(to_add);
+	get_group(name)->add_component(read_Agent());
 }
 
 void Controller::group_remove(const string& name) {
     //?? todo
-    shared_ptr<Agent> to_remove = read_Agent();
-    
-	get_group(name)->remove_component(to_remove->get_name());
+	get_group(name)->remove_component(read_Agent()->get_name());
 }
 
 static shared_ptr<Agent> read_Agent() {

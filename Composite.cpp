@@ -44,8 +44,8 @@ void Composite::remove_component(const std::string& name)
 
 void Composite::describe() const
 {
-    cout << "Group " << get_name() <<" has " << children.size() << " components:"<<endl;
-    
+    cout << "Group " << get_name() <<" has " << children.size() << " component(s):"<<endl;
+
     for(auto &p:children)
         cout << "   " << p.second->get_name() << endl;
 }
