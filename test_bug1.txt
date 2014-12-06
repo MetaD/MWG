@@ -23,7 +23,8 @@ Town_Hall Shire at (20.00, 20.00)
    Contains 0.00
 Farm Sunnybrook at (0.00, 30.00)
    Food available: 56.00
-Group X has 3 components:Zug bus nike Soldier Zug at (15.00, 18.00)
+Group X has 3 components:Zug bus nike Soldier
+Zug at (15.00, 18.00)
    Health is 5
    Stopped
    Not attacking
