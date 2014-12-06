@@ -130,6 +130,9 @@ test: $(TEST) test.cpp
 	$(LD) $(LFLAGS) $(TEST) -o test
 	./test
 
+group: default
+	./p6exe < group_test.txt
+
 
 olddiff: default
 	./p6exe < heavy3.txt > heavy3.out

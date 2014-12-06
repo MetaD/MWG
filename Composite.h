@@ -13,11 +13,17 @@ public:
     Composite(const std::string & name)
     :Component(name){}
     
+    ~Composite();
+    
     bool is_composite() override;
     
     
     void add_component(std::shared_ptr<Component> elem) override;
     void remove_component(const std::string& name) override;
+    
+    
+    void describe() const override;
+    
     
     // tell this Agent to start moving to location destination_
     virtual void move_to(Point destination_) override;

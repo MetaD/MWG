@@ -1,0 +1,54 @@
+group A
+A add Bug
+A add Zug
+A attack Bug
+ A attack Zug
+ungroup A
+A attack Zug
+group xxx
+xxx add Zug
+
+xxx add Paduca
+xxx add Shire
+xxx add Ireil
+train WTH 10 16 skd
+ train WTH Soldier 10 16
+xxx add WTH
+xxx move 20 16
+show
+open map
+
+show
+go go go go
+
+xxx move 15 18
+
+go go
+show
+status
+xxx attack Bug
+go
+
+//bug is here
+status
+go
+
+quit
+
+
+
+
+open Bug
+train Baby Soldier 15 20
+train DM Soldier 15 20
+group A
+A add Baby
+A add Bug
+A add DM
+A attack Bug
+go
+go
+go
+status
+
+quit

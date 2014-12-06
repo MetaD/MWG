@@ -19,8 +19,15 @@ class Component: public Sim_object {
     
 public:
     
+    
+    ~Component();
+    
+    
     virtual bool is_composite()
     {return false;}
+    
+    
+    
     
     virtual void add_component(std::shared_ptr<Component> elem);
     virtual void remove_component(const std::string& name);
@@ -34,7 +41,7 @@ public:
     { throw Error(get_name() + "I do not have a location!"); }
     
     //todo ?? do nothing
-    virtual void describe() const override {}
+    virtual void describe() const override = 0;
     virtual void update() override {}
     void broadcast_current_state() override{}
     
@@ -68,7 +75,7 @@ protected:
     
     
 private:
-    std::shared_ptr<Composite> parent;
+    std::weak_ptr<Composite> parent;
 };
 
 

@@ -6,12 +6,23 @@
 #include <algorithm>
 #include <cassert>
 
+#include <iostream>
 
 #include "Agent.h" // ?? todo
 #include <iostream> // ?? todo
 
 using std::for_each; using std::bind;
 using std::shared_ptr;
+using std::cout; using std::endl;
+
+
+Composite::~Composite()
+{
+//    for(auto & p : children)
+//        p.second->set_parent(nullptr);
+//    
+//    children.clear();
+}
 
 void Composite::add_component(std::shared_ptr<Component> elem)
 {
@@ -54,8 +65,20 @@ void Composite::start_attacking(std::shared_ptr<Agent> target_)
     assert(target_);
     
     for(auto & p : children){
-        p.second->start_attacking( target_ );
+        try{
+            p.second->start_attacking( target_ );
+        }catch(...){
+            
+        }
     }
+}
+
+void Composite::describe() const
+{
+    cout << "Group " << get_name() <<" has " << children.size() << " components:";
+    
+    for(auto &p:children)
+        cout << p.second->get_name() << " ";
     
 }
 
