@@ -5,15 +5,10 @@
 #include <cassert>
 
 using std::shared_ptr;
-
-
-void Component::add_component(std::shared_ptr<Component> elem)
-{
-    throw Error(get_name() + ": I am not a group!");
-}
+using std::string;
 
 // remove this component from its parent
-void Component::remove_component(const std::string& name)	//?? TODO put it in Agent!!!
+void Component::remove_component(const string& name)	//?? TODO put it in Agent!!!
 {
     shared_ptr<Composite> parent_lock = parent.lock();
     if (name == get_name() && parent_lock) {
@@ -23,9 +18,9 @@ void Component::remove_component(const std::string& name)	//?? TODO put it in Ag
 }
 
 
-bool Component::is_ancestor(std::shared_ptr<Component> probe)
+bool Component::is_ancestor(shared_ptr<Component> probe)
 {
-    std::shared_ptr<Component> ancestor = parent.lock();
+    shared_ptr<Component> ancestor = parent.lock();
     while(ancestor){
         if(ancestor == probe) return true;
         ancestor = (ancestor->parent).lock();
