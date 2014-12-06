@@ -9,13 +9,13 @@ X move 15 18
 go go
 status
 go
-go
+go	// "nike is not in group X!"????
 show
 open map
 show
 status
 X attack Bug
-go
+go	// bus_steward disappears????
 go
 go
 ungroup X       
