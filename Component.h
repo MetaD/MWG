@@ -34,7 +34,7 @@ public:
     //todo ?? do nothing
     virtual void describe() const override = 0;
     virtual void update() override {}
-    void broadcast_current_state() override{}
+    void broadcast_current_state() override {}
     
     
     //
