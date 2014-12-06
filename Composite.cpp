@@ -1,22 +1,19 @@
-
 #include "Composite.h"
 #include "Geometry.h"
 #include "Utility.h"
+#include "Agent.h" // ?? todo
 
 #include <algorithm>
 #include <cassert>
-
 #include <iostream>
-
-#include "Agent.h" // ?? todo
-
 
 using std::for_each; using std::bind;
 using std::shared_ptr;
+using std::string;
 using std::cout; using std::endl;
 
 
-void Composite::add_component(std::shared_ptr<Component> elem)
+void Composite::add_component(shared_ptr<Component> elem)
 {
     //check is elem valid? if it's this's parent
     if( is_ancestor(elem) )
@@ -28,7 +25,7 @@ void Composite::add_component(std::shared_ptr<Component> elem)
     cout << elem->get_name() << " is added to group " << get_name() << endl;
 }
 
-void Composite::remove_component(const std::string& name)
+void Composite::remove_component(const string& name)
 {
     if (children.find(name) == children.end()){
         cout << name << " is not in group "  << get_name() << "!" << endl;
@@ -61,31 +58,27 @@ void Composite::stop()
         p.second->stop();
 }
 
-void Composite::start_working(std::shared_ptr<Structure> source_,
-                              std::shared_ptr<Structure> destination_)
+void Composite::start_working(shared_ptr<Structure> source_,
+                              shared_ptr<Structure> destination_)
 {
-    for(auto & p : children){
-        try{
+    for(auto & p : children) {
+        try {
             p.second->start_working(source_, destination_);
-        }catch (Error& err){
+        } catch (Error& err) {
             handle_error(err);
         }
     } //?? todo
 }
 
-void Composite::start_attacking(std::shared_ptr<Agent> target_)
+void Composite::start_attacking(shared_ptr<Agent> target_)
 {
     assert(target_);
-    
+
     for(auto & p : children){
-        try{
-            p.second->start_attacking( target_ );
-        }catch (Error& err){
+        try {
+            p.second->start_attacking(target_);
+        } catch (Error& err) {
             handle_error(err);
         }
     }
 }
-
-
-bool Composite::is_composite()
-{ return true; }

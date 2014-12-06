@@ -37,22 +37,18 @@ public:
     virtual void update() override {}
     void broadcast_current_state() override {}
 
-
     virtual void move_to(Point destination_) = 0;
     virtual void stop() = 0;
     virtual void start_working(std::shared_ptr<Structure>, std::shared_ptr<Structure>) = 0;
     virtual void start_attacking(std::shared_ptr<Agent> target_) = 0;
-    
+
     virtual void take_hit(int attack_strength, std::shared_ptr<Agent> attacker_ptr)
     { throw Error(get_name() + " cannot take hit!"); }	//?? todo use assert
-    
-    
-    
-    //??
+
+    //?? TODO protected!
     void set_parent(std::shared_ptr<Composite> parent_)
     { parent = parent_; }
-    
-    
+
     //return true iff probe is this component's ancestor
     bool is_ancestor(std::shared_ptr<Component> probe);
     

@@ -17,7 +17,6 @@ void Component::remove_component(const string& name)	//?? TODO put it in Agent!!
     }
 }
 
-
 bool Component::is_ancestor(shared_ptr<Component> probe)
 {
     shared_ptr<Component> ancestor = parent.lock();
