@@ -33,7 +33,7 @@ void Agent::move_to(Point destination_) {
 		cout << get_name() << ": I'm already there" << endl;
 }
 
-void Agent::stop() {
+void Agent::stop(){
 	if (movement.is_currently_moving()) {
 		movement.stop_moving();
 		cout << get_name() << ": I'm stopped" << endl;

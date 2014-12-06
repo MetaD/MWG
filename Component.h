@@ -19,10 +19,6 @@ class Component: public Sim_object {
     
 public:
     
-    
-    ~Component();
-    
-    
     virtual bool is_composite()
     {return false;}
     

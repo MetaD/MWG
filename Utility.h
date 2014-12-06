@@ -17,4 +17,10 @@ private:
 	const std::string msg;
 };
 
+
+
+
+void handle_error(const Error & err);
+
+
 #endif

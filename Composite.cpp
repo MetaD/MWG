@@ -16,14 +16,6 @@ using std::shared_ptr;
 using std::cout; using std::endl;
 
 
-Composite::~Composite()
-{
-//    for(auto & p : children)
-//        p.second->set_parent(nullptr);
-//    
-//    children.clear();
-}
-
 void Composite::add_component(std::shared_ptr<Component> elem)
 {
     //check is elem valid? if it's this's parent
@@ -41,6 +33,23 @@ void Composite::remove_component(const std::string& name)
     children.erase(name);
 }
 
+void Composite::describe() const
+{
+    cout << "Group " << get_name() <<" has " << children.size() << " components: ";
+    
+    size_t i = children.size();
+    for(auto &p:children){
+        i--;
+        cout << p.second->get_name();
+        cout << (i==0 ? "." : ", ");
+    }
+    
+    cout << endl;
+}
+
+
+
+
 void Composite::move_to(Point destination_)
 {
     for(auto & p : children)
@@ -56,8 +65,13 @@ void Composite::stop()
 void Composite::start_working(std::shared_ptr<Structure> source_,
                               std::shared_ptr<Structure> destination_)
 {
-    for(auto & p : children)
-        p.second->start_working(source_, destination_);
+    for(auto & p : children){
+        try{
+            p.second->start_working(source_, destination_);
+        }catch (Error& err){
+            handle_error(err);
+        }
+    }
 }
 
 void Composite::start_attacking(std::shared_ptr<Agent> target_)
@@ -67,19 +81,10 @@ void Composite::start_attacking(std::shared_ptr<Agent> target_)
     for(auto & p : children){
         try{
             p.second->start_attacking( target_ );
-        }catch(...){
-            
+        }catch (Error& err){
+            handle_error(err);
         }
     }
-}
-
-void Composite::describe() const
-{
-    cout << "Group " << get_name() <<" has " << children.size() << " components:";
-    
-    for(auto &p:children)
-        cout << p.second->get_name() << " ";
-    
 }
 
 

@@ -90,16 +90,13 @@ void Model::add_agent_component(shared_ptr<Component> new_compo) {
 
 void Model::remove_agent_component(shared_ptr<Component> agent) {
 	string name = agent->get_name();
-
-    
-    sim_objects.erase(name);
-    agents.erase(name);
-    
     
     for(auto &p:agents){
         p.second->remove_component(name);
     }
-
+    
+    sim_objects.erase(name);
+    agents.erase(name);
 }
 
 shared_ptr<Component> Model::get_component_ptr(const string& name) const {

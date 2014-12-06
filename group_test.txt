@@ -33,9 +33,6 @@ go
 status
 go
 
-quit
-
-
 
 
 open Bug

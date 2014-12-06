@@ -6,10 +6,6 @@
 
 using std::shared_ptr;
 
-Component::~Component()
-{
-//    remove_component(get_name());
-}
 
 void Component::add_component(std::shared_ptr<Component> elem)
 {
