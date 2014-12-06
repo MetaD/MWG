@@ -43,7 +43,7 @@ public:
     virtual void move_to(Point destination_) = 0;
     virtual void stop() = 0;
     virtual void start_working(std::shared_ptr<Structure>, std::shared_ptr<Structure>) = 0;
-    virtual void start_attacking(std::shared_ptr<Agent>) = 0;
+    virtual void start_attacking(std::shared_ptr<Agent> target_) = 0;
 
     virtual void take_hit(int attack_strength, std::shared_ptr<Agent> attacker_ptr)
     { throw Error(get_name() + "I cannot take hit!");}

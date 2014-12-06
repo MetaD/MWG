@@ -4,6 +4,11 @@
 #include "Utility.h"
 
 #include <algorithm>
+#include <cassert>
+
+
+#include "Agent.h" // ?? todo
+#include <iostream> // ?? todo
 
 using std::for_each; using std::bind;
 using std::shared_ptr;
@@ -46,7 +51,11 @@ void Composite::start_working(std::shared_ptr<Structure> source_,
 
 void Composite::start_attacking(std::shared_ptr<Agent> target_)
 {
-    for(auto & p : children)
-        p.second->start_attacking(target_);
+    assert(target_);
+    
+    for(auto & p : children){
+        p.second->start_attacking( target_ );
+    }
+    
 }
 

@@ -31,7 +31,7 @@ public:
     virtual void start_working(std::shared_ptr<Structure>, std::shared_ptr<Structure>) override;
     
     // Throws exception that an Agent cannot attack.
-    virtual void start_attacking(std::shared_ptr<Agent>) override;
+    virtual void start_attacking(std::shared_ptr<Agent> target_) override;
     
     
 

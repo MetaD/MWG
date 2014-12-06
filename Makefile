@@ -12,12 +12,24 @@ CFLAGS = -c -g -std=c++11 -pedantic -pedantic-errors -Wall -Wextra -Wconversion 
 LFLAGS = -g
 
 OBJS = p6_main.o Model.o View.o Controller.o
+OBJS += Component.o Composite.o
 OBJS += Grid_View.o Info_View.o Map_View.o Local_View.o Health_View.o Amount_View.o Overall_View.o
 OBJS += Sim_object.o Structure.o Moving_object.o Agent.o
 OBJS += Farm.o Town_Hall.o
 OBJS += Peasant.o Warrior.o Soldier.o Commander.o Archer.o
 OBJS += Agent_factory.o Structure_factory.o
 OBJS += Geometry.o Utility.o
+
+TEST = test.o Model.o View.o Controller.o
+TEST += Component.o Composite.o
+TEST += Grid_View.o Info_View.o Map_View.o Local_View.o Health_View.o Amount_View.o Overall_View.o
+TEST += Sim_object.o Structure.o Moving_object.o Agent.o
+TEST += Farm.o Town_Hall.o
+TEST += Peasant.o Warrior.o Soldier.o Commander.o Archer.o
+TEST += Agent_factory.o Structure_factory.o
+TEST += Geometry.o Utility.o
+
+
 PROG = p6exe
 
 default: $(PROG)
@@ -70,7 +82,14 @@ Farm.o: Farm.cpp Farm.h Structure.h Sim_object.h Geometry.h
 Town_Hall.o: Town_Hall.cpp Town_Hall.h Structure.h Sim_object.h Geometry.h Utility.h
 	$(CC) $(CFLAGS) Town_Hall.cpp
 
-Agent.o: Agent.cpp Agent.h Model.h Moving_object.h Sim_object.h Geometry.h Utility.h
+
+Component.o: Component.cpp Component.h Model.h Moving_object.h Sim_object.h Geometry.h Utility.h
+	$(CC) $(CFLAGS) Component.cpp
+
+Composite.o: Composite.cpp Composite.h Component.h Model.h Moving_object.h Sim_object.h Geometry.h Utility.h
+	$(CC) $(CFLAGS) Composite.cpp
+
+Agent.o: Agent.cpp Agent.h Component.h Model.h Moving_object.h Sim_object.h Geometry.h Utility.h
 	$(CC) $(CFLAGS) Agent.cpp
 
 Peasant.o: Peasant.cpp Peasant.h Agent.h Moving_object.h Sim_object.h Geometry.h Utility.h
@@ -103,6 +122,13 @@ Geometry.o: Geometry.cpp Geometry.h
 
 Utility.o: Utility.cpp Utility.h
 	$(CC) $(CFLAGS) Utility.cpp
+
+test.o: test.cpp
+	$(CC) $(CFLAGS) test.cpp
+
+test: $(TEST) test.cpp
+	$(LD) $(LFLAGS) $(TEST) -o test
+	./test
 
 
 olddiff: default
