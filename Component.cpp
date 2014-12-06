@@ -9,14 +9,14 @@ using std::shared_ptr;
 
 void Component::add_component(std::shared_ptr<Component> elem)
 {
-    throw Error( get_name() + ": I cannot Add a component!");
+    throw Error(get_name() + ": I am not a group!");
 }
 
-//remove this component from its parent
-void Component::remove_component(const std::string& name)
+// remove this component from its parent
+void Component::remove_component(const std::string& name)	//?? TODO put it in Agent!!!
 {
     shared_ptr<Composite> parent_lock = parent.lock();
-    if (name == get_name() && parent_lock ) {
+    if (name == get_name() && parent_lock) {
         parent_lock->remove_component(name);
         parent.reset();
     }

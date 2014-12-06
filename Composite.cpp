@@ -21,8 +21,7 @@ void Composite::add_component(std::shared_ptr<Component> elem)
     //check is elem valid? if it's this's parent
     if( is_ancestor(elem) )
         throw Error(get_name() + "I cannot add my ancestor as my child!");
-    
-    
+
     children[elem->get_name()] = elem;
     elem->set_parent(shared_from_this());
     
@@ -31,20 +30,20 @@ void Composite::add_component(std::shared_ptr<Component> elem)
 
 void Composite::remove_component(const std::string& name)
 {
-    if(children.find(name) == children.end()){
+    if (children.find(name) == children.end()){
         cout << name << " is not in group "  << get_name() << "!" << endl;
         return;
     }
-    
+
     Component::remove_component(name);
     children.erase(name);
-    
+
     cout << name << " is removed from group " << get_name() << endl;
 }
 
 void Composite::describe() const
 {
-    cout << "Group " << get_name() <<" has " << children.size() << " component(s):"<<endl;
+    cout << "Group " << get_name() <<" has " << children.size() << " component(s):" << endl;
 
     for(auto &p:children)
         cout << "   " << p.second->get_name() << endl;
