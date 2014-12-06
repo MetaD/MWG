@@ -59,3 +59,6 @@ void Composite::start_attacking(std::shared_ptr<Agent> target_)
     
 }
 
+
+bool Composite::is_composite()
+{ return true; }
