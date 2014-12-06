@@ -2,21 +2,16 @@
 #define COMPONENT_H
 
 #include "Sim_object.h"
-
 #include "Utility.h" //todo ??
-
 #include "Geometry.h" // todo ??
-
 #include <memory>
 
 class Agent;
 class Structure;
-
-
 class Composite;
+//?? TODO add comments
 
 class Component: public Sim_object {
-    
 public:
     
     virtual bool is_composite()	// ?? todo in agent or here?
@@ -56,11 +51,7 @@ public:
 protected:
     Component(const std::string & name)
     :Sim_object(name){}
-    
-    
-    
-    
-    
+
 private:
     std::weak_ptr<Composite> parent;
 };
