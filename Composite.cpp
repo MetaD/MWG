@@ -1,30 +1,27 @@
 
 #include "Composite.h"
-
-//#include "Agent.h"
 #include "Geometry.h"
 #include "Utility.h"
 
 #include <algorithm>
-//#include <functional>
 
 using std::for_each; using std::bind;
 using std::shared_ptr;
 
 void Composite::add_component(std::shared_ptr<Component> elem)
 {
-    if( shared_ptr<Composite> composite = std::dynamic_pointer_cast<Composite>(elem) ){
-        //add each individual to this group
-        for (auto &p: composite->children)
-            children[p.first] = p.second;
-    }else{
-        children[elem->get_name()] = elem;
-    }
-
+    //check is elem valid? if it's this's parent
+    if( is_ancestor(elem) )
+        throw Error(get_name() + "I cannot add my ancestor as my child!");
+    
+    
+    children[elem->get_name()] = elem;
+    elem->set_parent(shared_from_this());
 }
 
 void Composite::remove_component(const std::string& name)
 {
+    Component::remove_component(name);
     children.erase(name);
 }
 
@@ -40,18 +37,16 @@ void Composite::stop()
         p.second->stop();
 }
 
-
 void Composite::start_working(std::shared_ptr<Structure> source_,
                               std::shared_ptr<Structure> destination_)
 {
-//    for_each(children.begin(), children.end(),
-//             bind(&Component::start_working, source_, destination_));
     for(auto & p : children)
         p.second->start_working(source_, destination_);
-
 }
 
 void Composite::start_attacking(std::shared_ptr<Agent> target_)
 {
-//    for_each(children.begin(),children.end(), bind(&Component::start_attacking, target_));
+    for(auto & p : children)
+        p.second->start_attacking(target_);
 }
+

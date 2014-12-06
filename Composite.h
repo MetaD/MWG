@@ -7,14 +7,18 @@
 
 #include <map>
 
-class Composite: public Component //,  public std::enable_shared_from_this<Composite>
+class Composite: public Component, public std::enable_shared_from_this<Composite>
 {
 public:
     
+    Composite(const std::string & name)
+    :Component(name){}
+    
+    bool is_composite() override
+    { return true; }
+    
     void add_component(std::shared_ptr<Component> elem) override;
     void remove_component(const std::string& name) override;
-    
-    
     
     // tell this Agent to start moving to location destination_
     virtual void move_to(Point destination_) override;
@@ -28,6 +32,8 @@ public:
     
     // Throws exception that an Agent cannot attack.
     virtual void start_attacking(std::shared_ptr<Agent>) override;
+    
+    
 
     
 private:
