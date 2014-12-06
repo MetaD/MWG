@@ -25,8 +25,6 @@ void Commander::update() {
 		cartesian_distance(steward->get_location(), get_location()) > steward_dismiss_distance_c) {
 		// steward dismissed silently when out of the range
         cout << steward->get_name() <<": Good-bye, my lord " << get_name() << endl;
-        //?? todo When steward is commanded to move to leave his master, he will also die.
-        // There is 1 unit time bug.
         
 		Model::get_model().notify_gone(steward->get_name());
 		Model::get_model().remove_agent_component(steward);
