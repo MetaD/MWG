@@ -8,10 +8,10 @@ using std::string;
 using std::shared_ptr;
 using std::make_shared;
 
-const int Commander_initial_strenth_c = 2;
+const int Commander_initial_strenth_c = 1;
 const double Commander_initial_attack_range_c = 2.5;
 const int steward_initial_health_c = 1;
-const int steward_dismiss_distance_c = 5;
+const double steward_dismiss_distance_c = 8.0;
 // when the distance between the steward and its boss exceeds this number, it will leave
 
 Commander::Commander(const std::string& name_, Point location_) :
@@ -21,8 +21,6 @@ Commander::Commander(const std::string& name_, Point location_) :
 void Commander::update() {
 	Warrior::update();
 
-	if (steward)
-		cout << cartesian_distance(steward->get_location(), get_location()) << "!" << endl;
 	if (steward &&
 		cartesian_distance(steward->get_location(), get_location()) > steward_dismiss_distance_c) {
 		// steward dismissed silently when out of the range
@@ -53,8 +51,8 @@ void Commander::take_hit(int attack_strength, std::shared_ptr<Agent> attacker_pt
 	if (!steward) {
 		// Summon a soldier steward with health = 1 at the attacker's location
 		cout << get_name() << ": We will fight as one!" << endl;
-		steward = std::make_shared<Soldier>(get_name() + "_steward", attacker_ptr->get_location(),
-											steward_initial_health_c);
+		steward = make_shared<Soldier>(get_name() + "_steward",
+					attacker_ptr->get_location(), steward_initial_health_c);
 		Model::get_model().add_agent_component(steward);
 		// command it to attack the attacker
 		steward->start_attacking_noexcept(attacker_ptr);
