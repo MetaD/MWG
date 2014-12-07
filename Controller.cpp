@@ -38,7 +38,7 @@ static Point read_point();
 static shared_ptr<Structure> read_Structure();
 
 // A helper function that read an agent name and check its existence
-static shared_ptr<Agent> read_Agent();
+static shared_ptr<Component> read_Component();
 
 // A helper function that returns the group pointer
 // and throws an Error if it is a single agent
@@ -90,6 +90,8 @@ void Controller::run() {
 				cout << "Done" << endl;
 				return;
 			}
+			else if (first_word == "compo")	//??todo delete
+				Model::get_model().print_components();	//??todo delete
 			// agent command
 			else if (Model::get_model().is_agent_present(first_word)) {
 				string agent_cmd;
@@ -253,6 +255,8 @@ static pair<string, string> read_object_name_type() {
 void Controller::create_group() {
 	string group_name;
 	cin >> group_name;
+	if (Model::get_model().is_name_in_use(group_name))
+		throw Error("Invalid name for new group!");
 	shared_ptr<Composite> new_compo(new Composite(group_name));
 	Model::get_model().add_agent_component(new_compo);
 }
@@ -292,7 +296,11 @@ static shared_ptr<Structure> read_Structure() {
 }
 
 void Controller::agent_attack(const string& name) {
-	shared_ptr<Agent> target_ptr = read_Agent();
+	shared_ptr<Component> compo_ptr = read_Component();
+	// target has to be an Agent
+	shared_ptr<Agent> target_ptr = dynamic_pointer_cast<Agent>(compo_ptr);
+	if (!target_ptr)
+		throw Error(target_ptr->get_name() + "is not an agent!");
 	Model::get_model().get_component_ptr(name)->start_attacking(target_ptr);
 }
 
@@ -301,21 +309,18 @@ void Controller::agent_stop(const string& name) {
 }
 
 void Controller::group_add(const string& name) {
-	get_group(name)->add_component(read_Agent());
+	get_group(name)->add_component(read_Component());
 }
 
 void Controller::group_remove(const string& name) {
-    //?? todo
-	get_group(name)->remove_component(read_Agent()->get_name());
+	get_group(name)->remove_component(read_Component()->get_name());
 }
 
-static shared_ptr<Agent> read_Agent() {
+static shared_ptr<Component> read_Component() {
 	string agent_name;
 	cin >> agent_name;
 	shared_ptr<Component> agent_ptr = Model::get_model().get_component_ptr(agent_name);
-	if (agent_ptr->is_composite())
-		throw Error(agent_name + " is not an agent!");
-	return dynamic_pointer_cast<Agent>(agent_ptr);
+	return agent_ptr;
 }
 
 static shared_ptr<Component> get_group(const string& name) {

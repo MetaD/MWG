@@ -101,7 +101,7 @@ void Model::remove_agent_component(shared_ptr<Component> agent) {
 shared_ptr<Component> Model::get_component_ptr(const string& name) const {
 	auto agt_it = agents.find(name);
 	if (agt_it == agents.end())
-		throw Error("Agent not found!");
+		throw Error("Agent/Group not found!");
 	return agt_it->second;
 }
 
@@ -184,4 +184,15 @@ shared_ptr<T> nearest_to(const string& name, const Point& location,
 Model& Model::get_model() {
 	static Model model;
 	return model;
+}
+
+//todo
+#include <iostream>
+void Model::print_components() {
+	for (auto& compo : agents) {
+		if (compo.second->is_composite())
+			compo.second->describe();
+		else
+			std::cout << compo.first << std::endl;
+	}
 }

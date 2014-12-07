@@ -77,6 +77,9 @@ public:
 	// get the only instance of model
 	static Model& get_model();
 
+	// TODO delete
+	void print_components();
+
 private:
 	int time;
 	std::map<std::string, std::shared_ptr<Sim_object>> sim_objects;

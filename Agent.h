@@ -4,6 +4,7 @@
 #include "Component.h"
 #include "Moving_object.h"
 #include <memory>
+#include <string>
 class Structure;
 
 /*
@@ -13,8 +14,7 @@ is decreased when they take a hit. If the Agent's health > 0, it is alive.
 If its heath <= 0, it becomes dead and disappears.
 */
 
-class Agent : public Component, public std::enable_shared_from_this<Agent>
-{
+class Agent : public Component, public std::enable_shared_from_this<Agent> {
 public:
 	// return true if this agent is Alive
 	bool is_alive() const override
