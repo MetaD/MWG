@@ -1,35 +1,47 @@
 group A
 A add Bug
+A remove Bug
+A remove Bug
+A remove Zug
+A add Bug
 A add Zug
 A attack Bug
- A attack Zug
+A attack Zug
 ungroup A
 A attack Zug
-group xxx
-xxx add Zug
+group set2
+set2 add Zug
 
-xxx add Paduca
-xxx add Shire
-xxx add Ireil
-train WTH 10 16 skd
- train WTH Soldier 10 16
-xxx add WTH
-xxx move 20 16
+set2 add A
+set2 add Paduca
+set2 add Shire
+set2 add Iriel
+train WTH Soldier 10 16
+set2 add WTH
+set2 move 20 16
 show
 open map
+
+group B
+B add Bug
+B add Zug
+set2 add B
+
+
+
 
 show
 go go go go
 
-xxx move 15 18
+set2 move 15 18
+set2 remove Iriel //even if Iriel is removed, she would still execute the former command
 
 go go
 show
 status
-xxx attack Bug
+set2 attack Bug
 go
 
-//bug is here
 status
 go
 

@@ -306,7 +306,10 @@ void Controller::group_add(const string& name) {
 }
 
 void Controller::group_remove(const string& name) {
-	get_group(name)->remove_component(name);
+    //?? todo
+    shared_ptr<Agent> to_remove = read_Agent();
+    
+	get_group(name)->remove_component(to_remove->get_name());
 }
 
 static shared_ptr<Agent> read_Agent() {

@@ -24,6 +24,10 @@ void Commander::update() {
 	if (steward &&
 		cartesian_distance(steward->get_location(), get_location()) > steward_dismiss_distance_c) {
 		// steward dismissed silently when out of the range
+        cout << steward->get_name() <<": See you, my master " << get_name() << endl;
+        //?? todo When steward is commanded to move to leave his master, he will also die.
+        // There is 1 unit time bug.
+        
 		Model::get_model().notify_gone(steward->get_name());
 		Model::get_model().remove_agent_component(steward);
 		steward.reset();
@@ -33,12 +37,12 @@ void Commander::update() {
 void Commander::take_hit(int attack_strength, std::shared_ptr<Agent> attacker_ptr) {
 	Warrior::take_hit(attack_strength, attacker_ptr);
 
-	if (!is_alive()) {
+	if (!is_alive() && steward) {
 		// steward will be harmed psychologically
-		steward->lose_health(attack_strength);
+		if(steward) steward->lose_health(attack_strength);
 		return;
 	}
-
+    
 	if (!attacker_ptr->is_alive())
 		return;
 

@@ -9,7 +9,7 @@
 #include <iostream>
 
 #include "Agent.h" // ?? todo
-#include <iostream> // ?? todo
+
 
 using std::for_each; using std::bind;
 using std::shared_ptr;
@@ -25,30 +25,30 @@ void Composite::add_component(std::shared_ptr<Component> elem)
     
     children[elem->get_name()] = elem;
     elem->set_parent(shared_from_this());
+    
+    cout << elem->get_name() << " is added to group " << get_name() << endl;
 }
 
 void Composite::remove_component(const std::string& name)
 {
+    if(children.find(name) == children.end()){
+        cout << name << " is not in group "  << get_name() << "!" << endl;
+        return;
+    }
+    
     Component::remove_component(name);
     children.erase(name);
+    
+    cout << name << " is removed from group " << get_name() << endl;
 }
 
 void Composite::describe() const
 {
-    cout << "Group " << get_name() <<" has " << children.size() << " components: ";
+    cout << "Group " << get_name() <<" has " << children.size() << " components:"<<endl;
     
-    size_t i = children.size();
-    for(auto &p:children){
-        i--;
-        cout << p.second->get_name();
-        cout << (i==0 ? "." : ", ");
-    }
-    
-    cout << endl;
+    for(auto &p:children)
+        cout << "   " << p.second->get_name() << endl;
 }
-
-
-
 
 void Composite::move_to(Point destination_)
 {
@@ -71,7 +71,7 @@ void Composite::start_working(std::shared_ptr<Structure> source_,
         }catch (Error& err){
             handle_error(err);
         }
-    }
+    } //?? todo
 }
 
 void Composite::start_attacking(std::shared_ptr<Agent> target_)
