@@ -59,7 +59,7 @@ void Composite::start_working(shared_ptr<Structure> source_,
         try {
             p.second->start_working(source_, destination_);
         } catch (Error& err) {
-            handle_error(err);
+        	error_msg(err);
         }
     } //?? todo
 }
@@ -70,7 +70,7 @@ void Composite::start_attacking(shared_ptr<Agent> target_) {
         try {
             p.second->start_attacking(target_);
         } catch (Error& err) {
-            handle_error(err);
+        	error_msg(err);
         }
     }
 }
