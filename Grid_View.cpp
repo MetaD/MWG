@@ -13,6 +13,7 @@ using std::vector;
 using std::cout; using std::endl;
 using std::for_each;
 using std::setw;
+using std::max; using std::min;
 
 // map size should fall in [7, 30]
 const int max_size_c = 30;
@@ -113,6 +114,22 @@ void Grid_View::set_scale(double scale_) {
 
 void Grid_View::set_origin(Point origin_) {
     origin = origin_;
+}
+
+
+void Grid_View::update_bound(double &max_x, double &max_y, double &min_x, double &min_y)
+{
+    max_x = max_y = numeric_limits<double>::min();
+    min_x = min_y = numeric_limits<double>::max();
+    
+    for(auto & p : memory){
+        Point location = p.second;
+        min_x = min(min_x, location.x);
+        max_x = max(max_x, location.x);
+        min_y = min(min_y, location.y);
+        max_y = max(max_y, location.y);
+    }
+    
 }
 
 // Calculate the cell subscripts corresponding to the supplied location parameter,

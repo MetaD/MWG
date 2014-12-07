@@ -1,0 +1,35 @@
+open overall
+open Bug
+Bug move 20 21 Pippin move 20 20 Zug move 20 19
+show
+go go go go
+show
+Zug attack Pippin
+train Baby Peasant 100 100
+go
+show
+status
+Bug attack Pippin
+train DM Archer -100 -100
+show
+status
+go
+show
+status
+go
+build AnnArbor Town_Hall 100 101
+show
+status
+go
+build Chicago Farm -201 -101
+show
+status
+train HX Soldier 300 300
+show
+HX move 0 0
+go go go go go go go go go go
+go go go go go go go go go go
+show
+go go go go go go go go go go
+show
+quit

@@ -121,6 +121,8 @@ group: default
 commander: default
 	./p6exe < commander_test.txt
 
+view: default
+	./p6exe < overall_view_test.txt
 
 olddiff: default
 	./p6exe < heavy3.txt > heavy3.out

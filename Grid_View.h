@@ -48,6 +48,8 @@ protected:
 
     // output the outside objects
     void print_outsiders();
+    
+    void update_bound(double & max_x, double & max_y, double & min_x, double & min_y);
 
 
 private:
