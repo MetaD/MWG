@@ -55,22 +55,22 @@ void Composite::stop() {
 
 void Composite::start_working(shared_ptr<Structure> source_,
                               shared_ptr<Structure> destination_) {
-    for(auto& p: children) {
+    for (auto& p: children) {
         try {
             p.second->start_working(source_, destination_);
         } catch (Error& err) {
-        	error_msg(err);
+            cout << err.what() << endl;
         }
-    } //?? todo
+    }
 }
 
 void Composite::start_attacking(shared_ptr<Agent> target_) {
     assert(target_);
-    for(auto& p: children){
+    for (auto& p: children) {
         try {
             p.second->start_attacking(target_);
         } catch (Error& err) {
-        	error_msg(err);
+            cout << err.what() << endl;
         }
     }
 }

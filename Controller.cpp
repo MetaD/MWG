@@ -126,7 +126,9 @@ void Controller::run() {
 				throw Error("Unrecognized command!");
 		}
 		catch (Error& err) {	// project-specific errors
-            handle_error(err);
+		    cout << err.what() << endl;
+		    cin.clear();
+		    while (cin.get() != '\n');	// skip the line
 		}
 		catch (std::bad_alloc&) {
 			cout << "Memory allocation failure!" << endl;

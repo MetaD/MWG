@@ -17,10 +17,4 @@ private:
 	const std::string msg;
 };
 
-// output the error message and clear the input line
-void handle_error(const Error& err);
-
-// output the error message
-void error_msg(const Error& err);
-
 #endif
