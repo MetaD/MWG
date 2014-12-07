@@ -12,7 +12,7 @@ const int Commander_initial_strenth_c = 1;
 const double Commander_initial_attack_range_c = 2.5;
 const int steward_initial_health_c = 1;
 const double steward_dismiss_distance_c = 8.0;
-// when the distance between the steward and its boss exceeds this number, it will leave
+	// when the distance between the steward and its boss exceeds this number, it will leave
 
 Commander::Commander(const std::string& name_, Point location_) :
 		Warrior(name_, location_, Commander_initial_strenth_c,
@@ -36,7 +36,7 @@ void Commander::take_hit(int attack_strength, std::shared_ptr<Agent> attacker_pt
 	Warrior::take_hit(attack_strength, attacker_ptr);
 
 	if (!is_alive() && steward) {
-		if(steward)
+		if (steward)
 		// steward will be harmed psychologically
 			steward->lose_health(attack_strength);
 		return;

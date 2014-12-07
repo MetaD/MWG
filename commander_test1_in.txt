@@ -1,0 +1,20 @@
+group cmd
+train c1 Commander 27 21
+train c2 Commander 27 22
+train c3 Commander 27 23
+train c4 Commander 27 24
+train c5 Commander 27 25
+cmd add c1
+cmd add c2
+cmd add c3
+cmd add c4
+cmd add c5
+open overall
+show
+cmd attack c3
+go		// c2 & c3 steward appear
+show status
+c2_steward attack c2	// steward betrays!
+go		// 
+quit
+
