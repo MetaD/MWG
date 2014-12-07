@@ -13,9 +13,9 @@ using std::cout; using std::endl;
 void Composite::add_component(shared_ptr<Component> elem) {
     // check if the elem is a valid component, i.e. if it's an ancestor of this
     if (is_ancestor(elem))
-        throw Error(get_name() + " cannot add its ancestor as its child!");
+        throw Error(get_name() + " cannot add its ancestor as a child!");
     if (shared_from_this() == elem)
-        throw Error(get_name() + " cannot add itself as its child!");
+        throw Error(get_name() + " cannot add itself as a child!");
     //cout << name << " is not in group "  << get_name() << "!" << endl; todo
 
     children[elem->get_name()] = elem;

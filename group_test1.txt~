@@ -1,0 +1,22 @@
+group X
+group Y
+group Z
+group X		// Invalid name for new group!
+statur
+X add Bug
+X add Zug
+status
+ungroup X
+group X
+status
+X add Merry
+X add Y
+Y add Z
+Z add X		// z cannot add its ancestor as a child!
+Z add Z		// z cannot add itself as a child!
+Merry add Z	// Merry is not a group!
+X add Bug
+X add Zug
+X attack Merry
+status
+quit

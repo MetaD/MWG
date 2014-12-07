@@ -28,8 +28,16 @@ using std::make_shared;
 using std::find_if;
 using std::dynamic_pointer_cast;
 
+const size_t minimum_agent_name_length_c = 2;
+const size_t minimum_group_name_length_c = 1;
+
 // A helper function for build and train to read input name and type
 static pair<string, string> read_object_name_type();
+
+// A helper function that throws an error if the given name is invalid.
+// A valid name has a length of at least min_length, contains only letters
+// and numbers, and is not in use.
+static void check_name_validity(const string& name, size_t min_length);
 
 // A helper function that read two doubles and return a Point
 static Point read_point();
@@ -234,6 +242,7 @@ void Controller::build() {
 void Controller::train() {
 	auto name_type_pair = read_object_name_type();
 	Point location = read_point();
+	check_name_validity(name_type_pair.first, minimum_agent_name_length_c);
 	shared_ptr<Agent> new_agent = create_agent(name_type_pair.first, name_type_pair.second, location);
 	Model::get_model().add_agent_component(new_agent);
 }
@@ -255,10 +264,18 @@ static pair<string, string> read_object_name_type() {
 void Controller::create_group() {
 	string group_name;
 	cin >> group_name;
-	if (Model::get_model().is_name_in_use(group_name))
-		throw Error("Invalid name for new group!");
+	check_name_validity(group_name, minimum_group_name_length_c);
 	shared_ptr<Composite> new_compo(new Composite(group_name));
 	Model::get_model().add_agent_component(new_compo);
+}
+
+void check_name_validity(const string& name, size_t min_length) {
+	if (name.length() < min_length || Model::get_model().is_name_in_use(name))
+		throw Error("Invalid name for new object!");
+	for (char c : name) {
+		if (!isalnum(c))	// not a number or letter
+			throw Error("Invalid name for new object!");
+	}
 }
 
 void Controller::dismiss_group() {
