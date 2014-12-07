@@ -21,11 +21,13 @@ Commander::Commander(const std::string& name_, Point location_) :
 void Commander::update() {
 	Warrior::update();
 
+	if (steward)
+		cout << cartesian_distance(steward->get_location(), get_location()) << "!" << endl;
 	if (steward &&
 		cartesian_distance(steward->get_location(), get_location()) > steward_dismiss_distance_c) {
 		// steward dismissed silently when out of the range
-        cout << steward->get_name() <<": Good-bye, my lord " << get_name() << endl;
-        
+        cout << steward->get_name() << ": Good-bye, my lord" << endl;
+
 		Model::get_model().notify_gone(steward->get_name());
 		Model::get_model().remove_agent_component(steward);
 		steward.reset();
@@ -41,7 +43,7 @@ void Commander::take_hit(int attack_strength, std::shared_ptr<Agent> attacker_pt
 			steward->lose_health(attack_strength);
 		return;
 	}
-    
+
 	if (!attacker_ptr->is_alive())
 		return;
 
