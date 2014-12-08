@@ -33,4 +33,6 @@ status
 go
 go
 status
+Alpha move 0 0
+go go go
 quit

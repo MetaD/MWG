@@ -1,4 +1,5 @@
-Beibin-LiMacBook-Pro:mwg temp$ ./p6exe
+demo4_console.txt
+Test case for group (M2) feature.
 
 Time 0: Enter command: group Bug
 Invalid name for new object!
@@ -147,7 +148,6 @@ Farm Rivendale now has 54.00
 Farm Sunnybrook now has 54.00
 
 Time 2: Enter command: C add Zug
-Zug already has a parent!
 
 Time 2: Enter command: B add Zug
 Zug already has a parent!
@@ -168,9 +168,10 @@ Soldier Bug at (15.00, 20.00)
    Health is 5
    Stopped
    Not attacking
-Group C has 2 component(s):
+Group C has 3 component(s):
    B
    Merry
+   Zug
 Archer Iriel at (20.00, 38.00)
    Health is 5
    Stopped
@@ -199,12 +200,14 @@ Soldier Zug at (20.00, 30.00)
 Time 2: Enter command: C move 0 0
 Pippin: I'm on the way
 Merry: I'm on the way
+Zug: I'm on the way
 
 Time 2: Enter command: go
 Merry: step...
 Pippin: step...
 Farm Rivendale now has 56.00
 Farm Sunnybrook now has 56.00
+Zug: step...
 
 Time 3: Enter command: status
 Group A
@@ -216,9 +219,10 @@ Soldier Bug at (15.00, 20.00)
    Health is 5
    Stopped
    Not attacking
-Group C has 2 component(s):
+Group C has 3 component(s):
    B
    Merry
+   Zug
 Archer Iriel at (20.00, 38.00)
    Health is 5
    Stopped
@@ -239,9 +243,9 @@ Town_Hall Shire at (20.00, 20.00)
    Contains 0.00
 Farm Sunnybrook at (0.00, 30.00)
    Food available: 56.00
-Soldier Zug at (20.00, 30.00)
+Soldier Zug at (17.23, 25.84)
    Health is 5
-   Stopped
+   Moving at speed 5.00 to (0.00, 0.00)
    Not attacking
 
 Time 3: Enter command: B attack Merry
@@ -254,6 +258,7 @@ Merry: step...
 Pippin: step...
 Farm Rivendale now has 58.00
 Farm Sunnybrook now has 58.00
+Zug: step...
 
 Time 4: Enter command: status
 Group A
@@ -265,9 +270,10 @@ Soldier Bug at (15.00, 20.00)
    Health is 5
    Stopped
    Not attacking
-Group C has 2 component(s):
+Group C has 3 component(s):
    B
    Merry
+   Zug
 Archer Iriel at (20.00, 38.00)
    Health is 5
    Stopped
@@ -288,9 +294,9 @@ Town_Hall Shire at (20.00, 20.00)
    Contains 0.00
 Farm Sunnybrook at (0.00, 30.00)
    Food available: 58.00
-Soldier Zug at (20.00, 30.00)
+Soldier Zug at (14.45, 21.68)
    Health is 5
-   Stopped
+   Moving at speed 5.00 to (0.00, 0.00)
    Not attacking
 
 Time 4: Enter command: ungroup B
@@ -307,8 +313,9 @@ Soldier Bug at (15.00, 20.00)
    Health is 5
    Stopped
    Not attacking
-Group C has 1 component(s):
+Group C has 2 component(s):
    Merry
+   Zug
 Archer Iriel at (20.00, 38.00)
    Health is 5
    Stopped
@@ -329,11 +336,10 @@ Town_Hall Shire at (20.00, 20.00)
    Contains 0.00
 Farm Sunnybrook at (0.00, 30.00)
    Food available: 58.00
-Soldier Zug at (20.00, 30.00)
+Soldier Zug at (14.45, 21.68)
    Health is 5
-   Stopped
+   Moving at speed 5.00 to (0.00, 0.00)
    Not attacking
 
 Time 4: Enter command: quit
 Done
-Beibin-LiMacBook-Pro:mwg temp$ 

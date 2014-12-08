@@ -413,6 +413,31 @@ Soldier Zug at (20.00, 30.00)
    Stopped
    Not attacking
 
-Time 10: Enter command: quit
+Time 10: Enter command: Alpha move 0 0
+Alpha: I'm on the way
+
+Time 10: Enter command: go
+Alpha: step...
+Beta: Twang!
+Killer: Ouch!
+Killer: I'm attacking!
+Killer: Target is now out of range
+Farm Rivendale now has 72.00
+Farm Sunnybrook now has 72.00
+
+Time 11: Enter command: go
+Alpha: step...
+Alpha_steward: Good-bye, my lord
+Beta: Twang!
+Killer: Arrggh!
+Beta: I triumph!
+Farm Rivendale now has 74.00
+Farm Sunnybrook now has 74.00
+
+Time 12: Enter command: go
+Alpha: step...
+Farm Rivendale now has 76.00
+Farm Sunnybrook now has 76.00
+
+Time 13: Enter command: quit
 Done
-Beibin-LiMacBook-Pro:mwg temp$ 

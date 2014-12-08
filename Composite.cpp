@@ -28,8 +28,10 @@ void Composite::add_component(shared_ptr<Component> elem) {
 void Composite::remove_component(const string& name) {
     Component::remove_component(name);	// will remove this composite if required
 
-    if (children.find(name) == children.end())
-        return;
+    auto finding = children.find(name);
+    if (finding == children.end()) return;
+    
+    finding->second->set_parent(nullptr);
     children.erase(name);
 }
 

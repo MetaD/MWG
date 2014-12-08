@@ -114,8 +114,7 @@ Time 1: Enter command:
 Time 1: Enter command: Farm Rivendale now has 54.00
 Farm Sunnybrook now has 54.00
 
-Time 2: Enter command: Zug already has a parent!
-
+Time 2: Enter command: 
 Time 2: Enter command: Zug already has a parent!
 
 Time 2: Enter command: Zug already has a parent!
@@ -131,9 +130,10 @@ Soldier Bug at (15.00, 20.00)
    Health is 5
    Stopped
    Not attacking
-Group C has 2 component(s):
+Group C has 3 component(s):
    B
    Merry
+   Zug
 Archer Iriel at (20.00, 38.00)
    Health is 5
    Stopped
@@ -161,11 +161,13 @@ Soldier Zug at (20.00, 30.00)
 
 Time 2: Enter command: Pippin: I'm on the way
 Merry: I'm on the way
+Zug: I'm on the way
 
 Time 2: Enter command: Merry: step...
 Pippin: step...
 Farm Rivendale now has 56.00
 Farm Sunnybrook now has 56.00
+Zug: step...
 
 Time 3: Enter command: Group A
    is empty
@@ -176,9 +178,10 @@ Soldier Bug at (15.00, 20.00)
    Health is 5
    Stopped
    Not attacking
-Group C has 2 component(s):
+Group C has 3 component(s):
    B
    Merry
+   Zug
 Archer Iriel at (20.00, 38.00)
    Health is 5
    Stopped
@@ -199,9 +202,9 @@ Town_Hall Shire at (20.00, 20.00)
    Contains 0.00
 Farm Sunnybrook at (0.00, 30.00)
    Food available: 56.00
-Soldier Zug at (20.00, 30.00)
+Soldier Zug at (17.23, 25.84)
    Health is 5
-   Stopped
+   Moving at speed 5.00 to (0.00, 0.00)
    Not attacking
 
 Time 3: Enter command: Pippin: Sorry, I can't attack!
@@ -211,6 +214,7 @@ Time 3: Enter command: Merry: step...
 Pippin: step...
 Farm Rivendale now has 58.00
 Farm Sunnybrook now has 58.00
+Zug: step...
 
 Time 4: Enter command: Group A
    is empty
@@ -221,9 +225,10 @@ Soldier Bug at (15.00, 20.00)
    Health is 5
    Stopped
    Not attacking
-Group C has 2 component(s):
+Group C has 3 component(s):
    B
    Merry
+   Zug
 Archer Iriel at (20.00, 38.00)
    Health is 5
    Stopped
@@ -244,9 +249,9 @@ Town_Hall Shire at (20.00, 20.00)
    Contains 0.00
 Farm Sunnybrook at (0.00, 30.00)
    Food available: 58.00
-Soldier Zug at (20.00, 30.00)
+Soldier Zug at (14.45, 21.68)
    Health is 5
-   Stopped
+   Moving at speed 5.00 to (0.00, 0.00)
    Not attacking
 
 Time 4: Enter command: 
@@ -259,8 +264,9 @@ Soldier Bug at (15.00, 20.00)
    Health is 5
    Stopped
    Not attacking
-Group C has 1 component(s):
+Group C has 2 component(s):
    Merry
+   Zug
 Archer Iriel at (20.00, 38.00)
    Health is 5
    Stopped
@@ -281,9 +287,9 @@ Town_Hall Shire at (20.00, 20.00)
    Contains 0.00
 Farm Sunnybrook at (0.00, 30.00)
    Food available: 58.00
-Soldier Zug at (20.00, 30.00)
+Soldier Zug at (14.45, 21.68)
    Health is 5
-   Stopped
+   Moving at speed 5.00 to (0.00, 0.00)
    Not attacking
 
 Time 4: Enter command: Done
