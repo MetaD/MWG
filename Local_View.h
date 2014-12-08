@@ -25,6 +25,7 @@ protected:
     // print the name of the centered object
     void print_info() override;
     
+    // do nothing for Local View
     void print_outsiders(std::vector<std::string> outsiders) override {}
     
 private:

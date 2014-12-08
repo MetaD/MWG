@@ -1,5 +1,4 @@
-demo4_console.txt
-Used to illustrate M2 feature
+Beibin-LiMacBook-Pro:mwg temp$ ./p6exe
 
 Time 0: Enter command: group Bug
 Invalid name for new object!
@@ -142,7 +141,6 @@ Time 1: Enter command: A remove C
 C is not in A
 
 Time 1: Enter command: A remove Zug
-Zug is not in A
 
 Time 1: Enter command: go
 Farm Rivendale now has 54.00
@@ -155,14 +153,14 @@ Time 2: Enter command: B add Zug
 Zug already has a parent!
 
 Time 2: Enter command: A add Zug
-Zug is already in group A
+Zug already has a parent!
 
 Time 2: Enter command: C add B
 B is already in group C
 
 Time 2: Enter command: status
-Group A has 1 component(s):
-   Zug
+Group A
+   is empty
 Group B has 2 component(s):
    A
    Pippin
@@ -199,7 +197,6 @@ Soldier Zug at (20.00, 30.00)
    Not attacking
 
 Time 2: Enter command: C move 0 0
-Zug: I'm on the way
 Pippin: I'm on the way
 Merry: I'm on the way
 
@@ -208,11 +205,10 @@ Merry: step...
 Pippin: step...
 Farm Rivendale now has 56.00
 Farm Sunnybrook now has 56.00
-Zug: step...
 
-Time 3: Enter command:  status
-Group A has 1 component(s):
-   Zug
+Time 3: Enter command: status
+Group A
+   is empty
 Group B has 2 component(s):
    A
    Pippin
@@ -243,28 +239,25 @@ Town_Hall Shire at (20.00, 20.00)
    Contains 0.00
 Farm Sunnybrook at (0.00, 30.00)
    Food available: 56.00
-Soldier Zug at (17.23, 25.84)
+Soldier Zug at (20.00, 30.00)
    Health is 5
-   Moving at speed 5.00 to (0.00, 0.00)
+   Stopped
    Not attacking
 
 Time 3: Enter command: B attack Merry
-Zug: Target is out of range!
 Pippin: Sorry, I can't attack!
 
 Time 3: Enter command: A work Rivendale Shire
-Zug: Sorry, I can't work!
 
 Time 3: Enter command: go
 Merry: step...
 Pippin: step...
 Farm Rivendale now has 58.00
 Farm Sunnybrook now has 58.00
-Zug: step...
 
 Time 4: Enter command: status
-Group A has 1 component(s):
-   Zug
+Group A
+   is empty
 Group B has 2 component(s):
    A
    Pippin
@@ -295,9 +288,9 @@ Town_Hall Shire at (20.00, 20.00)
    Contains 0.00
 Farm Sunnybrook at (0.00, 30.00)
    Food available: 58.00
-Soldier Zug at (14.45, 21.68)
+Soldier Zug at (20.00, 30.00)
    Health is 5
-   Moving at speed 5.00 to (0.00, 0.00)
+   Stopped
    Not attacking
 
 Time 4: Enter command: ungroup B
@@ -308,9 +301,8 @@ Agent/Group not found!
 Time 4: Enter command: A add Pippin
 
 Time 4: Enter command: status
-Group A has 2 component(s):
+Group A has 1 component(s):
    Pippin
-   Zug
 Soldier Bug at (15.00, 20.00)
    Health is 5
    Stopped
@@ -337,10 +329,11 @@ Town_Hall Shire at (20.00, 20.00)
    Contains 0.00
 Farm Sunnybrook at (0.00, 30.00)
    Food available: 58.00
-Soldier Zug at (14.45, 21.68)
+Soldier Zug at (20.00, 30.00)
    Health is 5
-   Moving at speed 5.00 to (0.00, 0.00)
+   Stopped
    Not attacking
 
 Time 4: Enter command: quit
 Done
+Beibin-LiMacBook-Pro:mwg temp$ 

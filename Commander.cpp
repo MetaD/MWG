@@ -7,9 +7,9 @@
 using std::cout; using std::endl;
 using std::shared_ptr;
 
-const int Commander_initial_strenth_c = 1;
-const double Commander_initial_attack_range_c = 2.5;
-const int steward_initial_health_c = 1;
+static const int Commander_initial_strenth_c = 1;
+static const double Commander_initial_attack_range_c = 2.5;
+static const int steward_initial_health_c = 1;
 
 const double steward_dismiss_distance_c = 8.0;
     // when the distance between the steward and its boss exceeds this number,

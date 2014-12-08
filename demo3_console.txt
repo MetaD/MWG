@@ -1,6 +1,11 @@
+demo3_console.txt
+Test case for Commander (S1 feature), included group (M2) feature for convinence. 
 
-Time 0: Enter command: 
-Time 0: Enter command: 
+
+Time 0: Enter command: train Alpha Commander 20 20
+
+Time 0: Enter command: open Alpha show
+
 Time 0: Enter command: Local view for: Alpha
      . . . . . . . . . 
      . . . . . . . . . 
@@ -13,11 +18,16 @@ Time 0: Enter command: Local view for: Alpha
   11 . . . . . . . . . 
     11    17    23
 
-Time 0: Enter command: 
-Time 0: Enter command: 
-Time 0: Enter command: 
-Time 0: Enter command: 
-Time 0: Enter command: Group A has 2 component(s):
+Time 0: Enter command: train Beta Archer 30 30
+
+Time 0: Enter command: group A
+
+Time 0: Enter command: A add Alpha
+
+Time 0: Enter command: A add Beta
+
+Time 0: Enter command: status
+Group A has 2 component(s):
    Alpha
    Beta
 Commander Alpha at (20.00, 20.00)
@@ -57,16 +67,19 @@ Soldier Zug at (20.00, 30.00)
    Stopped
    Not attacking
 
-Time 0: Enter command: Alpha: I'm on the way
+Time 0: Enter command: A move 25 25
+Alpha: I'm on the way
 Beta: I'm on the way
 
-Time 0: Enter command: Alpha: step...
+Time 0: Enter command: go
+Alpha: step...
 Beta: step...
 Beta: I'm attacking!
 Farm Rivendale now has 52.00
 Farm Sunnybrook now has 52.00
 
-Time 1: Enter command: Alpha: I'm there!
+Time 1: Enter command: go
+Alpha: I'm there!
 Beta: I'm there!
 Beta: Twang!
 Alpha: Ouch!
@@ -76,7 +89,8 @@ Alpha_steward: I'm attacking!
 Farm Rivendale now has 54.00
 Farm Sunnybrook now has 54.00
 
-Time 2: Enter command: Alpha: Neighhh!
+Time 2: Enter command: go
+Alpha: Neighhh!
 Beta: Ouch!
 Beta: I'm going to run away to Paduca
 Beta: I'm on the way
@@ -90,14 +104,16 @@ Alpha: Ouch!
 Farm Rivendale now has 56.00
 Farm Sunnybrook now has 56.00
 
-Time 3: Enter command: Alpha: Target is now out of range
+Time 3: Enter command: go
+Alpha: Target is now out of range
 Alpha_steward: Target is now out of range
 Beta: I'm there!
 Beta: Target is now out of range
 Farm Rivendale now has 58.00
 Farm Sunnybrook now has 58.00
 
-Time 4: Enter command: Group A has 2 component(s):
+Time 4: Enter command: status
+Group A has 2 component(s):
    Alpha
    Beta
 Commander Alpha at (25.00, 25.00)
@@ -141,29 +157,37 @@ Soldier Zug at (20.00, 30.00)
    Stopped
    Not attacking
 
-Time 4: Enter command: 
-Time 4: Enter command: Alpha: I cannot attack myself!
+Time 4: Enter command: A add Alpha_steward
+
+Time 4: Enter command: A attack Alpha
+Alpha: I cannot attack myself!
 Alpha_steward: I'm attacking!
 Beta: Target is out of range!
 
-Time 4: Enter command: Alpha_steward: Clang!
+Time 4: Enter command: go
+Alpha_steward: Clang!
 Alpha: Ouch!
 Alpha: I'm attacking!
 Farm Rivendale now has 60.00
 Farm Sunnybrook now has 60.00
 
-Time 5: Enter command: Alpha: Neighhh!
+Time 5: Enter command: go
+Alpha: Neighhh!
 Alpha_steward: Arrggh!
 Alpha: I triumph!
 Farm Rivendale now has 62.00
 Farm Sunnybrook now has 62.00
 
-Time 6: Enter command: No object of that name!
+Time 6: Enter command: open Alpha_steward
+No object of that name!
 
-Time 6: Enter command: 
-Time 6: Enter command: Killer: I'm attacking!
+Time 6: Enter command: train Killer Soldier 26 26
 
-Time 6: Enter command: Group A has 2 component(s):
+Time 6: Enter command: Killer attack Alpha
+Killer: I'm attacking!
+
+Time 6: Enter command: status
+Group A has 2 component(s):
    Alpha
    Beta
 Commander Alpha at (25.00, 25.00)
@@ -207,24 +231,33 @@ Soldier Zug at (20.00, 30.00)
    Stopped
    Not attacking
 
-Time 6: Enter command: Beta: I'm attacking!
+Time 6: Enter command: go
+Beta: I'm attacking!
 Killer: Clang!
 Alpha: Arrggh!
 Killer: I triumph!
 Farm Rivendale now has 64.00
 Farm Sunnybrook now has 64.00
 
-Time 7: Enter command: 
-Time 7: Enter command: 
-Time 7: Enter command: 
-Time 7: Enter command: 
-Time 7: Enter command: 
-Time 7: Enter command: 
-Time 7: Enter command: Alpha: I'm attacking!
+Time 7: Enter command: train Alpha Commander 27 27
+
+Time 7: Enter command: train Gamma Commander 27 26
+
+Time 7: Enter command: group B
+
+Time 7: Enter command: B add Gamma
+
+Time 7: Enter command: B add Killer
+
+Time 7: Enter command: B add Alpha
+
+Time 7: Enter command: B attack Gamma
+Alpha: I'm attacking!
 Gamma: I cannot attack myself!
 Killer: I'm attacking!
 
-Time 7: Enter command: Alpha: Neighhh!
+Time 7: Enter command: go
+Alpha: Neighhh!
 Gamma: Ouch!
 Gamma: I'm attacking!
 Gamma: We will fight as one!
@@ -242,11 +275,13 @@ Gamma: Ouch!
 Farm Rivendale now has 66.00
 Farm Sunnybrook now has 66.00
 
-Time 8: Enter command: Alpha: Don't bother me
+Time 8: Enter command: B stop
+Alpha: Don't bother me
 Gamma: Don't bother me
 Killer: Don't bother me
 
-Time 8: Enter command: Group A has 1 component(s):
+Time 8: Enter command: status
+Group A has 1 component(s):
    Beta
 Commander Alpha at (27.00, 27.00)
    Health is 2
@@ -305,7 +340,8 @@ Soldier Zug at (20.00, 30.00)
    Stopped
    Not attacking
 
-Time 8: Enter command: Alpha: Neighhh!
+Time 8: Enter command: go
+Alpha: Neighhh!
 Gamma: Ouch!
 Alpha_steward: Clang!
 Gamma: Arrggh!
@@ -317,7 +353,8 @@ Killer: Target is dead
 Farm Rivendale now has 68.00
 Farm Sunnybrook now has 68.00
 
-Time 9: Enter command: Alpha: Target is dead
+Time 9: Enter command: go
+Alpha: Target is dead
 Beta: Twang!
 Killer: Ouch!
 Killer: I'm attacking!
@@ -325,7 +362,8 @@ Killer: Target is now out of range
 Farm Rivendale now has 70.00
 Farm Sunnybrook now has 70.00
 
-Time 10: Enter command: Group A has 1 component(s):
+Time 10: Enter command: status
+Group A has 1 component(s):
    Beta
 Commander Alpha at (27.00, 27.00)
    Health is 2
@@ -375,4 +413,6 @@ Soldier Zug at (20.00, 30.00)
    Stopped
    Not attacking
 
-Time 10: Enter command: Done
+Time 10: Enter command: quit
+Done
+Beibin-LiMacBook-Pro:mwg temp$ 

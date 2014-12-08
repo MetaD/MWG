@@ -25,9 +25,10 @@ protected:
 	void make_sound() const noexcept override;
 
 private:
+    // commander refers to his steward by using a weak_ptr
 	std::weak_ptr<Soldier> steward;
     
-    // disband this commander's steward
+    // if this commander's steward exists, disband the steward
     void disband_steward();
 };
 

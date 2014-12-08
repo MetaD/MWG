@@ -11,7 +11,7 @@ using std::cout; using std::endl;
 
 
 void Composite::add_component(shared_ptr<Component> elem) {
-    // check if the elem is a valid component, i.e. if it's an ancestor of this
+    // check if the elem is a valid component
     if (is_ancestor(elem))
         throw Error(get_name() + " cannot add its ancestor as a child!");
     if (shared_from_this() == elem)
@@ -69,6 +69,7 @@ void Composite::start_working(shared_ptr<Structure> source_,
         } catch (Error& err) {
             cout << err.what() << endl;
         }
+        //try and thrown error if one child cannot operate this action.
     }
 }
 
@@ -80,5 +81,6 @@ void Composite::start_attacking(shared_ptr<Agent> target_) {
         } catch (Error& err) {
             cout << err.what() << endl;
         }
+        //try and thrown error if one child cannot operate this action.
     }
 }

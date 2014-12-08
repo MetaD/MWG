@@ -9,7 +9,7 @@
 class Structure;
 
 /*
-Agents are a kind of Sim_object, and privately inherit from Moving_object.
+Agents are a kind of Component, and contains a Moving_object.
 Agents can be commanded to move to a destination. Agents have a health, which
 is decreased when they take a hit. If the Agent's health > 0, it is alive.
 If its heath <= 0, it becomes dead and disappears.

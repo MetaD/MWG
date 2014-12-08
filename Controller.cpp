@@ -323,7 +323,7 @@ void Controller::group_add(const string& name) {
 void Controller::group_remove(const string& name) {
     shared_ptr<Component> group = get_group(name);
     string removing = read_Component()->get_name();
-    if( !group->get_child(name) ) throw Error(removing + " is not in " + name);
+    if( ! group->get_child(removing) ) throw Error(removing + " is not in " + name);
     group->remove_component(removing);
 }
 

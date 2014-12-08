@@ -8,7 +8,6 @@
 class Health_View: public Info_View {
 public:
 
-
     // Save the supplied name and health for future use in a draw() call
     void update_health(const std::string& name, int health) override;
     

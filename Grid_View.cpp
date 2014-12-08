@@ -116,6 +116,7 @@ void Grid_View::update_bound(double &max_x, double &max_y, double &min_x, double
     min_x = min_y = numeric_limits<double>::max();
     
     for(auto & p : memory){
+        //check is the point a bound
         Point location = p.second;
         min_x = min(min_x, location.x);
         max_x = max(max_x, location.x);

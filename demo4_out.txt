@@ -110,8 +110,7 @@ Time 1: Enter command: A is not in A
 
 Time 1: Enter command: C is not in A
 
-Time 1: Enter command: Zug is not in A
-
+Time 1: Enter command: 
 Time 1: Enter command: Farm Rivendale now has 54.00
 Farm Sunnybrook now has 54.00
 
@@ -119,12 +118,12 @@ Time 2: Enter command: Zug already has a parent!
 
 Time 2: Enter command: Zug already has a parent!
 
-Time 2: Enter command: Zug is already in group A
+Time 2: Enter command: Zug already has a parent!
 
 Time 2: Enter command: B is already in group C
 
-Time 2: Enter command: Group A has 1 component(s):
-   Zug
+Time 2: Enter command: Group A
+   is empty
 Group B has 2 component(s):
    A
    Pippin
@@ -160,18 +159,16 @@ Soldier Zug at (20.00, 30.00)
    Stopped
    Not attacking
 
-Time 2: Enter command: Zug: I'm on the way
-Pippin: I'm on the way
+Time 2: Enter command: Pippin: I'm on the way
 Merry: I'm on the way
 
 Time 2: Enter command: Merry: step...
 Pippin: step...
 Farm Rivendale now has 56.00
 Farm Sunnybrook now has 56.00
-Zug: step...
 
-Time 3: Enter command: Group A has 1 component(s):
-   Zug
+Time 3: Enter command: Group A
+   is empty
 Group B has 2 component(s):
    A
    Pippin
@@ -202,24 +199,21 @@ Town_Hall Shire at (20.00, 20.00)
    Contains 0.00
 Farm Sunnybrook at (0.00, 30.00)
    Food available: 56.00
-Soldier Zug at (17.23, 25.84)
+Soldier Zug at (20.00, 30.00)
    Health is 5
-   Moving at speed 5.00 to (0.00, 0.00)
+   Stopped
    Not attacking
 
-Time 3: Enter command: Zug: Target is out of range!
-Pippin: Sorry, I can't attack!
+Time 3: Enter command: Pippin: Sorry, I can't attack!
 
-Time 3: Enter command: Zug: Sorry, I can't work!
-
+Time 3: Enter command: 
 Time 3: Enter command: Merry: step...
 Pippin: step...
 Farm Rivendale now has 58.00
 Farm Sunnybrook now has 58.00
-Zug: step...
 
-Time 4: Enter command: Group A has 1 component(s):
-   Zug
+Time 4: Enter command: Group A
+   is empty
 Group B has 2 component(s):
    A
    Pippin
@@ -250,18 +244,17 @@ Town_Hall Shire at (20.00, 20.00)
    Contains 0.00
 Farm Sunnybrook at (0.00, 30.00)
    Food available: 58.00
-Soldier Zug at (14.45, 21.68)
+Soldier Zug at (20.00, 30.00)
    Health is 5
-   Moving at speed 5.00 to (0.00, 0.00)
+   Stopped
    Not attacking
 
 Time 4: Enter command: 
 Time 4: Enter command: Agent/Group not found!
 
 Time 4: Enter command: 
-Time 4: Enter command: Group A has 2 component(s):
+Time 4: Enter command: Group A has 1 component(s):
    Pippin
-   Zug
 Soldier Bug at (15.00, 20.00)
    Health is 5
    Stopped
@@ -288,9 +281,9 @@ Town_Hall Shire at (20.00, 20.00)
    Contains 0.00
 Farm Sunnybrook at (0.00, 30.00)
    Food available: 58.00
-Soldier Zug at (14.45, 21.68)
+Soldier Zug at (20.00, 30.00)
    Health is 5
-   Moving at speed 5.00 to (0.00, 0.00)
+   Stopped
    Not attacking
 
 Time 4: Enter command: Done

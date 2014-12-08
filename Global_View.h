@@ -21,8 +21,8 @@ protected:
     // print the information of the Global_View
     void print_info() override;
     
+    // do nothing for Global View. Moreover, the outsiders should be empty
     void print_outsiders(std::vector<std::string> outsiders)  override;
-    
 };
 
 #endif 

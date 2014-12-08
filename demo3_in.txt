@@ -1,66 +1,36 @@
+train Alpha Commander 20 20
+open Alpha show
+train Beta Archer 30 30
 group A
-A add Bug
-A add Bug
+A add Alpha
+A add Beta
+status
+A move 25 25
+go
+go
+go
+go
+status
+A add Alpha_steward
+A attack Alpha
+go
+go
+open Alpha_steward
+train Killer Soldier 26 26
+Killer attack Alpha
+status
+go
+train Alpha Commander 27 27
+train Gamma Commander 27 26
 group B
-B add Bug
-A remove Bug
-A remove Bug
-A remove Zug
-A add Bug
-A add Zug
-A attack Bug
-A attack Zug
-ungroup A
-A attack Zug
-group set2
-set2 add Zug
-
-set2 add A
-set2 add Paduca
-set2 add Shire
-set2 add Iriel
-train WTH Soldier 10 16
-set2 add WTH
-set2 move 20 16
-show
-open map
-
-group B
-B add Bug
-B add Zug
-set2 add B
-
-
-
-
-show
-go go go go
-
-set2 move 15 18
-set2 remove Iriel //even if Iriel is removed, she would still execute the former command
-
-go go
-show
+B add Gamma
+B add Killer
+B add Alpha
+B attack Gamma
+go
+B stop
 status
-set2 attack Bug
-go
-
-status
-go
-
-
-
-open Bug
-train Baby Soldier 15 20
-train DM Soldier 15 20
-group A
-A add Baby
-A add Bug
-A add DM
-A attack Bug
-go
 go
 go
 status
-
 quit
