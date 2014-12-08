@@ -2,7 +2,7 @@
  Main module. From Project 5
  */
 
-//#define NDEBUG
+#define NDEBUG
 
 #include "Controller.h"
 
