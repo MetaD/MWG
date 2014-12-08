@@ -1,15 +1,24 @@
+demo4_console.txt
+Used to illustrate M2 feature
 
-Time 0: Enter command: Invalid name for new object!
+Time 0: Enter command: group Bug
+Invalid name for new object!
 
-Time 0: Enter command: 
-Time 0: Enter command: Agent/Group not found!
+Time 0: Enter command: group A
 
-Time 0: Enter command: Bug is not a group!
+Time 0: Enter command: ungroup Nonexist
+Agent/Group not found!
 
-Time 0: Enter command: Agent/Group not found!
+Time 0: Enter command: ungroup Bug
+Bug is not a group!
 
-Time 0: Enter command: 
-Time 0: Enter command: Soldier Bug at (15.00, 20.00)
+Time 0: Enter command: ungroup Shire
+Agent/Group not found!
+
+Time 0: Enter command: ungroup A
+
+Time 0: Enter command: status
+Soldier Bug at (15.00, 20.00)
    Health is 5
    Stopped
    Not attacking
@@ -38,25 +47,39 @@ Soldier Zug at (20.00, 30.00)
    Stopped
    Not attacking
 
-Time 0: Enter command: 
-Time 0: Enter command: Agent/Group not found!
+Time 0: Enter command: group A
 
-Time 0: Enter command: 
-Time 0: Enter command: Zug is already in group A
+Time 0: Enter command: A add Shire
+Agent/Group not found!
 
-Time 0: Enter command: A cannot add itself as a child!
+Time 0: Enter command: A add Zug
 
-Time 0: Enter command: 
-Time 0: Enter command: Zug already has a parent!
+Time 0: Enter command: A add Zug
+Zug is already in group A
 
-Time 0: Enter command: 
-Time 0: Enter command: 
-Time 0: Enter command: 
-Time 0: Enter command: 
-Time 0: Enter command: A cannot add its ancestor as a child!
+Time 0: Enter command: A add A
+A cannot add itself as a child!
 
-Time 0: Enter command: 
-Time 0: Enter command: Group A has 1 component(s):
+Time 0: Enter command: group B
+
+Time 0: Enter command: B add Zug
+Zug already has a parent!
+
+Time 0: Enter command: B add Pippin
+
+Time 0: Enter command: B add A
+
+Time 0: Enter command: group C
+
+Time 0: Enter command: C add B
+
+Time 0: Enter command: A add C
+A cannot add its ancestor as a child!
+
+Time 0: Enter command: C add Merry
+
+Time 0: Enter command: status
+Group A has 1 component(s):
    Zug
 Group B has 2 component(s):
    A
@@ -93,37 +116,52 @@ Soldier Zug at (20.00, 30.00)
    Stopped
    Not attacking
 
-Time 0: Enter command: Farm Rivendale now has 52.00
+Time 0: Enter command: go
+Farm Rivendale now has 52.00
 Farm Sunnybrook now has 52.00
 
-Time 1: Enter command: Unrecognized command!
+Time 1: Enter command: nonexist remove Bug
+Unrecognized command!
 
-Time 1: Enter command: Agent/Group not found!
+Time 1: Enter command: A remove nonexist
+Agent/Group not found!
 
-Time 1: Enter command: Bug is not a group!
+Time 1: Enter command: Bug remove Zug
+Bug is not a group!
 
-Time 1: Enter command: Unrecognized command!
+Time 1: Enter command: Shire remove Zug
+Unrecognized command!
 
-Time 1: Enter command: Pippin is not in A
+Time 1: Enter command: A remove Pippin
+Pippin is not in A
 
-Time 1: Enter command: A is not in A
+Time 1: Enter command: A remove A
+A is not in A
 
-Time 1: Enter command: C is not in A
+Time 1: Enter command: A remove C
+C is not in A
 
-Time 1: Enter command: Zug is not in A
+Time 1: Enter command: A remove Zug
+Zug is not in A
 
-Time 1: Enter command: Farm Rivendale now has 54.00
+Time 1: Enter command: go
+Farm Rivendale now has 54.00
 Farm Sunnybrook now has 54.00
 
-Time 2: Enter command: Zug already has a parent!
+Time 2: Enter command: C add Zug
+Zug already has a parent!
 
-Time 2: Enter command: Zug already has a parent!
+Time 2: Enter command: B add Zug
+Zug already has a parent!
 
-Time 2: Enter command: Zug is already in group A
+Time 2: Enter command: A add Zug
+Zug is already in group A
 
-Time 2: Enter command: B is already in group C
+Time 2: Enter command: C add B
+B is already in group C
 
-Time 2: Enter command: Group A has 1 component(s):
+Time 2: Enter command: status
+Group A has 1 component(s):
    Zug
 Group B has 2 component(s):
    A
@@ -160,17 +198,20 @@ Soldier Zug at (20.00, 30.00)
    Stopped
    Not attacking
 
-Time 2: Enter command: Zug: I'm on the way
+Time 2: Enter command: C move 0 0
+Zug: I'm on the way
 Pippin: I'm on the way
 Merry: I'm on the way
 
-Time 2: Enter command: Merry: step...
+Time 2: Enter command: go
+Merry: step...
 Pippin: step...
 Farm Rivendale now has 56.00
 Farm Sunnybrook now has 56.00
 Zug: step...
 
-Time 3: Enter command: Group A has 1 component(s):
+Time 3: Enter command:  status
+Group A has 1 component(s):
    Zug
 Group B has 2 component(s):
    A
@@ -207,18 +248,22 @@ Soldier Zug at (17.23, 25.84)
    Moving at speed 5.00 to (0.00, 0.00)
    Not attacking
 
-Time 3: Enter command: Zug: Target is out of range!
+Time 3: Enter command: B attack Merry
+Zug: Target is out of range!
 Pippin: Sorry, I can't attack!
 
-Time 3: Enter command: Zug: Sorry, I can't work!
+Time 3: Enter command: A work Rivendale Shire
+Zug: Sorry, I can't work!
 
-Time 3: Enter command: Merry: step...
+Time 3: Enter command: go
+Merry: step...
 Pippin: step...
 Farm Rivendale now has 58.00
 Farm Sunnybrook now has 58.00
 Zug: step...
 
-Time 4: Enter command: Group A has 1 component(s):
+Time 4: Enter command: status
+Group A has 1 component(s):
    Zug
 Group B has 2 component(s):
    A
@@ -255,11 +300,15 @@ Soldier Zug at (14.45, 21.68)
    Moving at speed 5.00 to (0.00, 0.00)
    Not attacking
 
-Time 4: Enter command: 
-Time 4: Enter command: Agent/Group not found!
+Time 4: Enter command: ungroup B
 
-Time 4: Enter command: 
-Time 4: Enter command: Group A has 2 component(s):
+Time 4: Enter command: ungroup B
+Agent/Group not found!
+
+Time 4: Enter command: A add Pippin
+
+Time 4: Enter command: status
+Group A has 2 component(s):
    Pippin
    Zug
 Soldier Bug at (15.00, 20.00)
@@ -293,4 +342,5 @@ Soldier Zug at (14.45, 21.68)
    Moving at speed 5.00 to (0.00, 0.00)
    Not attacking
 
-Time 4: Enter command: Done
+Time 4: Enter command: quit
+Done

@@ -26,7 +26,7 @@ protected:
 	void make_sound() const noexcept override;
 
 private:
-	std::shared_ptr<Soldier> steward;
+	std::weak_ptr<Soldier> steward;
     
     // disband this commander's steward
     void disband_steward();

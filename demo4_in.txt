@@ -15,8 +15,8 @@ B add Zug
 B add Pippin
 B add A
 group C
-group C add B
-group A add C
+C add B
+A add C
 C add Merry
 status
 go
