@@ -84,7 +84,7 @@ void Agent::lose_health(int attack_strength) {
 		alive = false;
 		cout << get_name() << ": Arrggh!" << endl;
 		Model::get_model().notify_gone(get_name());
-		Model::get_model().remove_agent_component(shared_from_this());
+		Model::get_model().remove_component(shared_from_this());
 	}
 	else
 		cout << get_name() << ": Ouch!" << endl;

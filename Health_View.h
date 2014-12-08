@@ -7,11 +7,14 @@
 
 class Health_View: public Info_View {
 public:
-	// print "Health"
-    void print_title() override;
+
 
     // Save the supplied name and health for future use in a draw() call
     void update_health(const std::string& name, int health) override;
+    
+protected:
+    // print "Health"
+    void print_info() override;
 };
 
 #endif 

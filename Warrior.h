@@ -32,15 +32,17 @@ public:
 	// output information about the current state
 	void describe() const override;
 
-	// output the sound of the weapon
-	virtual void make_sound() const noexcept = 0;
-
 protected:
 	// protected constructors
 	Warrior(const std::string& name_, Point location_, int strength_, double range_);
 	// Warrior's health can be optionally specified when constructed
 	Warrior(const std::string& name_, Point location_, int health_, int strength_, double range_);
 
+    
+    // output the sound of the weapon
+    virtual void make_sound() const noexcept = 0;
+
+    
 	// Make this Warrior start attacking the target Agent. No exception is thrown.
 	void start_attacking_noexcept(std::shared_ptr<Agent> target_ptr) noexcept;
 

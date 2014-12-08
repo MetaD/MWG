@@ -22,50 +22,37 @@ void Commander::update() {
 	Warrior::update();
 
 	if (steward &&
-		cartesian_distance(steward->get_location(), get_location()) > steward_dismiss_distance_c) {
+		cartesian_distance(steward->get_location(), get_location())
+                            > steward_dismiss_distance_c) {
 		// steward dismissed silently when out of the range
-        cout << steward->get_name() << ": Good-bye, my lord" << endl;
-
-		Model::get_model().notify_gone(steward->get_name());
-		Model::get_model().remove_agent_component(steward);
-		steward.reset();
-	}
+        disband_steward();
+    }
 }
 
 void Commander::take_hit(int attack_strength, std::shared_ptr<Agent> attacker_ptr) {
 	Warrior::take_hit(attack_strength, attacker_ptr);
 
-	if (!is_alive() && steward) {
-		if (steward)
-		// steward will be harmed psychologically
-			steward->lose_health(attack_strength);
-		return;
-	}
+    if (!is_alive()){
+        disband_steward();
+        return;
+    }
+    
+	if (!attacker_ptr->is_alive())  return;
 
-	if (!attacker_ptr->is_alive())
-		return;
+	if (!is_attacking()) // counter-attack
+		start_attacking_noexcept(attacker_ptr);
 
-	if (!is_attacking())
-		start_attacking_noexcept(attacker_ptr);	// counter-attack
-
-	if (!steward) {
+    
+	if (!steward) { // If commander does not have a steward, summon one.
 		// Summon a soldier steward with health = 1 at the attacker's location
 		cout << get_name() << ": We will fight as one!" << endl;
 		steward = make_shared<Soldier>(get_name() + "_steward",
 					attacker_ptr->get_location(), steward_initial_health_c);
-		Model::get_model().add_agent_component(steward);
+		Model::get_model().add_component(steward);
 		// command it to attack the attacker
-		steward->start_attacking_noexcept(attacker_ptr);
+		steward->start_attacking(attacker_ptr);
 		return;
 	}
-
-	// steward already summoned
-	if (!steward->target_out_of_range(attacker_ptr))
-		// command the steward to attack if in range
-		steward->start_attacking_noexcept(attacker_ptr);
-	else
-		// command it to move to the attacker's location if out of range
-		steward->move_to(attacker_ptr->get_location());
 }
 
 void Commander::describe() const {
@@ -73,6 +60,17 @@ void Commander::describe() const {
 	Warrior::describe();
 }
 
+void Commander::disband_steward() {
+    if(steward){
+        cout << steward->get_name() << ": Good-bye, my lord" << endl;
+        Model::get_model().notify_gone(steward->get_name());
+        Model::get_model().remove_component(steward);
+        steward.reset();
+    }
+}
+
 void Commander::make_sound() const noexcept {
 	cout << get_name() << ": Neighhh!" << endl;
 }
+    
+

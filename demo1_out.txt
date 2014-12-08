@@ -1,0 +1,791 @@
+
+Time 0: Enter command: 
+Time 0: Enter command: Global View of the world:
+     . . . . . . . . . . . . . . . . . . . . 
+  38 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . Ir. . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  34 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  29 Su. . . . . . . . . . . Zu. . . . . . Pa
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  24 Me. . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  19 . . . . . . . . . Bu. . Sh. . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  15 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  10 . . . Pi. . Ri. . . . . . . . . . . . . 
+     0     5     9    14    19    24    28
+
+Time 0: Enter command: Pippin: I'm on the way
+
+Time 0: Enter command: Pippin: step...
+Farm Rivendale now has 52.00
+Farm Sunnybrook now has 52.00
+
+Time 1: Enter command: Pippin: step...
+Farm Rivendale now has 54.00
+Farm Sunnybrook now has 54.00
+
+Time 2: Enter command: Pippin: I'm there!
+Farm Rivendale now has 56.00
+Farm Sunnybrook now has 56.00
+
+Time 3: Enter command: Global View of the world:
+     . . . . . . . . . . Ir. . . . . . . . . 
+  36 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  30 Su. . . . . . . . . Zu. . . . Pa. . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  24 Me. . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . Bu. . Sh. . . . . . . . . 
+  18 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  12 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . Ri. . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+   6 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+   0 Pi. . . . . . . . . . . . . . . . . . . 
+     0     6    12    18    24    30    36
+
+Time 3: Enter command: 
+Time 3: Enter command: Bug: I'm on the way
+
+Time 3: Enter command: Pippin: I'm on the way
+
+Time 3: Enter command: Zug: I'm on the way
+
+Time 3: Enter command: Global View of the world:
+     . . . . . . . . . . Ir. . . . . . . . . 
+  36 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  30 Su. . . . . . . . . Zu. . . . Pa. . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  24 Me. . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . Bu. . Sh. . . . . . . . . 
+  18 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  12 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . Ri. . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+   6 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+   0 Pi. . . . . . . . . . . . . . . . . . . 
+     0     6    12    18    24    30    36
+Local view for: Zug
+     . . . . Ir. . . . 
+     . . . . . . . . . 
+  33 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . Zu. . . . 
+  27 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  21 . . . . . . . . . 
+    11    17    23
+
+Time 3: Enter command: Bug: step...
+Pippin: step...
+Farm Rivendale now has 58.00
+Farm Sunnybrook now has 58.00
+Zug: step...
+
+Time 4: Enter command: Bug: I'm there!
+Pippin: step...
+Farm Rivendale now has 60.00
+Farm Sunnybrook now has 60.00
+Zug: step...
+
+Time 5: Enter command: Pippin: step...
+Farm Rivendale now has 62.00
+Farm Sunnybrook now has 62.00
+Zug: I'm there!
+
+Time 6: Enter command: Pippin: step...
+Farm Rivendale now has 64.00
+Farm Sunnybrook now has 64.00
+
+Time 7: Enter command: Global View of the world:
+     . . . . . . . . . . . . . . . . . . . . 
+  38 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . Ir. . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  34 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  29 Su. . . . . . . . . . . . . . . . . . Pa
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  24 Me. . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  19 . . . . . . . . . . . . * . . . . . . . 
+     . . . . . . . . . . . . Zu. . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  15 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . Pi. . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  10 . . . . . . Ri. . . . . . . . . . . . . 
+     0     5     9    14    19    24    28
+Local view for: Zug
+     . . . . . . . . . 
+     . . . . . . . . . 
+  22 . . . . . . . . . 
+     . . . . * . . . . 
+     . . . . Zu. . . . 
+  16 . . . . . . . . . 
+     . Pi. . . . . . . 
+     . . . . . . . . . 
+  10 . . . . . . . . . 
+    11    17    23
+
+Time 7: Enter command: Zug: Target is out of range!
+
+Time 7: Enter command: 
+Time 7: Enter command: Pippin: step...
+Farm Rivendale now has 66.00
+Farm Sunnybrook now has 66.00
+
+Time 8: Enter command: Global View of the world:
+     . . . . . . . . . . . . . . . . . . . . 
+ 105 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . Ba
+     . . . . . . . . . . . . . . . . . . . . 
+  89 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  73 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  57 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  42 . . . . . . . . . . . . . . . . . . . . 
+     . . . Ir. . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  26 Su. . . . Pa. . . . . . . . . . . . . . 
+     Me. . Bu. . . . . . . . . . . . . . . . 
+     . . . * . . . . . . . . . . . . . . . . 
+  10 . Ri. . . . . . . . . . . . . . . . . . 
+     0    16    32    47    63    79    95
+Local view for: Zug
+     . . . . . . . . . 
+     . . . . . . . . . 
+  22 . . . . . . . . . 
+     . . . . * . . . . 
+     . . . . Zu. . . . 
+  16 . . . Pi. . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  10 . . . . . . . . . 
+    11    17    23
+
+Time 8: Enter command: Peasant Baby at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Soldier Bug at (20.00, 21.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer Iriel at (20.00, 38.00)
+   Health is 5
+   Stopped
+   Not attacking
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (17.68, 17.68)
+   Health is 5
+   Moving at speed 5.00 to (20.00, 20.00)
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 66.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 66.00
+Soldier Zug at (20.00, 19.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 8: Enter command: Bug: Target is out of range!
+
+Time 8: Enter command: 
+Time 8: Enter command: Global View of the world:
+     . . . . . . . . . . . . . . . . . . . Ba
+  89 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  58 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . Ir. . . . . . . . 
+  26 . . . . . . . . . Su. . Pa. . . . . . . 
+     . . . . . . . . . Me. * . . . . . . . . 
+     . . . . . . . . . . Ri. . . . . . . . . 
+  -5 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ -37 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ -68 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+-100 DM. . . . . . . . . . . . . . . . . . . 
+  -100   -68   -37    -5    26    58    89
+Local view for: Zug
+     . . . . . . . . . 
+     . . . . . . . . . 
+  22 . . . . . . . . . 
+     . . . . * . . . . 
+     . . . . Zu. . . . 
+  16 . . . Pi. . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  10 . . . . . . . . . 
+    11    17    23
+
+Time 8: Enter command: Peasant Baby at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Soldier Bug at (20.00, 21.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer DM at (-100.00, -100.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer Iriel at (20.00, 38.00)
+   Health is 5
+   Stopped
+   Not attacking
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (17.68, 17.68)
+   Health is 5
+   Moving at speed 5.00 to (20.00, 20.00)
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 66.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 66.00
+Soldier Zug at (20.00, 19.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 8: Enter command: Pippin: I'm there!
+Farm Rivendale now has 68.00
+Farm Sunnybrook now has 68.00
+
+Time 9: Enter command: Global View of the world:
+     . . . . . . . . . . . . . . . . . . . Ba
+  89 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  58 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . Ir. . . . . . . . 
+  26 . . . . . . . . . Su. . Pa. . . . . . . 
+     . . . . . . . . . Me. * . . . . . . . . 
+     . . . . . . . . . . Ri. . . . . . . . . 
+  -5 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ -37 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ -68 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+-100 DM. . . . . . . . . . . . . . . . . . . 
+  -100   -68   -37    -5    26    58    89
+Local view for: Zug
+     . . . . . . . . . 
+     . . . . . . . . . 
+  22 . . . . . . . . . 
+     . . . . * . . . . 
+     . . . . Zu. . . . 
+  16 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  10 . . . . . . . . . 
+    11    17    23
+
+Time 9: Enter command: Peasant Baby at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Soldier Bug at (20.00, 21.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer DM at (-100.00, -100.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer Iriel at (20.00, 38.00)
+   Health is 5
+   Stopped
+   Not attacking
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (20.00, 20.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 68.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 68.00
+Soldier Zug at (20.00, 19.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 9: Enter command: Farm Rivendale now has 70.00
+Farm Sunnybrook now has 70.00
+
+Time 10: Enter command: 
+Time 10: Enter command: Global View of the world:
+     . . . . . . . . . . . . . . . . . . . . 
+ 109 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . Ba. An
+     . . . . . . . . . . . . . . . . . . . . 
+  74 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  40 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . Su. IrPa. . . . . . . . 
+     . . . . . . . . Me. * . . . . . . . . . 
+   5 . . . . . . . . . Ri. . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ -30 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ -65 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+-100 DM. . . . . . . . . . . . . . . . . . . 
+  -100   -65   -30     5    40    74   109
+Local view for: Zug
+     . . . . . . . . . 
+     . . . . . . . . . 
+  22 . . . . . . . . . 
+     . . . . * . . . . 
+     . . . . Zu. . . . 
+  16 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  10 . . . . . . . . . 
+    11    17    23
+
+Time 10: Enter command: Town_Hall AnnArbor at (121.00, 101.00)
+   Contains 0.00
+Peasant Baby at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Soldier Bug at (20.00, 21.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer DM at (-100.00, -100.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer Iriel at (20.00, 38.00)
+   Health is 5
+   Stopped
+   Not attacking
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (20.00, 20.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 70.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 70.00
+Soldier Zug at (20.00, 19.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 10: Enter command: Farm Rivendale now has 72.00
+Farm Sunnybrook now has 72.00
+
+Time 11: Enter command: 
+Time 11: Enter command: Global View of the world:
+     . . . . . . . . . . . . . . . . . . . . 
+ 120 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . Ba. An
+  77 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  34 . . . . . . . . . . . Ir. . . . . . . . 
+     . . . . . . . . . . * * Pa. . . . . . . 
+     . . . . . . . . . . . * . . . . . . . . 
+  -9 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ -52 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ -95 . . . . . . . . . . . . . . . . . . . . 
+     . . . DM. . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+-138 Ch. . . . . . . . . . . . . . . . . . . 
+  -151  -108   -65   -22    21    64   107
+Local view for: Zug
+     . . . . . . . . . 
+     . . . . . . . . . 
+  22 . . . . . . . . . 
+     . . . . * . . . . 
+     . . . . Zu. . . . 
+  16 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  10 . . . . . . . . . 
+    11    17    23
+
+Time 11: Enter command: Town_Hall AnnArbor at (121.00, 101.00)
+   Contains 0.00
+Peasant Baby at (100.00, 100.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Soldier Bug at (20.00, 21.00)
+   Health is 5
+   Stopped
+   Not attacking
+Farm Chicago at (-151.00, -138.00)
+   Food available: 50.00
+Archer DM at (-100.00, -100.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer Iriel at (20.00, 38.00)
+   Health is 5
+   Stopped
+   Not attacking
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (20.00, 20.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 72.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 72.00
+Soldier Zug at (20.00, 19.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 11: Enter command: 
+Time 11: Enter command: Global View of the world:
+     . . . . . . . . . . . . . . . . . . . . 
+ 289 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ 218 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . HX
+     . . . . . . . . . . . . . . . . . . . . 
+ 147 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . BaAn. . . . . . . . 
+  76 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . Su* . . . . . . . . . . . . 
+   4 . . . . . . * * . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ -67 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . DM. . . . . . . . . . . . . . . . . 
+-138 Ch. . . . . . . . . . . . . . . . . . . 
+  -151   -80    -9    63   134   205   276
+Local view for: Zug
+     . . . . . . . . . 
+     . . . . . . . . . 
+  22 . . . . . . . . . 
+     . . . . * . . . . 
+     . . . . Zu. . . . 
+  16 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  10 . . . . . . . . . 
+    11    17    23
+
+Time 11: Enter command: HX: I'm on the way
+
+Time 11: Enter command: Farm Chicago now has 52.00
+HX: step...
+Farm Rivendale now has 74.00
+Farm Sunnybrook now has 74.00
+
+Time 12: Enter command: Farm Chicago now has 54.00
+HX: step...
+Farm Rivendale now has 76.00
+Farm Sunnybrook now has 76.00
+
+Time 13: Enter command: Farm Chicago now has 56.00
+HX: step...
+Farm Rivendale now has 78.00
+Farm Sunnybrook now has 78.00
+
+Time 14: Enter command: Farm Chicago now has 58.00
+HX: step...
+Farm Rivendale now has 80.00
+Farm Sunnybrook now has 80.00
+
+Time 15: Enter command: Farm Chicago now has 60.00
+HX: step...
+Farm Rivendale now has 82.00
+Farm Sunnybrook now has 82.00
+
+Time 16: Enter command: Farm Chicago now has 62.00
+HX: step...
+Farm Rivendale now has 84.00
+Farm Sunnybrook now has 84.00
+
+Time 17: Enter command: Farm Chicago now has 64.00
+HX: step...
+Farm Rivendale now has 86.00
+Farm Sunnybrook now has 86.00
+
+Time 18: Enter command: Farm Chicago now has 66.00
+HX: step...
+Farm Rivendale now has 88.00
+Farm Sunnybrook now has 88.00
+
+Time 19: Enter command: Farm Chicago now has 68.00
+HX: step...
+Farm Rivendale now has 90.00
+Farm Sunnybrook now has 90.00
+
+Time 20: Enter command: Farm Chicago now has 70.00
+HX: step...
+Farm Rivendale now has 92.00
+Farm Sunnybrook now has 92.00
+
+Time 21: Enter command: Global View of the world:
+     . . . . . . . . . . . . . . . . . . . . 
+ 250 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ 185 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . HX
+     . . . . . . . . . . . . . . . . . . . . 
+ 121 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . BaAn. . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  56 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . Ir. . . . . . . . . . . . 
+     . . . . . . . * Pa. . . . . . . . . . . 
+  -9 . . . . . . . Ri. . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ -73 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . DM. . . . . . . . . . . . . . . . . 
+-138 Ch. . . . . . . . . . . . . . . . . . . 
+  -151   -86   -22    43   108   172   237
+Local view for: Zug
+     . . . . . . . . . 
+     . . . . . . . . . 
+  22 . . . . . . . . . 
+     . . . . * . . . . 
+     . . . . Zu. . . . 
+  16 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  10 . . . . . . . . . 
+    11    17    23
+
+Time 21: Enter command: Farm Chicago now has 72.00
+HX: step...
+Farm Rivendale now has 94.00
+Farm Sunnybrook now has 94.00
+
+Time 22: Enter command: Farm Chicago now has 74.00
+HX: step...
+Farm Rivendale now has 96.00
+Farm Sunnybrook now has 96.00
+
+Time 23: Enter command: Farm Chicago now has 76.00
+HX: step...
+Farm Rivendale now has 98.00
+Farm Sunnybrook now has 98.00
+
+Time 24: Enter command: Farm Chicago now has 78.00
+HX: step...
+Farm Rivendale now has 100.00
+Farm Sunnybrook now has 100.00
+
+Time 25: Enter command: Farm Chicago now has 80.00
+HX: step...
+Farm Rivendale now has 102.00
+Farm Sunnybrook now has 102.00
+
+Time 26: Enter command: Farm Chicago now has 82.00
+HX: step...
+Farm Rivendale now has 104.00
+Farm Sunnybrook now has 104.00
+
+Time 27: Enter command: Farm Chicago now has 84.00
+HX: step...
+Farm Rivendale now has 106.00
+Farm Sunnybrook now has 106.00
+
+Time 28: Enter command: Farm Chicago now has 86.00
+HX: step...
+Farm Rivendale now has 108.00
+Farm Sunnybrook now has 108.00
+
+Time 29: Enter command: Farm Chicago now has 88.00
+HX: step...
+Farm Rivendale now has 110.00
+Farm Sunnybrook now has 110.00
+
+Time 30: Enter command: Farm Chicago now has 90.00
+HX: step...
+Farm Rivendale now has 112.00
+Farm Sunnybrook now has 112.00
+
+Time 31: Enter command: Global View of the world:
+     . . . . . . . . . . . . . . . . . . . . 
+ 210 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ 152 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . HX
+     . . . . . . . . . . . . . . . . . . . . 
+  94 . . . . . . . . . . . . Ba. An. . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  36 . . . . . . . . Ir. . . . . . . . . . . 
+     . . . . . . . * * Pa. . . . . . . . . . 
+     . . . . . . . . Ri. . . . . . . . . . . 
+ -22 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ -80 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . DM. . . . . . . . . . . . . . . . . 
+-138 Ch. . . . . . . . . . . . . . . . . . . 
+  -151   -93   -35    23    81   139   197
+Local view for: Zug
+     . . . . . . . . . 
+     . . . . . . . . . 
+  22 . . . . . . . . . 
+     . . . . * . . . . 
+     . . . . Zu. . . . 
+  16 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  10 . . . . . . . . . 
+    11    17    23
+
+Time 31: Enter command: 
+Time 31: Enter command: Local view for: Zug
+     . . . . . . . . . 
+     . . . . . . . . . 
+  22 . . . . . . . . . 
+     . . . . * . . . . 
+     . . . . Zu. . . . 
+  16 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  10 . . . . . . . . . 
+    11    17    23
+
+Time 31: Enter command: 
+Time 31: Enter command: Local view for: Zug
+     . . . . . . . . . 
+     . . . . . . . . . 
+  22 . . . . . . . . . 
+     . . . . * . . . . 
+     . . . . Zu. . . . 
+  16 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  10 . . . . . . . . . 
+    11    17    23
+Global View of the world:
+     . . . . . . . . . . . . . . . . . . . . 
+ 210 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ 152 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . HX
+     . . . . . . . . . . . . . . . . . . . . 
+  94 . . . . . . . . . . . . Ba. An. . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+  36 . . . . . . . . Ir. . . . . . . . . . . 
+     . . . . . . . * * Pa. . . . . . . . . . 
+     . . . . . . . . Ri. . . . . . . . . . . 
+ -22 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+ -80 . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . 
+     . . DM. . . . . . . . . . . . . . . . . 
+-138 Ch. . . . . . . . . . . . . . . . . . . 
+  -151   -93   -35    23    81   139   197
+
+Time 31: Enter command: Done

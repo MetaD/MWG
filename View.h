@@ -23,6 +23,10 @@ public:
 	
 	// Discard the saved information - drawing will show only a empty pattern
 	virtual void clear() = 0;
+    
+protected:
+    // output the title and parameters
+    virtual void print_info() = 0;
 };
 
 #endif

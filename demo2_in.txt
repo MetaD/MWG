@@ -15,10 +15,8 @@ go go
 Baby_steward move 30 30
 go go
 show status
-Baby move 20 30
-Baby_steward move 21 30 go go
-Baby_steward move 20 100
-go status
+Baby move 20 20
+Baby_steward move 20 20
 
 train DM Commander 20 30
 Baby attack DM

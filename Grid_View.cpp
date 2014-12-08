@@ -36,7 +36,8 @@ void Grid_View::update_remove(const std::string &name) {
 void Grid_View::draw() {
     // create 2-D string map of size * size and initialize it to the empty pattern
 	vector< vector<string> > map(size, vector<string>(size, ". "));
-
+    std::vector<std::string> outsiders;
+    
 	// calculate subscripts, store outside objects, and setup the map
 	for (auto& object : memory) {
 		int ix, iy;
@@ -53,6 +54,8 @@ void Grid_View::draw() {
 	}
 
     print_info();	// output a description of the current map
+    
+    print_outsiders(outsiders);
 
 	// save and reset output parameters so that the labels will appear as integers
     auto old_precision = cout.precision();
@@ -77,7 +80,6 @@ void Grid_View::draw() {
     cout << endl;
     
     cout.precision(old_precision);	// restore previous precision
-	outsiders.clear();	// reset outsiders
 }
 
 
@@ -86,15 +88,6 @@ void Grid_View::print_info() {
         << ", origin: " << origin << endl;
 }
 
-
-void Grid_View::print_outsiders() {
-	if (outsiders.empty())
-		return;
-	for(size_t i = 0; i < outsiders.size(); ++i)
-		 // output a comma before all names except the first
-		cout << (i == 0 ? "" : ", ") << outsiders[i];
-	cout << " outside the map" << endl;
-}
 
 
 void Grid_View::set_size(int size_) {

@@ -10,11 +10,16 @@ class Map_View: public Grid_View {
 public:
 	Map_View();
 
-	// Print the parameter information and the outside objects
-    void print_info() override;
-
 	// set the parameters to the default Map_View values
 	void set_defaults() override;
+    
+    
+protected:
+    // print the name of the centered object
+    void print_info() override;
+    
+    void print_outsiders(std::vector<std::string> outsiders) override;
+
 };
 
 

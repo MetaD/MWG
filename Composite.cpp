@@ -16,7 +16,10 @@ void Composite::add_component(shared_ptr<Component> elem) {
         throw Error(get_name() + " cannot add its ancestor as a child!");
     if (shared_from_this() == elem)
         throw Error(get_name() + " cannot add itself as a child!");
-    //cout << name << " is not in group "  << get_name() << "!" << endl; todo
+    if (children.find(elem->get_name()) != children.end())
+        throw Error(elem->get_name() + " is already in group " + get_name());
+    if (elem->has_parent())
+        throw Error(elem->get_name() + " already has a parent!");
 
     children[elem->get_name()] = elem;
     elem->set_parent(shared_from_this());
@@ -31,6 +34,14 @@ void Composite::remove_component(const string& name) {
         return;
     children.erase(name);
     //cout << name << " is removed from group " << get_name() << endl; todo
+}
+
+
+shared_ptr<Component> Composite::get_child(std::string name)
+{
+    auto finding = children.find(name);
+    if (finding == children.end()) return nullptr;
+    return finding->second;
 }
 
 void Composite::describe() const {

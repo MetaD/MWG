@@ -23,6 +23,7 @@ public:
 	// output information about the current state
 	void describe() const override;
 
+protected:
 	// output the "Twang" sound of the bow
 	void make_sound() const noexcept override;
 };

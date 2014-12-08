@@ -30,7 +30,7 @@ shared_ptr<T> nearest_to(const string& name, const Point& location,
                          const map<string, shared_ptr<C>> & container);
 
 Model::Model() : time(0) {
-	// initial structures and agents
+	// initial structures and components
 	shared_ptr<Structure> initial_stc[] {
 		create_structure("Rivendale", "Farm", Point(10., 10.)),
 		create_structure("Sunnybrook", "Farm", Point(0., 30.)),
@@ -49,8 +49,8 @@ Model::Model() : time(0) {
         structures.insert({stc->get_name(), stc});
         sim_objects.insert({stc->get_name(), stc});
     }
-    for (auto& agt : initial_agt) {        // insert to agents and sim_objects
-        agents.insert({agt->get_name(), agt});
+    for (auto& agt : initial_agt) {        // insert to components and sim_objects
+        components.insert({agt->get_name(), agt});
         sim_objects.insert({agt->get_name(), agt});
     }
 }
@@ -78,29 +78,39 @@ shared_ptr<Structure> Model::get_structure_ptr(const string& name) const {
 	return stc_it->second;
 }
 
-bool Model::is_agent_present(const string& name) const {
-	return agents.find(name) != agents.end();
+bool Model::is_component_present(const string& name) const {
+	return components.find(name) != components.end();
 }
 
-void Model::add_agent_component(shared_ptr<Component> new_compo) {
-	agents.insert({new_compo->get_name(), new_compo});
+bool Model::is_component_present_non_composite(const std::string &name) const
+{
+    auto finding = components.find(name);
+    if(finding == components.end()) return false;
+    if( (finding->second)->is_composite()) return false;
+    
+    return true;
+}
+
+void Model::add_component(shared_ptr<Component> new_compo) {
+	components.insert({new_compo->get_name(), new_compo});
 	sim_objects.insert({new_compo->get_name(), new_compo});
 	new_compo->broadcast_current_state();
 }
 
-void Model::remove_agent_component(shared_ptr<Component> agent) {
-	string name = agent->get_name();
+void Model::remove_component(shared_ptr<Component> comp) {
+	string name = comp->get_name();
 
-    for (auto &p: agents)
+    //remove comb from every component.
+    for (auto &p: components)
         p.second->remove_component(name);
 
     sim_objects.erase(name);
-    agents.erase(name);
+    components.erase(name);
 }
 
 shared_ptr<Component> Model::get_component_ptr(const string& name) const {
-	auto agt_it = agents.find(name);
-	if (agt_it == agents.end())
+	auto agt_it = components.find(name);
+	if (agt_it == components.end())
 		throw Error("Agent/Group not found!");
 	return agt_it->second;
 }
@@ -149,7 +159,7 @@ void Model::notify_gone(const std::string& name) {
 }
 
 shared_ptr<Agent> Model::nearest_agent(const std::string& name, Point location) {
-    return nearest_to<Agent, Component>(name, location, agents);
+    return nearest_to<Agent, Component>(name, location, components);
 }
 
 shared_ptr<Structure> Model::nearest_structure(const std::string& name, Point location) {
@@ -186,13 +196,3 @@ Model& Model::get_model() {
 	return model;
 }
 
-//todo
-#include <iostream>
-void Model::print_components() {
-	for (auto& compo : agents) {
-		if (compo.second->is_composite())
-			compo.second->describe();
-		else
-			std::cout << compo.first << std::endl;
-	}
-}

@@ -20,11 +20,10 @@ public:
 
 	// output information about the current state
 	void describe() const override;
-
-	// output the "Clang" sound of the sword
-	void make_sound() const noexcept override;
-
-	friend class Commander;	// TODO unnecessary?
+    
+protected:
+    // output the "Clang" sound of the sword
+    void make_sound() const noexcept override;
 };
 
 #endif

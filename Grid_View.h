@@ -42,22 +42,22 @@ protected:
 	// constructor
 	Grid_View(int size_, double scale_, Point origin_) :
 		size(size_), scale(scale_), origin(origin_) {}
-
-	// output the parameters (size, scale and origin)
-    virtual void print_info();
-
-    // output the outside objects
-    void print_outsiders();
+    
     
     void update_bound(double & max_x, double & max_y, double & min_x, double & min_y);
 
+    
+    void print_info() override;
+
+    // output the outside objects
+    virtual void print_outsiders(std::vector<std::string> outsiders) = 0;
+    
 
 private:
     int size;
     double scale;
     Point origin;
     std::map<std::string, Point> memory;	// the name and location of saved objects
-	std::vector<std::string> outsiders;		// the outside objects
     
     bool get_subscripts(int &ix, int &iy, Point location);
 };

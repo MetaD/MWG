@@ -1,5 +1,8 @@
 group A
 A add Bug
+A add Bug
+group B
+B add Bug
 A remove Bug
 A remove Bug
 A remove Zug

@@ -3,7 +3,7 @@
 
 using std::cout; using std::endl;
 
-void Amount_View::print_title() {
+void Amount_View::print_info() {
     cout << "Amounts";
 }
 

@@ -13,7 +13,7 @@ LFLAGS = -g
 
 OBJS = p6_main.o Model.o View.o Controller.o
 OBJS += Component.o Composite.o
-OBJS += Grid_View.o Info_View.o Map_View.o Local_View.o Health_View.o Amount_View.o Overall_View.o
+OBJS += Grid_View.o Info_View.o Map_View.o Local_View.o Health_View.o Amount_View.o Global_View.o
 OBJS += Sim_object.o Structure.o Moving_object.o Agent.o
 OBJS += Farm.o Town_Hall.o
 OBJS += Peasant.o Warrior.o Soldier.o Commander.o Archer.o
@@ -43,8 +43,8 @@ Grid_View.o: Grid_View.cpp Grid_View.h View.h Geometry.h Utility.h
 Info_View.o: Info_View.cpp Info_View.h View.h Geometry.h Utility.h
 	$(CC) $(CFLAGS) Info_View.cpp
 
-Overall_View.o: Overall_View.cpp Overall_View.h Grid_View.h View.h Geometry.h Utility.h
-	$(CC) $(CFLAGS) Overall_View.cpp
+Global_View.o: Global_View.cpp Global_View.h Grid_View.h View.h Geometry.h Utility.h
+	$(CC) $(CFLAGS) Global_View.cpp
 
 Map_View.o: Map_View.cpp Map_View.h Grid_View.h View.h Geometry.h Utility.h
 	$(CC) $(CFLAGS) Map_View.cpp
@@ -73,7 +73,6 @@ Farm.o: Farm.cpp Farm.h Structure.h Sim_object.h Geometry.h
 Town_Hall.o: Town_Hall.cpp Town_Hall.h Structure.h Sim_object.h Geometry.h Utility.h
 	$(CC) $(CFLAGS) Town_Hall.cpp
 
-
 Component.o: Component.cpp Component.h Model.h Moving_object.h Sim_object.h Geometry.h Utility.h
 	$(CC) $(CFLAGS) Component.cpp
 
@@ -95,7 +94,6 @@ Soldier.o: Soldier.cpp Soldier.h Warrior.h Agent.h Moving_object.h Sim_object.h 
 Commander.o: Commander.cpp Commander.h Warrior.h Agent.h Moving_object.h Sim_object.h Geometry.h Utility.h
 	$(CC) $(CFLAGS) Commander.cpp
 
-
 Archer.o: Archer.cpp Archer.h Warrior.h Agent.h Moving_object.h Sim_object.h Geometry.h Utility.h
 	$(CC) $(CFLAGS) Archer.cpp
 
@@ -116,13 +114,21 @@ Utility.o: Utility.cpp Utility.h
 
 
 group: default
-	./p6exe < group_test.txt
+	./p6exe < demo3_in.txt > demo3.out
 
 commander: default
-	./p6exe < commander_test.txt
+	./p6exe < demo2_in.txt > demo2.out
+
 
 view: default
-	./p6exe < overall_view_test.txt
+	./p6exe < demo1_in.txt > demo1.out
+
+
+
+diff: view group commander
+	diff demo1_out.txt demo1.out
+	diff demo2_out.txt demo2.out
+	diff demo3_out.txt demo3.out
 
 olddiff: default
 	./p6exe < heavy3.txt > heavy3.out
@@ -150,8 +156,10 @@ olddiff: default
 
 
 submit:
-	# modify please
-	submit381 6 Makefile p6_main.cpp Model.h Model.cpp View.h View.cpp Controller.h Controller.cpp Sim_object.h Sim_object.cpp Structure.h Structure.cpp Farm.h Farm.cpp Town_Hall.h Town_Hall.cpp Agent.h Agent.cpp Peasant.h Peasant.cpp warrior.h Warriors.cpp Agent_factory.h Agent_factory.cpp Structure_factory.h Structure_factory.cpp Geometry.h Geometry.cpp Moving_object.h Moving_object.cpp Utility.h Utility.cpp
+	submit381 6 Makefile p6_main.cpp Model.h Model.cpp View.h View.cpp Controller.h Controller.cpp Sim_object.h Sim_object.cpp Structure.h Structure.cpp Farm.h Farm.cpp Town_Hall.h Town_Hall.cpp Agent.h Agent.cpp Peasant.h Peasant.cpp Warrior.h Warrior.cpp Agent_factory.h Agent_factory.cpp Structure_factory.h Structure_factory.cpp Geometry.h Geometry.cpp Moving_object.h Moving_object.cpp Utility.h Utility.cpp Amount_View.h Amount_View.cpp Grid_View.h Grid_View.cpp Health_View.h Health_View.cpp Info_View.cpp Info_View.h Local_View.h Local_View.cpp Map_View.h Map_View.cpp Global_View.cpp Global_View.h Archer.cpp Archer.h Commander.cpp Commander.h Soldier.cpp Soldier.h Component.cpp Component.h Composite.cpp Composite.h
+
+submitall:
+	submit381 6 *.txt *.h *.cpp
 
 
 leak: default

@@ -8,7 +8,7 @@
 class Amount_View: public Info_View {
 public:
 	// print "Amounts"
-    void print_title() override;
+    void print_info() override;
     
     // Save the supplied name and amount for future use in a draw() call
     void update_amount(const std::string& name, double amount) override;

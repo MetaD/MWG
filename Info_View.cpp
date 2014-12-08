@@ -5,7 +5,7 @@ using std::cout; using std::endl;
 
 void Info_View::draw() {
     cout << "Current ";
-    print_title();
+    print_info();
     cout << ":" << endl;
     
     cout << "--------------" << endl;

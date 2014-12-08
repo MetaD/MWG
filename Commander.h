@@ -21,11 +21,15 @@ public:
 	// output information about the current state
 	void describe() const override;
 
+protected:
 	// output the "Neighhh" sound of its horse
 	void make_sound() const noexcept override;
 
 private:
 	std::shared_ptr<Soldier> steward;
+    
+    // disband this commander's steward
+    void disband_steward();
 };
 
 #endif

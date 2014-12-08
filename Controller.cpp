@@ -12,7 +12,7 @@
 #include "Local_View.h"
 #include "Health_View.h"
 #include "Amount_View.h"
-#include "Overall_View.h"
+#include "Global_View.h"
 
 #include <map>
 #include <iostream>
@@ -98,10 +98,8 @@ void Controller::run() {
 				cout << "Done" << endl;
 				return;
 			}
-			else if (first_word == "compo")	//??todo delete
-				Model::get_model().print_components();	//??todo delete
 			// agent command
-			else if (Model::get_model().is_agent_present(first_word)) {
+			else if (Model::get_model().is_component_present(first_word)) {
 				string agent_cmd;
 				cin >> agent_cmd;
 				auto func_it = agent_cmd_func.find(agent_cmd);
@@ -152,15 +150,15 @@ void Controller::view_open() {
 
 	if (view_name == "map")
 		new_view = map_view = make_shared<Map_View>();
-	else if(view_name == "overall")
-		new_view = make_shared<Overall_View>();
+	else if(view_name == "global")
+		new_view = make_shared<Global_View>();
 	else if (view_name == "health")
 		new_view = make_shared<Health_View>();
 	else if (view_name == "amounts")
 		new_view = make_shared<Amount_View>();
 	else {	// local view
 		shared_ptr<Sim_object> object;	// the object to be viewed
-		if (Model::get_model().is_agent_present(view_name))	// agent
+		if (Model::get_model().is_component_present_non_composite(view_name))	// agent
 			object = Model::get_model().get_component_ptr(view_name);
 		else if (Model::get_model().is_structure_present(view_name))	// structure
 			object = Model::get_model().get_structure_ptr(view_name);
@@ -246,7 +244,7 @@ void Controller::train() {
 	Point location = read_point();
 	check_name_validity(name_type_pair.first, minimum_agent_name_length_c);
 	shared_ptr<Agent> new_agent = create_agent(name_type_pair.first, name_type_pair.second, location);
-	Model::get_model().add_agent_component(new_agent);
+	Model::get_model().add_component(new_agent);
 }
 
 // A helper function for build and train to read input name and type, and check name
@@ -268,7 +266,7 @@ void Controller::create_group() {
 	cin >> group_name;
 	check_name_validity(group_name, minimum_group_name_length_c);
 	shared_ptr<Composite> new_compo(new Composite(group_name));
-	Model::get_model().add_agent_component(new_compo);
+	Model::get_model().add_component(new_compo);
 }
 
 void check_name_validity(const string& name, size_t min_length) {
@@ -280,16 +278,9 @@ void check_name_validity(const string& name, size_t min_length) {
 	}
 }
 
-void Controller::dismiss_group() {
-	string group_name;
-	cin >> group_name;
-	shared_ptr<Component> group = get_group(group_name);
-	Model::get_model().remove_agent_component(group);
-}
-
 void Controller::agent_move(const string& name) {
 	Point destination = read_point();
-	Model::get_model().get_component_ptr(name)->move_to(destination);
+	(Model::get_model().get_component_ptr(name))->move_to(destination);
 }
 
 // A helper function that read two doubles and return a Point
@@ -332,8 +323,22 @@ void Controller::group_add(const string& name) {
 }
 
 void Controller::group_remove(const string& name) {
-	get_group(name)->remove_component(read_Component()->get_name());
+    //?? todo
+//    get_group(name)->remove_component(read_Component()->get_name());
+    
+    shared_ptr<Component> group = get_group(name);
+    string removing = read_Component()->get_name();
+    if( !group->get_child(name) ) throw Error(removing + " is not in " + name);
+    group->remove_component(removing);
 }
+
+void Controller::dismiss_group() {
+    string group_name;
+    cin >> group_name;
+    shared_ptr<Component> group = get_group(group_name);
+    Model::get_model().remove_component(group);
+}
+
 
 static shared_ptr<Component> read_Component() {
 	string agent_name;

@@ -1,0 +1,336 @@
+
+Time 0: Enter command: 
+Time 0: Enter command: 
+Time 0: Enter command: Bug is already in group A
+
+Time 0: Enter command: 
+Time 0: Enter command: Bug already has a parent!
+
+Time 0: Enter command: Bug is not in A
+
+Time 0: Enter command: Bug is not in A
+
+Time 0: Enter command: Zug is not in A
+
+Time 0: Enter command: Bug is already in group A
+
+Time 0: Enter command: 
+Time 0: Enter command: Bug: I cannot attack myself!
+Zug: Target is out of range!
+
+Time 0: Enter command: Bug: Target is out of range!
+Zug: I cannot attack myself!
+
+Time 0: Enter command: 
+Time 0: Enter command: Unrecognized command!
+
+Time 0: Enter command: 
+Time 0: Enter command: 
+Time 0: Enter command: Agent/Group not found!
+
+Time 0: Enter command: Agent/Group not found!
+
+Time 0: Enter command: Agent/Group not found!
+
+Time 0: Enter command: 
+Time 0: Enter command: 
+Time 0: Enter command: 
+Time 0: Enter command: Iriel: I'm on the way
+WTH: I'm on the way
+Zug: I'm on the way
+
+Time 0: Enter command: 
+Time 0: Enter command: 
+Time 0: Enter command: Invalid name for new object!
+
+Time 0: Enter command: 
+Time 0: Enter command: Zug already has a parent!
+
+Time 0: Enter command: 
+Time 0: Enter command: Display size: 25, scale: 2.00, origin: (-10.00, -10.00)
+  38 . . . . . . . . . . . . . . . Ir. . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  32 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . Su. . . . . . . . . Zu. . . . Pa. . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . Me. . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . . Bu. . Sh. . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . WT. . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . Pi. . Ri. . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -4     2     8    14    20    26    32    38
+
+Time 0: Enter command: Iriel: step...
+Iriel: I'm attacking!
+Farm Rivendale now has 52.00
+Farm Sunnybrook now has 52.00
+WTH: step...
+Zug: step...
+
+Time 1: Enter command: Iriel: step...
+Iriel: Twang!
+Zug: Ouch!
+Zug: I'm attacking!
+Farm Rivendale now has 54.00
+Farm Sunnybrook now has 54.00
+WTH: I'm there!
+Zug: step...
+Zug: Target is now out of range
+
+Time 2: Enter command: Iriel: step...
+Iriel: Twang!
+Zug: Ouch!
+Zug: I'm attacking!
+Farm Rivendale now has 56.00
+Farm Sunnybrook now has 56.00
+Zug: I'm there!
+Zug: Target is now out of range
+
+Time 3: Enter command: Iriel: step...
+Iriel: Twang!
+Zug: Ouch!
+Zug: I'm attacking!
+Farm Rivendale now has 58.00
+Farm Sunnybrook now has 58.00
+Zug: Clang!
+Iriel: Ouch!
+Iriel: I'm going to run away to Shire
+Iriel: I'm on the way
+
+Time 4: Enter command: Bug: I'm on the way
+Iriel: I'm on the way
+WTH: I'm on the way
+Zug: I'm on the way
+
+Time 4: Enter command: Iriel is not in set2
+
+Time 4: Enter command: Bug: I'm there!
+Iriel: I'm there!
+Iriel: Twang!
+Zug: Ouch!
+Farm Rivendale now has 60.00
+Farm Sunnybrook now has 60.00
+WTH: step...
+Zug: step...
+Zug: Clang!
+Iriel: Ouch!
+Iriel: I'm going to run away to Shire
+Iriel: I'm on the way
+
+Time 5: Enter command: Iriel: step...
+Iriel: Twang!
+Zug: Arrggh!
+Iriel: I triumph!
+Iriel: I'm attacking!
+Farm Rivendale now has 62.00
+Farm Sunnybrook now has 62.00
+WTH: I'm there!
+
+Time 6: Enter command: Display size: 25, scale: 2.00, origin: (-10.00, -10.00)
+  38 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  32 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . Su. . . . . . . . . . . . . . Pa. . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . Me. . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . . . . . Sh. . . . . . . . . 
+     . . . . . . . . . . . . * . Ir. . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . Pi. . Ri. . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -4     2     8    14    20    26    32    38
+
+Time 6: Enter command: Group B has 1 component(s):
+   Bug
+Soldier Bug at (15.00, 18.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer Iriel at (19.64, 19.86)
+   Health is 1
+   Moving at speed 5.00 to (20.00, 20.00)
+   Attacking WTH
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 62.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 62.00
+Soldier WTH at (15.00, 18.00)
+   Health is 5
+   Stopped
+   Not attacking
+Group set2 has 3 component(s):
+   B
+   Iriel
+   WTH
+
+Time 6: Enter command: Bug: I cannot attack myself!
+Iriel: I'm attacking!
+WTH: I'm attacking!
+
+Time 6: Enter command: Iriel: I'm there!
+Iriel: Twang!
+Bug: Ouch!
+Bug: I'm attacking!
+Farm Rivendale now has 64.00
+Farm Sunnybrook now has 64.00
+WTH: Clang!
+Bug: Ouch!
+
+Time 7: Enter command: Group B has 1 component(s):
+   Bug
+Soldier Bug at (15.00, 18.00)
+   Health is 2
+   Stopped
+   Attacking Iriel
+Archer Iriel at (20.00, 20.00)
+   Health is 1
+   Stopped
+   Attacking Bug
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 64.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 64.00
+Soldier WTH at (15.00, 18.00)
+   Health is 5
+   Stopped
+   Attacking Bug
+Group set2 has 3 component(s):
+   B
+   Iriel
+   WTH
+
+Time 7: Enter command: Bug: Target is now out of range
+Iriel: Twang!
+Bug: Ouch!
+Bug: I'm attacking!
+Farm Rivendale now has 66.00
+Farm Sunnybrook now has 66.00
+WTH: Clang!
+Bug: Arrggh!
+WTH: I triumph!
+
+Time 8: Enter command: No object of that name!
+
+Time 8: Enter command: 
+Time 8: Enter command: 
+Time 8: Enter command: 
+Time 8: Enter command: 
+Time 8: Enter command: Agent/Group not found!
+
+Time 8: Enter command: 
+Time 8: Enter command: Agent/Group not found!
+
+Time 8: Enter command: Iriel: Target is dead
+Iriel: I'm attacking!
+Farm Rivendale now has 68.00
+Farm Sunnybrook now has 68.00
+
+Time 9: Enter command: Iriel: Twang!
+Baby: Ouch!
+Baby: I'm attacking!
+Farm Rivendale now has 70.00
+Farm Sunnybrook now has 70.00
+
+Time 10: Enter command: Baby: Target is now out of range
+Iriel: Twang!
+Baby: Ouch!
+Baby: I'm attacking!
+Farm Rivendale now has 72.00
+Farm Sunnybrook now has 72.00
+
+Time 11: Enter command: Group A has 2 component(s):
+   Baby
+   DM
+Group B
+   is empty
+Soldier Baby at (15.00, 20.00)
+   Health is 3
+   Stopped
+   Attacking Iriel
+Soldier DM at (15.00, 20.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer Iriel at (20.00, 20.00)
+   Health is 1
+   Stopped
+   Attacking Baby
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 72.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 72.00
+Soldier WTH at (15.00, 18.00)
+   Health is 5
+   Stopped
+   Not attacking
+Group set2 has 3 component(s):
+   B
+   Iriel
+   WTH
+
+Time 11: Enter command: Done

@@ -20,9 +20,6 @@ public:
 protected:
     Info_View() {};
 
-    // print a title for the type of information
-    virtual void print_title() = 0;
-
     // used by derived class to set the datum for an object
     void update_info(const std::string& name, double information);
 

@@ -12,9 +12,13 @@ public:
 
 	// update the origin if the centered object has moved
     void update_location(const std::string& name, Point location)override;
-
-	// print the name of the centered object
+    
+    
+protected:
+    // print the name of the centered object
     void print_info() override;
+    
+    void print_outsiders(std::vector<std::string> outsiders) override {}
     
 private:
     std::string obj_name;

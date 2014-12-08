@@ -1,5 +1,9 @@
-open overall
-open Bug
+open global
+show
+Pippin move 0 0
+go go go
+show
+open Zug
 Bug move 20 21 Pippin move 20 20 Zug move 20 19
 show
 go go go go
@@ -17,19 +21,22 @@ go
 show
 status
 go
-build AnnArbor Town_Hall 100 101
+build AnnArbor Town_Hall 121 101
 show
 status
 go
-build Chicago Farm -201 -101
+build Chicago Farm -151 -138
 show
 status
-train HX Soldier 300 300
+train HX Soldier 300 200
 show
 HX move 0 0
 go go go go go go go go go go
-go go go go go go go go go go
 show
 go go go go go go go go go go
+show
+close global
+show
+open global
 show
 quit

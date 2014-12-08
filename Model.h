@@ -4,7 +4,7 @@
 /*
 Model is part of a simplified Model-View-Controller pattern.
 Model keeps track of the Sim_objects in the little world. It is the only
-component that knows how many Structures and Agents there are, but it does not
+thing that knows how many Structures, Agents, and Component there are, but it does not
 know about any of their derived classes, nor which Agents are of what kind of Agent. 
 It has facilities for looking up objects by name, and removing Agents.  When
 created, it creates an initial group of Structures and Agents using the Structure_factory
@@ -39,12 +39,14 @@ public:
 	// will throw Error("Structure not found!") if no structure of that name
 	std::shared_ptr<Structure> get_structure_ptr(const std::string& name) const;
 
-	// is there an agent/composite of agents with this name?
-	bool is_agent_present(const std::string& name) const;
+	// is there a components with this name?
+	bool is_component_present(const std::string& name) const;
+    // is there an agent with this name?
+    bool is_component_present_non_composite(const std::string& name) const; //?? todo
 	// add a new agent; assumes none with the same name
-	void add_agent_component(std::shared_ptr<Component>);
+	void add_component(std::shared_ptr<Component>);
 	// remove an agent from all containers
-	void remove_agent_component(std::shared_ptr<Component>);
+	void remove_component(std::shared_ptr<Component>);
 	// will throw Error("Agent not found!") if no agent of that name
 	std::shared_ptr<Component> get_component_ptr(const std::string& name) const;
 
@@ -77,13 +79,11 @@ public:
 	// get the only instance of model
 	static Model& get_model();
 
-	// TODO delete
-	void print_components();
 
 private:
 	int time;
 	std::map<std::string, std::shared_ptr<Sim_object>> sim_objects;
-	std::map<std::string, std::shared_ptr<Component>> agents;
+	std::map<std::string, std::shared_ptr<Component>> components;
 	std::map<std::string, std::shared_ptr<Structure>> structures;
 	std::vector<std::shared_ptr<View>> views;
 

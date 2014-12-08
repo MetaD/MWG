@@ -3,7 +3,7 @@
 
 using std::cout; using std::endl;
 
-void Health_View::print_title() {
+void Health_View::print_info() {
     cout << "Health";
 }
 

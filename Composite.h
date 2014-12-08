@@ -21,6 +21,8 @@ public:
     // remove the component with the given name if it is "this" or a child of "this"
     void remove_component(const std::string& name) override;
 
+    std::shared_ptr<Component> get_child(std::string name) override;
+
     // output the children of this composite
     void describe() const override;
 

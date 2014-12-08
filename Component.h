@@ -22,6 +22,11 @@ public:
 
     // remove the component with the given name from its parent
     virtual void remove_component(const std::string& name);
+    
+    // return a pointer to its child. If this component is not composite, error will be throwed
+    // if the child is not in this component, an nullptr will be throwed.
+    virtual std::shared_ptr<Component> get_child(std::string name)
+        { throw Error(get_name() + " is not a component!"); };
 
     // fat interface for operations				//todo ?? virtual is unecessary todo use assert?
     virtual bool is_moving() const
@@ -32,6 +37,7 @@ public:
     	{ throw Error(get_name() + " does not have a location!"); }
     virtual void take_hit(int attack_strength, std::shared_ptr<Agent> attacker_ptr)
     	{ throw Error(get_name() + " cannot take hit!"); }	//?? todo use assert
+    
     virtual void move_to(Point destination_) = 0;
     virtual void stop() = 0;
     virtual void start_working(std::shared_ptr<Structure>, std::shared_ptr<Structure>) = 0;
@@ -39,6 +45,9 @@ public:
 
     // set the parent to the given pointer
     void set_parent(std::shared_ptr<Composite> parent_) { parent = parent_; }
+    
+    //return true iff this component has parent
+    bool has_parent() { return !parent.expired(); }
 
 protected:
     // private constructor
