@@ -6,8 +6,12 @@
 #include <memory>
 #include <map>
 
-//?? TODO ADD COMMENTS
 
+
+/*
+ Composite is inherent from Component, and it have a container for Component.
+ ?? todo
+ */
 class Composite: public Component, public std::enable_shared_from_this<Composite> {
 public:
     Composite(const std::string & name) : Component(name) {}

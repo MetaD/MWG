@@ -11,10 +11,11 @@ public:
 
     
     // Setters should never be called for Global_Views
-    void set_size(int size_) override {}	//?? TODO use assert
-    void set_scale(double scale_) override {}
-    void set_origin(Point origin_) override {}
-    void set_defaults() override {}
+    // assert(0) in implementation
+    void set_size(int size_) override;
+    void set_scale(double scale_) override;
+    void set_origin(Point origin_) override;
+    void set_defaults() override;
     
 protected:
     // print the information of the Global_View

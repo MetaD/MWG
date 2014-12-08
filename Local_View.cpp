@@ -1,8 +1,8 @@
 #include "Local_View.h"
-#include <iostream>
 
+#include <iostream>
+#include <cassert>
 using std::string;
-using std::cout; using std::endl;
 
 const int local_view_size_c = 9;
 const double local_view_scale_c = 2.0;
@@ -30,5 +30,22 @@ Point calculate_origin(const Point& center) {
 }
 
 void Local_View::print_info() {
-    cout << "Local view for: " << obj_name << endl;
+    std::cout << "Local view for: " << obj_name << std::endl;
+}
+
+
+void Local_View::set_size(int size_) {
+    assert(0);
+}
+
+void Local_View::set_scale(double scale_) {
+    assert(0);
+}
+
+void Local_View::set_origin(Point origin_) {
+    assert(0);
+}
+
+void Local_View::set_defaults() {
+    assert(0);
 }

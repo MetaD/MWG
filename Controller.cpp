@@ -158,7 +158,7 @@ void Controller::view_open() {
 		new_view = make_shared<Amount_View>();
 	else {	// local view
 		shared_ptr<Sim_object> object;	// the object to be viewed
-		if (Model::get_model().is_component_present_non_composite(view_name))	// agent
+		if ( Model::get_model().is_present_non_composite(view_name) )	// agent
 			object = Model::get_model().get_component_ptr(view_name);
 		else if (Model::get_model().is_structure_present(view_name))	// structure
 			object = Model::get_model().get_structure_ptr(view_name);
@@ -323,9 +323,6 @@ void Controller::group_add(const string& name) {
 }
 
 void Controller::group_remove(const string& name) {
-    //?? todo
-//    get_group(name)->remove_component(read_Component()->get_name());
-    
     shared_ptr<Component> group = get_group(name);
     string removing = read_Component()->get_name();
     if( !group->get_child(name) ) throw Error(removing + " is not in " + name);

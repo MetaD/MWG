@@ -82,7 +82,7 @@ bool Model::is_component_present(const string& name) const {
 	return components.find(name) != components.end();
 }
 
-bool Model::is_component_present_non_composite(const std::string &name) const
+bool Model::is_present_non_composite(const std::string &name) const
 {
     auto finding = components.find(name);
     if(finding == components.end()) return false;

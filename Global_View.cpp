@@ -1,4 +1,3 @@
-//#define NDEBUG
 #include "Global_View.h"
 #include <iostream>
 #include <limits>
@@ -45,4 +44,21 @@ void Global_View::print_outsiders(std::vector<std::string> outsiders)
 {
     // there should be not outsiders in Global View
     assert(outsiders.size() == 0);
+}
+
+
+void Global_View::set_size(int size_) {
+    assert(0);
+}
+
+void Global_View::set_scale(double scale_) {
+    assert(0);
+}
+
+void Global_View::set_origin(Point origin_) {
+    assert(0);
+}
+
+void Global_View::set_defaults() {
+    assert(0);
 }

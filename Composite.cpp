@@ -23,8 +23,6 @@ void Composite::add_component(shared_ptr<Component> elem) {
 
     children[elem->get_name()] = elem;
     elem->set_parent(shared_from_this());
-
-    //cout << elem->get_name() << " is added to group " << get_name() << endl; todo
 }
 
 void Composite::remove_component(const string& name) {
@@ -33,7 +31,6 @@ void Composite::remove_component(const string& name) {
     if (children.find(name) == children.end())
         return;
     children.erase(name);
-    //cout << name << " is removed from group " << get_name() << endl; todo
 }
 
 

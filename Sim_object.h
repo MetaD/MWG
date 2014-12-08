@@ -18,7 +18,10 @@ public:
 
 	// ask model to notify views of current state
     virtual void broadcast_current_state() {}
-	virtual void update() {}	// todo??
+    
+    // update status for this object
+	virtual void update(){}
+    
     // Pure virtual functions
 	virtual Point get_location() const = 0;
 	virtual void describe() const = 0;

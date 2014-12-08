@@ -14,6 +14,13 @@ public:
     void update_location(const std::string& name, Point location)override;
     
     
+    // Setters should never be called for Local_Views
+    // assert(0) in implementation
+    void set_size(int size_) override;
+    void set_scale(double scale_) override;
+    void set_origin(Point origin_) override;
+    void set_defaults() override;
+    
 protected:
     // print the name of the centered object
     void print_info() override;
@@ -23,11 +30,7 @@ protected:
 private:
     std::string obj_name;
 
-    // Setters should never be called for Local_Views
-    void set_size(int size_) override {}	//?? TODO use assert
-    void set_scale(double scale_) override {}
-    void set_origin(Point origin_) override {}
-    void set_defaults() override {}
+
 };
 
 #endif

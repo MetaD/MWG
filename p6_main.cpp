@@ -2,8 +2,12 @@
  Main module. From Project 5
  */
 
-#include <iostream>
+//#define NDEBUG
+
 #include "Controller.h"
+
+
+#include <iostream>
 
 using namespace std;
 
