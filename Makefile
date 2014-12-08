@@ -124,13 +124,11 @@ view: default
 	./p6exe < demo1_in.txt > demo1.out
 
 
-
 diff: view group commander
-	diff demo2_out.txt demo2.out
-	diff demo3_out.txt demo3.out
+	./p6exe < demo1_in.txt > demo1.out
 	./p6exe < demo4_in.txt > demo4.out
-	diff demo4_out.txt demo4.out
 	diff demo1_out.txt demo1.out
+	diff demo4_out.txt demo4.out
 
 
 olddiff: default
