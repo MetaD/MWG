@@ -1,10 +1,9 @@
 #include "Amount_View.h"
 #include <iostream>
 
-using std::cout; using std::endl;
 
 void Amount_View::print_info() {
-    cout << "Amounts";
+    std::cout << "Amounts";
 }
 
 void Amount_View::update_amount(const std::string &name, double amount) {

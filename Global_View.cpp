@@ -1,12 +1,10 @@
 #include "Global_View.h"
 #include <iostream>
-#include <limits>
 #include <cassert>
 
 using std::string;
 using std::cout; using std::endl;
 using std::min; using std::max;
-using std::numeric_limits;
 
 const int Global_View_size_c = 20;
 const double initial_Global_View_scale_c = 2.0;

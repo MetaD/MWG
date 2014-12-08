@@ -1,14 +1,13 @@
 #include "Soldier.h"
 #include <iostream>
 using std::cout; using std::endl;
-using std::string;
 using std::shared_ptr;
 
 static const int soldier_initial_strenth_c = 2;
 static const double soldier_initial_attack_range_c = 2.0;
 
 
-Soldier::Soldier(const string& name_, Point location_) :
+Soldier::Soldier(const std::string& name_, Point location_) :
 		Warrior(name_, location_, soldier_initial_strenth_c,
 				soldier_initial_attack_range_c) {}
 

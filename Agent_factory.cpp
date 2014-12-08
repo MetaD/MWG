@@ -3,8 +3,9 @@
 #include "Soldier.h"
 #include "Archer.h"
 #include "Commander.h"
+
 #include "Utility.h"
-#include <string>
+
 using std::string;
 
 // Create and return the pointer to the specified Agent type. If the type

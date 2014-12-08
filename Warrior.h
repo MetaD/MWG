@@ -2,8 +2,6 @@
 #define WARRIORS_H
 
 #include "Agent.h"
-#include <string>
-#include <memory>
 
 /*
 A Warrior is a kind of Agent that has attack and defense behaviors. It can be

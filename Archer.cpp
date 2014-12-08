@@ -3,7 +3,7 @@
 #include "Structure.h"
 #include <iostream>
 using std::cout; using std::endl;
-using std::string;
+
 using std::shared_ptr;
 
 static const int archer_initial_strenth_c = 1;

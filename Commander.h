@@ -2,8 +2,7 @@
 #define COMMANDER_H
 
 #include "Warrior.h"
-#include <string>
-#include <memory>
+
 
 class Soldier;
 

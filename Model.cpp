@@ -166,7 +166,7 @@ shared_ptr<Structure> Model::nearest_structure(const std::string& name, Point lo
     return nearest_to<Structure, Structure>(name, location, structures);
 }
 
-// Helper function to find the nearest "T" to "obj" in the map
+// Helper function to find the nearest "T" to "obj" in the map ?? TODO
 template<typename T, typename C>
 shared_ptr<T> nearest_to(const string& name, const Point& location,
                          const map<string, shared_ptr<C>> & container) {

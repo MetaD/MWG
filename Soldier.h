@@ -2,8 +2,6 @@
 #define SOLDIER_H
 
 #include "Warrior.h"
-#include <string>
-#include <memory>
 
 /*
 A Soldier is an Warrior that if attacked, it will start attacking its attacker.

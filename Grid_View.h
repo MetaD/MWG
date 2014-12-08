@@ -4,8 +4,8 @@
 // The Grid_View provides a 2D representation of the current world
 
 #include "View.h"
+
 #include <vector>
-#include <string>
 #include <map>
 
 class Grid_View: public View {

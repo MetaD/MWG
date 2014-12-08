@@ -3,8 +3,9 @@
 
 #include "Component.h"
 #include "Moving_object.h"
-#include <memory>
-#include <string>
+
+
+
 class Structure;
 
 /*

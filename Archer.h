@@ -2,8 +2,6 @@
 #define ARCHER_H
 
 #include "Warrior.h"
-#include <string>
-#include <memory>
 
 /*
 An Archer is an Warrior that if attacked, it will run away to the nearest Structure

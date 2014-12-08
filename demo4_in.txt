@@ -48,3 +48,5 @@ status
 quit
 
 
+
+Note: This test case is for Composite Design Pattern, for M2 feature

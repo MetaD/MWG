@@ -2,17 +2,18 @@
 #include "Soldier.h"	// for Commander's steward
 #include "Model.h"
 #include "Geometry.h"
+
 #include <iostream>
 using std::cout; using std::endl;
-using std::string;
 using std::shared_ptr;
-using std::make_shared;
 
 const int Commander_initial_strenth_c = 1;
 const double Commander_initial_attack_range_c = 2.5;
 const int steward_initial_health_c = 1;
+
 const double steward_dismiss_distance_c = 8.0;
-	// when the distance between the steward and its boss exceeds this number, it will leave
+    // when the distance between the steward and its boss exceeds this number,
+    // it will leave
 
 Commander::Commander(const std::string& name_, Point location_) :
 		Warrior(name_, location_, Commander_initial_strenth_c,

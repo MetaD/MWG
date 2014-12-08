@@ -4,7 +4,6 @@
 #include "Sim_object.h"
 #include "Geometry.h"
 #include <memory>
-#include <string>
 
 class Agent;
 class Structure;

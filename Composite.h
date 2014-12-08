@@ -2,11 +2,8 @@
 #define COMPOSITE_H
 
 #include "Component.h"
-#include <string>
-#include <memory>
+
 #include <map>
-
-
 
 /*
  Composite is inherent from Component, and it have a container for Component.

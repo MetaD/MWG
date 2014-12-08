@@ -1,6 +1,8 @@
 #include "Controller.h"
+
 #include "Model.h"
 #include "Utility.h"
+
 #include "Agent.h"
 #include "Structure.h"
 #include "Structure_factory.h"
@@ -14,10 +16,7 @@
 #include "Amount_View.h"
 #include "Global_View.h"
 
-#include <map>
 #include <iostream>
-#include <string>
-#include <cctype>
 #include <algorithm>
 using std::cin; using std::cout; using std::endl;
 using std::map;
@@ -26,7 +25,6 @@ using std::pair;
 using std::shared_ptr;
 using std::make_shared;
 using std::find_if;
-using std::dynamic_pointer_cast;
 
 const size_t minimum_agent_name_length_c = 2;
 const size_t minimum_group_name_length_c = 1;
@@ -158,7 +156,7 @@ void Controller::view_open() {
 		new_view = make_shared<Amount_View>();
 	else {	// local view
 		shared_ptr<Sim_object> object;	// the object to be viewed
-		if ( Model::get_model().is_present_non_composite(view_name) )	// agent
+		if ( Model::get_model().is_present_non_composite(view_name) ) // agent, not composite
 			object = Model::get_model().get_component_ptr(view_name);
 		else if (Model::get_model().is_structure_present(view_name))	// structure
 			object = Model::get_model().get_structure_ptr(view_name);
@@ -185,7 +183,7 @@ void Controller::view_close() {
 		map_view.reset();
 }
 
-using view_list_t = std::vector<std::pair<std::string, std::shared_ptr<View>>>;
+using view_list_t = std::vector<pair<string, shared_ptr<View>>>;
 view_list_t::iterator Controller::find_view(const std::string& name) {
 	return find_if(views.begin(), views.end(),
 			[&name](view_list_t::value_type& pair){ return pair.first == name; });
@@ -308,7 +306,7 @@ static shared_ptr<Structure> read_Structure() {
 void Controller::agent_attack(const string& name) {
 	shared_ptr<Component> compo_ptr = read_Component();
 	// target has to be an Agent
-	shared_ptr<Agent> target_ptr = dynamic_pointer_cast<Agent>(compo_ptr);
+    shared_ptr<Agent> target_ptr = std::dynamic_pointer_cast<Agent>(compo_ptr);
 	if (!target_ptr)
 		throw Error(target_ptr->get_name() + "is not an agent!");
 	Model::get_model().get_component_ptr(name)->start_attacking(target_ptr);

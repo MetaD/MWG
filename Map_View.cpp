@@ -1,7 +1,6 @@
 #include "Map_View.h"
 
 #include <iostream>
-using std::string;
 
 const int default_map_view_size_c = 25;
 const double default_map_view_scale_c = 2.0;

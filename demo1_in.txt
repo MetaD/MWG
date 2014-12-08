@@ -27,3 +27,6 @@ build AnnArbor Town_Hall -10 -30
 show
 go
 quit
+
+
+Notes: this is a test case for Global View, a S2 feature

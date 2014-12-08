@@ -2,6 +2,8 @@
 #define SIM_OBJECT_H
 
 #include <string>
+
+
 class Point;
 
 /* The Sim_object class provides the interface for all of simulation objects. 
