@@ -15,9 +15,9 @@ status
 X attack Bug
 status
 go	// "bus_steward is not in group X!"
-//go	// "Bug is not in group X!"
-//go
-//ungroup X	// "X is not in group X!"
-//show
-//status
+go	// "Bug is not in group X!"
+go
+ungroup X	// "X is not in group X!"
+show
+status
 quit

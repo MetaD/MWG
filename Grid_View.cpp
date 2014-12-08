@@ -121,8 +121,7 @@ void Grid_View::update_bound(double &max_x, double &max_y, double &min_x, double
         max_x = max(max_x, location.x);
         min_y = min(min_y, location.y);
         max_y = max(max_y, location.y);
-    }
-    
+    }    
 }
 
 // Calculate the cell subscripts corresponding to the supplied location parameter,

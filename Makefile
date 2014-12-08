@@ -156,7 +156,7 @@ olddiff: default
 
 
 submit:
-	submit381 6 Makefile p6_main.cpp Model.h Model.cpp View.h View.cpp Controller.h Controller.cpp Sim_object.h Sim_object.cpp Structure.h Structure.cpp Farm.h Farm.cpp Town_Hall.h Town_Hall.cpp Agent.h Agent.cpp Peasant.h Peasant.cpp Warrior.h Warrior.cpp Agent_factory.h Agent_factory.cpp Structure_factory.h Structure_factory.cpp Geometry.h Geometry.cpp Moving_object.h Moving_object.cpp Utility.h Utility.cpp Amount_View.h Amount_View.cpp Grid_View.h Grid_View.cpp Health_View.h Health_View.cpp Info_View.cpp Info_View.h Local_View.h Local_View.cpp Map_View.h Map_View.cpp Global_View.cpp Global_View.h Archer.cpp Archer.h Commander.cpp Commander.h Soldier.cpp Soldier.h Component.cpp Component.h Composite.cpp Composite.h
+	submit381 6 Makefile p6_main.cpp Model.h Model.cpp View.h View.cpp Controller.h Controller.cpp Sim_object.h Sim_object.cpp Structure.h Structure.cpp Farm.h Farm.cpp Town_Hall.h Town_Hall.cpp Agent.h Agent.cpp Peasant.h Peasant.cpp Warrior.h Warrior.cpp Agent_factory.h Agent_factory.cpp Structure_factory.h Structure_factory.cpp Geometry.h Geometry.cpp Moving_object.h Moving_object.cpp Utility.h Utility.cpp Amount_View.h Amount_View.cpp Grid_View.h Grid_View.cpp Health_View.h Health_View.cpp Info_View.cpp Info_View.h Local_View.h Local_View.cpp Map_View.h Map_View.cpp Global_View.cpp Global_View.h Archer.cpp Archer.h Commander.cpp Commander.h Soldier.cpp Soldier.h Component.cpp Component.h Composite.cpp Composite.h demo1_in.txt demo1_in.txt demo2_in.txt demo2_in.txt demo3_in.txt demo3_in.txt
 
 submitall:
 	submit381 6 *.txt *.h *.cpp
