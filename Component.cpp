@@ -7,7 +7,7 @@ using std::string;
 
 
 void Component::add_component(std::shared_ptr<Component> elem) {
-    assert(0);
+	throw Error(get_name() + " is not a group!");
 }
 
 void Component::remove_component(const string& name) {
@@ -20,7 +20,7 @@ void Component::remove_component(const string& name) {
 }
 
 shared_ptr<Component> Component::get_child(std::string name) {
-    throw Error(get_name() + "I do not have a child!");
+    throw Error(get_name() + " is not a group!");
 }
 
 bool Component::is_moving() const {

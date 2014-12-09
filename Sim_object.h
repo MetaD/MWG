@@ -22,7 +22,7 @@ public:
     virtual void broadcast_current_state() {}
     
     // update status for this object
-	virtual void update(){}
+	virtual void update() {}
     
     // Pure virtual functions
 	virtual Point get_location() const = 0;

@@ -48,9 +48,6 @@ static shared_ptr<Structure> read_Structure();
 // A helper function that read an agent name and check its existence
 static shared_ptr<Component> read_Component();
 
-// A helper function that returns the group pointer
-// and throws an Error if it is a single agent
-static shared_ptr<Component> get_group(const string& name);
 
 void Controller::run() {
 
@@ -315,11 +312,12 @@ void Controller::agent_stop(const string& name) {
 }
 
 void Controller::group_add(const string& name) {
-	get_group(name)->add_component(read_Component());
+	shared_ptr<Component> group = Model::get_model().get_component_ptr(name);
+	group->add_component(read_Component());
 }
 
 void Controller::group_remove(const string& name) {
-    shared_ptr<Component> group = get_group(name);
+    shared_ptr<Component> group = Model::get_model().get_component_ptr(name);
     string to_remove = read_Component()->get_name();
     if(!group->get_child(to_remove))		// the group does not have this child
     	throw Error(to_remove + " is not in " + name);
@@ -329,7 +327,9 @@ void Controller::group_remove(const string& name) {
 void Controller::dismiss_group() {
     string group_name;
     cin >> group_name;
-    shared_ptr<Component> group = get_group(group_name);
+    shared_ptr<Component> group = Model::get_model().get_component_ptr(group_name);
+	if (!group->is_composite())
+		throw Error(group_name + " is not a group!");
     Model::get_model().remove_component(group);
 }
 
@@ -338,11 +338,4 @@ static shared_ptr<Component> read_Component() {
 	cin >> agent_name;
 	shared_ptr<Component> agent_ptr = Model::get_model().get_component_ptr(agent_name);
 	return agent_ptr;
-}
-
-static shared_ptr<Component> get_group(const string& name) {
-	shared_ptr<Component> group = Model::get_model().get_component_ptr(name);
-	if (!group->is_composite())
-		throw Error(name + " is not a group!");
-	return group;
 }

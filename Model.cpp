@@ -37,7 +37,7 @@ Model::Model() : time(0) {
 		create_structure("Shire", "Town_Hall", Point(20., 20.)),
 		create_structure("Paduca", "Town_Hall", Point(30., 30.)),
 	};
-	shared_ptr<Agent> initial_agt[] {
+	shared_ptr<Component> initial_agt[] {
 		create_agent("Pippin", "Peasant", Point(5., 10.)),
 		create_agent("Merry", "Peasant", Point(0., 25.)),
 		create_agent("Zug", "Soldier", Point(20., 30.)),

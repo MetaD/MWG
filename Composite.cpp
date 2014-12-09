@@ -68,7 +68,8 @@ void Composite::start_working(shared_ptr<Structure> source_,
         } catch (Error& err) {
             cout << err.what() << endl;
         }
-        //try and thrown error if one child cannot operate this action.
+        // try and throw error if one child cannot operate this action
+        // so that the process can continue to the next child
     }
 }
 
@@ -80,6 +81,7 @@ void Composite::start_attacking(shared_ptr<Component> target_ptr) {
         } catch (Error& err) {
             cout << err.what() << endl;
         }
-        // try and thrown error if one child cannot operate this action.
+        // try and throw error if one child cannot operate this action
+        // so that the process can continue to the next child
     }
 }
