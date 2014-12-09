@@ -39,17 +39,18 @@ public:
 
 
 protected:
-	// constructor
+	// protected constructor
 	Grid_View(int size_, double scale_, Point origin_) :
 		size(size_), scale(scale_), origin(origin_) {}
     
-    
+    // find the borders of the map (provided for Global_View)
     void update_bound(double & max_x, double & max_y, double & min_x, double & min_y);
 
-    
+	// output a description of the current map
     void print_info() override;
 
     // output the outside objects
+    // a derived must override this function and choose whether to print or not
     virtual void print_outsiders(std::vector<std::string> outsiders) = 0;
     
 

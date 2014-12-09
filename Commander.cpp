@@ -2,7 +2,6 @@
 #include "Soldier.h"	// for Commander's steward
 #include "Model.h"
 #include "Geometry.h"
-
 #include <iostream>
 using std::cout; using std::endl;
 using std::shared_ptr;
@@ -26,10 +25,9 @@ void Commander::update() {
 
 	if (steward_ptr &&
         cartesian_distance(steward_ptr->get_location(), get_location())
-                            > steward_dismiss_distance_c) {
-		// steward dismissed silently when out of the range
+                            > steward_dismiss_distance_c)
+		// steward dismissed when out of the range
         disband_steward();
-    }
 }
 
 void Commander::take_hit(int attack_strength, std::shared_ptr<Agent> attacker_ptr) {
@@ -79,5 +77,3 @@ void Commander::disband_steward() {
 void Commander::make_sound() const noexcept {
 	cout << get_name() << ": Neighhh!" << endl;
 }
-    
-

@@ -54,8 +54,7 @@ void Grid_View::draw() {
 	}
 
     print_info();	// output a description of the current map
-    
-    print_outsiders(outsiders);
+    print_outsiders(outsiders);	// output the outsiders (if the derived class choose to)
 
 	// save and reset output parameters so that the labels will appear as integers
     auto old_precision = cout.precision();
@@ -116,7 +115,7 @@ void Grid_View::update_bound(double &max_x, double &max_y, double &min_x, double
     min_x = min_y = numeric_limits<double>::max();
     
     for(auto & p : memory){
-        //check is the point a bound
+        // check whether the point is a bound
         Point location = p.second;
         min_x = min(min_x, location.x);
         max_x = max(max_x, location.x);
