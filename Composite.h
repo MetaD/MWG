@@ -2,7 +2,6 @@
 #define COMPOSITE_H
 
 #include "Component.h"
-
 #include <map>
 
 /*
@@ -22,6 +21,7 @@ public:
     // remove the component with the given name if it is "this" or a child of "this"
     void remove_component(const std::string& name) override;
 
+    // return a pointer of the child if found, return a nullptr otherwise
     std::shared_ptr<Component> get_child(std::string name) override;
 
     // output the children of this composite
@@ -36,9 +36,8 @@ public:
     // tell all the children to start working/attacking
     // if one child throws an Error, the process will continue to the next child
     void start_working(std::shared_ptr<Structure>, std::shared_ptr<Structure>) override;
-    void start_attacking(std::shared_ptr<Agent> target_) override;
-    
-    
+    void start_attacking(std::shared_ptr<Component> target_ptr) override;
+
 private:
     std::map<std::string, std::shared_ptr<Component>> children;
 };

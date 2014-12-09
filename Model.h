@@ -41,8 +41,6 @@ public:
 
 	// is there a components with this name?
 	bool is_component_present(const std::string& name) const;
-    // is there an agent with this name?
-    bool is_present_non_composite(const std::string& name) const; //?? todo, bad name
 	// add a new agent; assumes none with the same name
 	void add_component(std::shared_ptr<Component>);
 	// remove an agent from all containers

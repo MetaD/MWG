@@ -1,0 +1,36 @@
+train Alpha Commander 20 20
+open Alpha show
+train Beta Archer 30 30
+group A
+A add Alpha
+A add Beta
+status
+A move 25 25
+go	// Beta starts attacking as they move close
+go	// Alpha_steward summoned
+go	// Beta run away
+go	// All targets out of range
+status
+A add Alpha_steward
+A attack Alpha	// Alpha's steward betrays!!
+go
+go	// Alpha kills his steward
+open Alpha_steward	// should throw Error
+train Killer Soldier 26 26
+Killer attack Alpha
+status
+go	// Alpha is killed
+train Alpha Commander 27 27
+train Gamma Commander 27 26
+group B
+B add Gamma
+B add Killer
+B add Alpha
+B attack Gamma
+go	// two stewards summoned
+B stop	// They won't be stopped
+status
+go	// Gamma and his steward dies
+go
+status
+quit

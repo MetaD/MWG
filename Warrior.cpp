@@ -1,5 +1,4 @@
 #include "Warrior.h"
-
 #include "Geometry.h"	// cartesian_distance
 #include "Utility.h"
 #include <iostream>
@@ -22,7 +21,7 @@ void Warrior::update() {
 		return;
 
 	// Attacking
-	shared_ptr<Agent> to_attack = target.lock();
+	shared_ptr<Component> to_attack = target.lock();
 	if (!to_attack) {
 		cout << get_name() << ": Target is dead" << endl;
 		attacking = false;
@@ -44,7 +43,8 @@ void Warrior::update() {
 	}
 }
 
-void Warrior::start_attacking(shared_ptr<Agent> target_ptr) {
+void Warrior::start_attacking(shared_ptr<Component> target_ptr) {
+	Component::start_attacking(target_ptr);
 	if (target_ptr->get_name() == get_name())
 		throw Error(get_name() + ": I cannot attack myself!");
 	if (!target_ptr->is_alive())
@@ -70,7 +70,7 @@ void Warrior::stop() {
 void Warrior::describe() const {
 	Agent::describe();
 	if (attacking) {
-		shared_ptr<Agent> target_ptr = target.lock();
+		shared_ptr<Component> target_ptr = target.lock();
 		if (target_ptr)
 			cout << "   Attacking " << target_ptr->get_name() << endl;
 		else
@@ -80,7 +80,7 @@ void Warrior::describe() const {
 		cout << "   Not attacking" << endl;
 }
 
-void Warrior::start_attacking_noexcept(shared_ptr<Agent> target_ptr) noexcept {
+void Warrior::start_attacking_noexcept(shared_ptr<Component> target_ptr) noexcept {
 	target = target_ptr;
 	attacking = true;
 	cout << get_name() << ": I'm attacking!" << endl;
@@ -90,7 +90,7 @@ bool Warrior::target_out_of_range() const {
 	return target_out_of_range(target.lock());
 }
 
-bool Warrior::target_out_of_range(std::shared_ptr<Agent> new_target) const {
+bool Warrior::target_out_of_range(std::shared_ptr<Component> new_target) const {
 	assert(new_target);
 	return cartesian_distance(new_target->get_location(), get_location()) > range;
 }

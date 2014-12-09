@@ -3,9 +3,7 @@
 
 #include "Warrior.h"
 
-
 class Soldier;
-
 
 class Commander : public Warrior {
 public:

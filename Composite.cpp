@@ -28,18 +28,17 @@ void Composite::add_component(shared_ptr<Component> elem) {
 void Composite::remove_component(const string& name) {
     Component::remove_component(name);	// will remove this composite if required
 
-    auto finding = children.find(name);
-    if (finding == children.end()) return;
-    
-    finding->second->set_parent(nullptr);
-    children.erase(name);
+    shared_ptr<Component> to_remove = get_child(name);
+    if (to_remove) {
+    	to_remove->set_parent(nullptr);
+    	children.erase(name);
+    }
 }
 
-
-shared_ptr<Component> Composite::get_child(std::string name)
-{
+shared_ptr<Component> Composite::get_child(std::string name) {
     auto finding = children.find(name);
-    if (finding == children.end()) return nullptr;
+    if (finding == children.end())
+    	return nullptr;		// did not find this child
     return finding->second;
 }
 
@@ -75,14 +74,14 @@ void Composite::start_working(shared_ptr<Structure> source_,
     }
 }
 
-void Composite::start_attacking(shared_ptr<Agent> target_) {
-    assert(target_);
+void Composite::start_attacking(shared_ptr<Component> target_ptr) {
+	Component::start_attacking(target_ptr);
     for (auto& p: children) {
         try {
-            p.second->start_attacking(target_);
+            p.second->start_attacking(target_ptr);
         } catch (Error& err) {
             cout << err.what() << endl;
         }
-        //try and thrown error if one child cannot operate this action.
+        // try and thrown error if one child cannot operate this action.
     }
 }

@@ -17,7 +17,9 @@
 #include "Global_View.h"
 
 #include <iostream>
+#include <cctype>	// isalnum
 #include <algorithm>
+
 using std::cin; using std::cout; using std::endl;
 using std::map;
 using std::string;
@@ -156,7 +158,7 @@ void Controller::view_open() {
 		new_view = make_shared<Amount_View>();
 	else {	// local view
 		shared_ptr<Sim_object> object;	// the object to be viewed
-		if ( Model::get_model().is_present_non_composite(view_name) ) // agent, not composite
+		if (Model::get_model().is_component_present(view_name))
 			object = Model::get_model().get_component_ptr(view_name);
 		else if (Model::get_model().is_structure_present(view_name))	// structure
 			object = Model::get_model().get_structure_ptr(view_name);
@@ -241,7 +243,7 @@ void Controller::train() {
 	auto name_type_pair = read_object_name_type();
 	Point location = read_point();
 	check_name_validity(name_type_pair.first, minimum_agent_name_length_c);
-	shared_ptr<Agent> new_agent = create_agent(name_type_pair.first, name_type_pair.second, location);
+	shared_ptr<Component> new_agent = create_agent(name_type_pair.first, name_type_pair.second, location);
 	Model::get_model().add_component(new_agent);
 }
 
@@ -305,11 +307,7 @@ static shared_ptr<Structure> read_Structure() {
 
 void Controller::agent_attack(const string& name) {
 	shared_ptr<Component> compo_ptr = read_Component();
-	// target has to be an Agent
-    shared_ptr<Agent> target_ptr = std::dynamic_pointer_cast<Agent>(compo_ptr);
-	if (!target_ptr)
-		throw Error(target_ptr->get_name() + "is not an agent!");
-	Model::get_model().get_component_ptr(name)->start_attacking(target_ptr);
+	Model::get_model().get_component_ptr(name)->start_attacking(compo_ptr);
 }
 
 void Controller::agent_stop(const string& name) {
@@ -322,9 +320,10 @@ void Controller::group_add(const string& name) {
 
 void Controller::group_remove(const string& name) {
     shared_ptr<Component> group = get_group(name);
-    string removing = read_Component()->get_name();
-    if( ! group->get_child(removing) ) throw Error(removing + " is not in " + name);
-    group->remove_component(removing);
+    string to_remove = read_Component()->get_name();
+    if(!group->get_child(to_remove))		// the group does not have this child
+    	throw Error(to_remove + " is not in " + name);
+    group->remove_component(to_remove);
 }
 
 void Controller::dismiss_group() {
@@ -333,7 +332,6 @@ void Controller::dismiss_group() {
     shared_ptr<Component> group = get_group(group_name);
     Model::get_model().remove_component(group);
 }
-
 
 static shared_ptr<Component> read_Component() {
 	string agent_name;

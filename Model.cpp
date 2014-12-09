@@ -82,15 +82,6 @@ bool Model::is_component_present(const string& name) const {
 	return components.find(name) != components.end();
 }
 
-bool Model::is_present_non_composite(const std::string &name) const
-{
-    auto finding = components.find(name);
-    if(finding == components.end()) return false;
-    if( (finding->second)->is_composite()) return false;
-    
-    return true;
-}
-
 void Model::add_component(shared_ptr<Component> new_compo) {
 	components.insert({new_compo->get_name(), new_compo});
 	sim_objects.insert({new_compo->get_name(), new_compo});

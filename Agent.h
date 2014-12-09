@@ -53,7 +53,7 @@ public:
     void start_working(std::shared_ptr<Structure>, std::shared_ptr<Structure>) override;
 
 	// Throws exception that an Agent cannot attack.
-    void start_attacking(std::shared_ptr<Agent> target_) override;
+    void start_attacking(std::shared_ptr<Component> target_) override;
 
 protected:
 	// Protected constructor to prevent direct creation.

@@ -19,7 +19,7 @@ public:
 	// Make this Soldier start attacking the target Agent.
 	// Throws an exception if the target is the same as this Agent,
 	// is out of range, or is not alive.
-	void start_attacking(std::shared_ptr<Agent> target_ptr) override;
+	void start_attacking(std::shared_ptr<Component> target_ptr) override;
 
 	// Overrides Agent's take_hit to counter- attack when attacked.
 	void take_hit(int attack_strength, std::shared_ptr<Agent> attacker_ptr) override;
@@ -35,25 +35,23 @@ protected:
 	Warrior(const std::string& name_, Point location_, int strength_, double range_);
 	// Warrior's health can be optionally specified when constructed
 	Warrior(const std::string& name_, Point location_, int health_, int strength_, double range_);
-
     
     // output the sound of the weapon
     virtual void make_sound() const noexcept = 0;
-
     
 	// Make this Warrior start attacking the target Agent. No exception is thrown.
-	void start_attacking_noexcept(std::shared_ptr<Agent> target_ptr) noexcept;
+	void start_attacking_noexcept(std::shared_ptr<Component> target_ptr) noexcept;
 
 	// return true if the target is out of attack range
 	// assert if target is invalid
 	bool target_out_of_range() const;
-	bool target_out_of_range(std::shared_ptr<Agent> new_target) const;
+	bool target_out_of_range(std::shared_ptr<Component> new_target) const;
 
 private:
 	bool attacking;		// true if attacking
 	int strength;		// attack strength
 	double range;		// attack range
-	std::weak_ptr<Agent> target;
+	std::weak_ptr<Component> target;
 };
 
 #endif

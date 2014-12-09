@@ -73,7 +73,7 @@ void Agent::start_working(shared_ptr<Structure>, shared_ptr<Structure>) {
 	throw Error(get_name() + ": Sorry, I can't work!");
 }
 
-void Agent::start_attacking(shared_ptr<Agent>) {
+void Agent::start_attacking(shared_ptr<Component>) {
 	throw Error(get_name() + ": Sorry, I can't attack!");
 }
 
