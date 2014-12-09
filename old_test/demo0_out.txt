@@ -1,0 +1,345 @@
+
+Time 0: Enter command: 
+Time 0: Enter command: 
+Time 0: Enter command: Baby: Target is out of range!
+
+Time 0: Enter command: Baby: I'm on the way
+
+Time 0: Enter command: Baby: I'm there!
+Farm Rivendale now has 52.00
+Farm Sunnybrook now has 52.00
+
+Time 1: Enter command: Farm Rivendale now has 54.00
+Farm Sunnybrook now has 54.00
+
+Time 2: Enter command: Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+  23 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . Sh. 
+  17 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  11 . . . . . . . . . 
+     6    12    18
+
+Time 2: Enter command: Baby: I'm attacking!
+
+Time 2: Enter command: Baby: Neighhh!
+Bug: Ouch!
+Bug: I'm attacking!
+Bug: Clang!
+Baby: Ouch!
+Baby: We will fight as one!
+Baby_steward: I'm attacking!
+Farm Rivendale now has 56.00
+Farm Sunnybrook now has 56.00
+
+Time 3: Enter command: Baby: Neighhh!
+Bug: Ouch!
+Baby_steward: Clang!
+Bug: Ouch!
+Bug: Clang!
+Baby: Ouch!
+Farm Rivendale now has 58.00
+Farm Sunnybrook now has 58.00
+
+Time 4: Enter command: Baby: Neighhh!
+Bug: Arrggh!
+Baby: I triumph!
+Baby_steward: Target is dead
+Farm Rivendale now has 60.00
+Farm Sunnybrook now has 60.00
+
+Time 5: Enter command: Farm Rivendale now has 62.00
+Farm Sunnybrook now has 62.00
+
+Time 6: Enter command: Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+  23 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . Sh. 
+  17 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . . . . . . 
+  11 . . . . . . . . . 
+     6    12    18
+
+Time 6: Enter command: Commander Baby at (15.00, 20.00)
+   Health is 1
+   Stopped
+   Not attacking
+Soldier Baby_steward at (15.00, 20.00)
+   Health is 1
+   Stopped
+   Not attacking
+Archer Iriel at (20.00, 38.00)
+   Health is 5
+   Stopped
+   Not attacking
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 62.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 62.00
+Soldier Zug at (20.00, 30.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 6: Enter command: Baby: I'm on the way
+
+Time 6: Enter command: Baby: step...
+Farm Rivendale now has 64.00
+Farm Sunnybrook now has 64.00
+
+Time 7: Enter command: Baby: step...
+Baby_steward: Good-bye, my lord
+Farm Rivendale now has 66.00
+Farm Sunnybrook now has 66.00
+
+Time 8: Enter command: Baby: step...
+Iriel: I'm attacking!
+Farm Rivendale now has 68.00
+Farm Sunnybrook now has 68.00
+
+Time 9: Enter command: Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+  37 . . . . Ir. . . . 
+     . . . . . . . . . 
+     . . . . Ba. . . . 
+  31 . . . . . . . . . 
+     . . . . Zu. . . . 
+     . . . . . . . . . 
+  25 . . . . . . . . . 
+    10    16    22
+
+Time 9: Enter command: Commander Baby at (19.47, 34.32)
+   Health is 1
+   Moving at speed 5.00 to (20.00, 36.00)
+   Not attacking
+Archer Iriel at (20.00, 38.00)
+   Health is 5
+   Stopped
+   Attacking Baby
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 68.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 68.00
+Soldier Zug at (20.00, 30.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 9: Enter command: Baby: I'm there!
+Iriel: Twang!
+Baby: Arrggh!
+Iriel: I triumph!
+Farm Rivendale now has 70.00
+Farm Sunnybrook now has 70.00
+
+Time 10: Enter command: Farm Rivendale now has 72.00
+Farm Sunnybrook now has 72.00
+
+Time 11: Enter command: Unrecognized command!
+
+Time 11: Enter command: Farm Rivendale now has 74.00
+Farm Sunnybrook now has 74.00
+
+Time 12: Enter command: Farm Rivendale now has 76.00
+Farm Sunnybrook now has 76.00
+
+Time 13: Enter command: Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+  39 . . . . . . . . . 
+     . . . . Ir. . . . 
+     . . . . . . . . . 
+  33 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . Zu. . . . 
+  27 . . . . . . . . . 
+    11    17    23
+
+Time 13: Enter command: Archer Iriel at (20.00, 38.00)
+   Health is 5
+   Stopped
+   Not attacking
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 76.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 76.00
+Soldier Zug at (20.00, 30.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 13: Enter command: Unrecognized command!
+
+Time 13: Enter command: Unrecognized command!
+
+Time 13: Enter command: 
+Time 13: Enter command: Unrecognized command!
+
+Time 13: Enter command: Farm Rivendale now has 78.00
+Farm Sunnybrook now has 78.00
+
+Time 14: Enter command: Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+  39 . . . . . . . . . 
+     . . . . Ir. . . . 
+     . . . . . . . . . 
+  33 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+  27 . . . . . . . . . 
+    11    17    23
+
+Time 14: Enter command: Commander DM at (20.00, 30.00)
+   Health is 5
+   Stopped
+   Not attacking
+Archer Iriel at (20.00, 38.00)
+   Health is 5
+   Stopped
+   Not attacking
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 78.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 78.00
+Soldier Zug at (20.00, 30.00)
+   Health is 5
+   Stopped
+   Not attacking
+
+Time 14: Enter command: Unrecognized command!
+
+Time 14: Enter command: Farm Rivendale now has 80.00
+Farm Sunnybrook now has 80.00
+
+Time 15: Enter command: Farm Rivendale now has 82.00
+Farm Sunnybrook now has 82.00
+
+Time 16: Enter command: Farm Rivendale now has 84.00
+Farm Sunnybrook now has 84.00
+
+Time 17: Enter command: Zug: I'm attacking!
+
+Time 17: Enter command: Farm Rivendale now has 86.00
+Farm Sunnybrook now has 86.00
+Zug: Clang!
+DM: Ouch!
+DM: I'm attacking!
+DM: We will fight as one!
+DM_steward: I'm attacking!
+
+Time 18: Enter command: DM: Neighhh!
+Zug: Ouch!
+DM_steward: Clang!
+Zug: Ouch!
+Farm Rivendale now has 88.00
+Farm Sunnybrook now has 88.00
+Zug: Clang!
+DM: Ouch!
+
+Time 19: Enter command: DM: Neighhh!
+Zug: Ouch!
+DM_steward: Clang!
+Zug: Arrggh!
+DM_steward: I triumph!
+Farm Rivendale now has 90.00
+Farm Sunnybrook now has 90.00
+
+Time 20: Enter command: Local view for: Baby
+     . . . . . . . . . 
+     . . . . . . . . . 
+  39 . . . . . . . . . 
+     . . . . Ir. . . . 
+     . . . . . . . . . 
+  33 . . . . . . . . . 
+     . . . . . . . . . 
+     . . . . * . . . . 
+  27 . . . . . . . . . 
+    11    17    23
+
+Time 20: Enter command: Commander DM at (20.00, 30.00)
+   Health is 1
+   Stopped
+   Attacking dead target
+Soldier DM_steward at (20.00, 30.00)
+   Health is 1
+   Stopped
+   Not attacking
+Archer Iriel at (20.00, 38.00)
+   Health is 5
+   Stopped
+   Not attacking
+Peasant Merry at (0.00, 25.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Town_Hall Paduca at (30.00, 30.00)
+   Contains 0.00
+Peasant Pippin at (5.00, 10.00)
+   Health is 5
+   Stopped
+   Carrying 0.00
+Farm Rivendale at (10.00, 10.00)
+   Food available: 90.00
+Town_Hall Shire at (20.00, 20.00)
+   Contains 0.00
+Farm Sunnybrook at (0.00, 30.00)
+   Food available: 90.00
+
+Time 20: Enter command: Done

@@ -1,32 +1,52 @@
-train Baby Commander 15 15
-open Baby
-Baby attack Bug
-Baby move 15 20
-go go
-show
-Baby attack Bug
-go go go go
-show
+group Bug
+group A
+ungroup Nonexist
+ungroup Bug
+ungroup Shire
+ungroup A
 status
-Baby move 20 36
-go go go
-show status
-go go
-Baby_steward move 30 30
-go go
-show status
-Baby move 20 20
-Baby_steward move 20 20
-
-train DM Commander 20 30
-Baby attack DM
+group A
+A add Shire
+A add Zug
+A add Zug
+A add A
+group B
+B add Zug
+B add Pippin
+B add A
+group C
+C add B
+A add C
+C add Merry
+status
 go
-show status
-DM_steward move 100 100
-go go go
-
-Zug attack DM
-go go go
-show status
+nonexist remove Bug
+A remove nonexist
+Bug remove Zug
+Shire remove Zug
+A remove Pippin
+A remove A
+A remove C
+A remove Zug
+go
+C add Zug
+B add Zug
+A add Zug
+C add B
+status
+C move 0 0
+go
+status
+B attack Merry
+A work Rivendale Shire
+go
+status
+ungroup B
+ungroup B
+A add Pippin
+status
 quit
 
+
+
+Note: This test case is for Composite Design Pattern, for M2 feature
