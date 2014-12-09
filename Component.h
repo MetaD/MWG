@@ -36,11 +36,11 @@ public:
     virtual void start_working(std::shared_ptr<Structure>, std::shared_ptr<Structure>) = 0;
     virtual void start_attacking(std::shared_ptr<Component> target_ptr) = 0;
 
-    // set the parent to the given pointer
-    void set_parent(std::shared_ptr<Composite> parent_) { parent = parent_; }
-    
-    //return true iff this component has parent
+    // return true iff this component has a parent
     bool has_parent() const noexcept { return !parent.expired(); }
+
+    // declare Composite as a friend so that it can set the parent of a Component
+    friend class Composite;
 
 protected:
     // private constructor

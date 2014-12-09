@@ -22,15 +22,13 @@ void Composite::add_component(shared_ptr<Component> elem) {
         throw Error(elem->get_name() + " already has a parent!");
 
     children[elem->get_name()] = elem;
-    elem->set_parent(shared_from_this());
+    elem->parent = shared_from_this();
 }
 
 void Composite::remove_component(const string& name) {
-    Component::remove_component(name);	// will remove this composite if required
-
     shared_ptr<Component> to_remove = get_child(name);
     if (to_remove) {
-    	to_remove->set_parent(nullptr);
+    	to_remove->parent.reset();
     	children.erase(name);
     }
 }
